@@ -1,0 +1,6 @@
+model,recall_macro,ccr,store_ua_pct
+Naive,0.3440,0.4371,13.3
+RAG,0.0000,0.9821,0.0
+EpSem,0.8818,0.8247,0.0
+EpSem-F,0.8818,0.9051,0.0
+EpSem-SS,0.9909,0.8560,31.1

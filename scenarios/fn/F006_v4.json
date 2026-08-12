@@ -1,0 +1,3800 @@
+{
+  "scenario_id": "hold-out-F006",
+  "version": "v4",
+  "scenario_type": "FORGETTING",
+  "params": {
+    "total_turns": 500,
+    "gt_count": 20,
+    "gt_timing": {
+      "distribution": "UNIFORM",
+      "earliest": 0,
+      "latest": 480
+    },
+    "gt_visibility": "EXPLICIT",
+    "distractor_density": 0.3,
+    "distractor_types": {
+      "topic_drift": 0.5,
+      "semantic_near_miss": 0.3,
+      "temporal_confusion": 0.2
+    },
+    "domain": "ENGINEERING",
+    "seed": 40005
+  },
+  "seed": 40005,
+  "total_turns": 500,
+  "domain": "ENGINEERING",
+  "query": "What are all the current engineering constraints and requirements?",
+  "turns": [
+    {
+      "turn": 0,
+      "role": "user",
+      "content": "Important requirement: Maximum operating temperature must not exceed 351°C",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_001"
+    },
+    {
+      "turn": 1,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 3,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 5,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 7,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 9,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 11,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "On a different note, a book recommendation is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 13,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Previously we discussed setting the specification to 568, but that was for the old project.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 15,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 16,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 17,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 18,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 19,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 20,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 21,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 22,
+      "role": "user",
+      "content": "A rough guideline for Surface roughness Ra must not exceed  μ would be about 958.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 23,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 24,
+      "role": "user",
+      "content": "Important requirement: Minimum wall thickness shall be 366mm",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_002"
+    },
+    {
+      "turn": 25,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 26,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 27,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 28,
+      "role": "user",
+      "content": "A rough guideline for Maximum operating temperature must not exceed °C would be about 51.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 29,
+      "role": "assistant",
+      "content": "That's clear. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 30,
+      "role": "user",
+      "content": "Historical data shows Minimum wall thickness shall averaged 808 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 31,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 32,
+      "role": "user",
+      "content": "By the way, I was thinking about recent news in technology recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 33,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 34,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 35,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 36,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 37,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 38,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 39,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 40,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 41,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 42,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 43,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 44,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 45,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 46,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 47,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 48,
+      "role": "user",
+      "content": "Important requirement: Tensile strength must be at least 452 MPa",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_003"
+    },
+    {
+      "turn": 49,
+      "role": "assistant",
+      "content": "That's clear. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 50,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 51,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 52,
+      "role": "user",
+      "content": "This reminds me of something about sustainability goals.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 53,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 54,
+      "role": "user",
+      "content": "On a different note, upcoming holiday plans is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 55,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 56,
+      "role": "user",
+      "content": "In informal settings, Noise level must not exceed  dB at 1m distanc might be 168.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 57,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 58,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 59,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 60,
+      "role": "user",
+      "content": "Some people suggest Surface roughness Ra must not exceed  μ of 250, but it's not critical.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 61,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 62,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 63,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 64,
+      "role": "user",
+      "content": "Historical data shows Noise level must not exceed  dB at 1m distanc averaged 639 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 65,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 66,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 67,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 68,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 69,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 70,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 71,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 72,
+      "role": "user",
+      "content": "Important requirement: Operating pressure range is 84 to 249 bar",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_004"
+    },
+    {
+      "turn": 73,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 74,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 75,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 76,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 77,
+      "role": "assistant",
+      "content": "Thank you for specifying.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 78,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 79,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 80,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 81,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 82,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 83,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 84,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 85,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 86,
+      "role": "user",
+      "content": "This reminds me of something about industry trends.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 87,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 88,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 89,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 90,
+      "role": "user",
+      "content": "I read an article about a new software tool yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 91,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 92,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 93,
+      "role": "assistant",
+      "content": "That's clear. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 94,
+      "role": "user",
+      "content": "The Vibration tolerance must be within g RMS should ideally be around 345, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 95,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 96,
+      "role": "user",
+      "content": "Important requirement: Surface roughness Ra must not exceed 327 μm",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_005"
+    },
+    {
+      "turn": 97,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 98,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 99,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 100,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 101,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 102,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 103,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 104,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 105,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 106,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 107,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 108,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 109,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 110,
+      "role": "user",
+      "content": "By the way, I was thinking about a new software tool recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 111,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 112,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 113,
+      "role": "assistant",
+      "content": "Noted. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 114,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 115,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 116,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 117,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 118,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 119,
+      "role": "assistant",
+      "content": "Thank you for specifying.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 120,
+      "role": "user",
+      "content": "Important requirement: Vibration tolerance must be within 417g RMS",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_006"
+    },
+    {
+      "turn": 121,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 122,
+      "role": "user",
+      "content": "I read an article about sustainability goals yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 123,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 124,
+      "role": "user",
+      "content": "The old standard required the specification of 557, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 125,
+      "role": "assistant",
+      "content": "Noted. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 126,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 127,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 128,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 129,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 130,
+      "role": "user",
+      "content": "I read an article about remote work policies yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 131,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 132,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 133,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 134,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 135,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 136,
+      "role": "user",
+      "content": "By the way, I was thinking about industry trends recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 137,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 138,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 139,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 140,
+      "role": "user",
+      "content": "The old standard required the specification of 142, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 141,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 142,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 143,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 144,
+      "role": "user",
+      "content": "Important requirement: Material hardness must be at least 355 HRC",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_007"
+    },
+    {
+      "turn": 145,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 146,
+      "role": "user",
+      "content": "By the way, I was thinking about a new software tool recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 147,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 148,
+      "role": "user",
+      "content": "I read an article about a new restaurant yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 149,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 150,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 151,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 152,
+      "role": "user",
+      "content": "By the way, I was thinking about office renovation plans recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 153,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 154,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 155,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 156,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 157,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 158,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 159,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 160,
+      "role": "user",
+      "content": "Speaking of which, have you considered remote work policies?",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 161,
+      "role": "assistant",
+      "content": "I've recorded that requirement.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 162,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 163,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 164,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 165,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 166,
+      "role": "user",
+      "content": "I read an article about recent news in technology yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 167,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 168,
+      "role": "user",
+      "content": "Important requirement: Thermal conductivity shall exceed 151 W/mK",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_008"
+    },
+    {
+      "turn": 169,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 170,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 171,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 172,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 173,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 174,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 175,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 176,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 177,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 178,
+      "role": "user",
+      "content": "Historical data shows Coolant flow rate must be at least  L/min averaged 746 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 179,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 180,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 181,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 182,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 183,
+      "role": "assistant",
+      "content": "That's clear. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 184,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 185,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 186,
+      "role": "user",
+      "content": "A rough guideline for Assembly sequence requires step  before step would be about 449.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 187,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 188,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 189,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 190,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 191,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 192,
+      "role": "user",
+      "content": "Important requirement: Fatigue life must exceed 71 cycles",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_009"
+    },
+    {
+      "turn": 193,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 194,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 195,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 196,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 197,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 198,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 199,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 200,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 201,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 202,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 203,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 204,
+      "role": "user",
+      "content": "A rough guideline for Vibration tolerance must be within g RMS would be about 182.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 205,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 206,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 207,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 208,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 209,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 210,
+      "role": "user",
+      "content": "Historical data shows Vibration tolerance must be within g RMS averaged 398 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 211,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 212,
+      "role": "user",
+      "content": "A rough guideline for Tensile strength must be at least  MPa would be about 13.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 213,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 214,
+      "role": "user",
+      "content": "A rough guideline for Material hardness must be at least  HRC would be about 134.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 215,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 216,
+      "role": "user",
+      "content": "Important requirement: Corrosion resistance rating must be at least 406",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_010"
+    },
+    {
+      "turn": 217,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 218,
+      "role": "user",
+      "content": "Historical data shows Maximum operating temperature must not exceed °C averaged 196 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 219,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 220,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 221,
+      "role": "assistant",
+      "content": "I've recorded that requirement.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 222,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 223,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 224,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 225,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 226,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 227,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 228,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 229,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 230,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 231,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 232,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 233,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 234,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 235,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 236,
+      "role": "user",
+      "content": "By the way, I was thinking about recent news in technology recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 237,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 238,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 239,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 240,
+      "role": "user",
+      "content": "Important requirement: Maximum deflection under load is 149mm",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_011"
+    },
+    {
+      "turn": 241,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 242,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 243,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 244,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 245,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 246,
+      "role": "user",
+      "content": "On a different note, a new restaurant is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 247,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 248,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 249,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 250,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 251,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 252,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 253,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 254,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 255,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 256,
+      "role": "user",
+      "content": "Historical data shows Coolant flow rate must be at least  L/min averaged 935 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 257,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 258,
+      "role": "user",
+      "content": "Before the revision, the specification was 6.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 259,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 260,
+      "role": "user",
+      "content": "Previously we discussed setting the specification to 438, but that was for the old project.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 261,
+      "role": "assistant",
+      "content": "Noted.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 262,
+      "role": "user",
+      "content": "The original proposal had the specification at 810, which was later revised.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 263,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 264,
+      "role": "user",
+      "content": "Important requirement: Bolt torque specification is 229 Nm",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_012"
+    },
+    {
+      "turn": 265,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 266,
+      "role": "user",
+      "content": "Before the revision, the specification was 697.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 267,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 268,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 269,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 270,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 271,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 272,
+      "role": "user",
+      "content": "The Material hardness must be at least  HRC should ideally be around 28, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 273,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 274,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 275,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 276,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 277,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 278,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 279,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 280,
+      "role": "user",
+      "content": "By the way, I was thinking about industry trends recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 281,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 282,
+      "role": "user",
+      "content": "In informal settings, Fatigue life must exceed  cycl might be 300.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 283,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 284,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 285,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 286,
+      "role": "user",
+      "content": "On a different note, a documentary about space is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 287,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 288,
+      "role": "user",
+      "content": "Important requirement: Clearance fit tolerance is H39/g171",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_013"
+    },
+    {
+      "turn": 289,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 290,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 291,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 292,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 293,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 294,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 295,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 296,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 297,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 298,
+      "role": "user",
+      "content": "I read an article about remote work policies yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 299,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 300,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 301,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 302,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 303,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 304,
+      "role": "user",
+      "content": "Some people suggest Operating pressure range is  to  bar of 786, but it's not critical.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 305,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 306,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 307,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 308,
+      "role": "user",
+      "content": "A rough guideline for Vibration tolerance must be within g RMS would be about 716.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 309,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 310,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 311,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 312,
+      "role": "user",
+      "content": "Important requirement: Weld quality must meet ISO 228 Class B",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_014"
+    },
+    {
+      "turn": 313,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 314,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 315,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 316,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 317,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 318,
+      "role": "user",
+      "content": "By the way, I was thinking about a book recommendation recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 319,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 320,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 321,
+      "role": "assistant",
+      "content": "That's clear. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 322,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 323,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 324,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 325,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 326,
+      "role": "user",
+      "content": "This reminds me of something about a recent conference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 327,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 328,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 329,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 330,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 331,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 332,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 333,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 334,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 335,
+      "role": "assistant",
+      "content": "Acknowledged. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 336,
+      "role": "user",
+      "content": "Important requirement: Assembly sequence requires step 198 before step 372",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_015"
+    },
+    {
+      "turn": 337,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 338,
+      "role": "user",
+      "content": "I read an article about office renovation plans yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 339,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 340,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 341,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 342,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 343,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 344,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 345,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 346,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 347,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 348,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 349,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 350,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 351,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 352,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 353,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 354,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 355,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 356,
+      "role": "user",
+      "content": "By the way, I was thinking about a new software tool recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 357,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 358,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 359,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 360,
+      "role": "user",
+      "content": "Important requirement: Component weight must not exceed 290kg",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_016"
+    },
+    {
+      "turn": 361,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 362,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 363,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 364,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 365,
+      "role": "assistant",
+      "content": "I've recorded that requirement.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 366,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 367,
+      "role": "assistant",
+      "content": "Acknowledged. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 368,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 369,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 370,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 371,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 372,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 373,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 374,
+      "role": "user",
+      "content": "On a different note, a documentary about space is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 375,
+      "role": "assistant",
+      "content": "Noted.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 376,
+      "role": "user",
+      "content": "The Thermal conductivity shall exceed  W/mK should ideally be around 617, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 377,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 378,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 379,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 380,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 381,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 382,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 383,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 384,
+      "role": "user",
+      "content": "Important requirement: Electrical insulation resistance minimum 282 MΩ",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_017"
+    },
+    {
+      "turn": 385,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 386,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 387,
+      "role": "assistant",
+      "content": "Thank you for specifying. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 388,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 389,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 390,
+      "role": "user",
+      "content": "On a different note, supply chain challenges is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 391,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 392,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 393,
+      "role": "assistant",
+      "content": "I've recorded that requirement.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 394,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 395,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 396,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 397,
+      "role": "assistant",
+      "content": "That's clear. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 398,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 399,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 400,
+      "role": "user",
+      "content": "This reminds me of something about upcoming holiday plans.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 401,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 402,
+      "role": "user",
+      "content": "What about the next requirement for this engineering project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 403,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 404,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 405,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 406,
+      "role": "user",
+      "content": "In informal settings, Service interval is every  operating hour might be 661.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 407,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 408,
+      "role": "user",
+      "content": "Important requirement: Coolant flow rate must be at least 269 L/min",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_018"
+    },
+    {
+      "turn": 409,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 410,
+      "role": "user",
+      "content": "Before the revision, the specification was 398.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 411,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 412,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 413,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 414,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 415,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 416,
+      "role": "user",
+      "content": "This reminds me of something about upcoming holiday plans.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 417,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 418,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 419,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 420,
+      "role": "user",
+      "content": "Speaking of which, have you considered weekend plans?",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 421,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 422,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 423,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 424,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 425,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 426,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 427,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 428,
+      "role": "user",
+      "content": "A rough guideline for Service interval is every  operating hour would be about 187.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 429,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 430,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 431,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 432,
+      "role": "user",
+      "content": "Important requirement: Noise level must not exceed 16 dB at 1m distance",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_019"
+    },
+    {
+      "turn": 433,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 434,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 435,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 436,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 437,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 438,
+      "role": "user",
+      "content": "The Weld quality must meet ISO  Class B should ideally be around 932, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 439,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 440,
+      "role": "user",
+      "content": "This reminds me of something about team building activities.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 441,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 442,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 443,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 444,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 445,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 446,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 447,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 448,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 449,
+      "role": "assistant",
+      "content": "Noted.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 450,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 451,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 452,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 453,
+      "role": "assistant",
+      "content": "That's clear. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 454,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 455,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 456,
+      "role": "user",
+      "content": "Important requirement: Service interval is every 104 operating hours",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_020"
+    },
+    {
+      "turn": 457,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 458,
+      "role": "user",
+      "content": "The original proposal had the specification at 415, which was later revised.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 459,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 460,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 461,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 462,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 463,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 464,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 465,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 466,
+      "role": "user",
+      "content": "Speaking of which, have you considered a recent conference?",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 467,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 468,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 469,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 470,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 471,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 472,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 473,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 474,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 475,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 476,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 477,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 478,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 479,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 480,
+      "role": "user",
+      "content": "A rough guideline for Corrosion resistance rating must be at lea would be about 987.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 481,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 482,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 483,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 484,
+      "role": "user",
+      "content": "Some people suggest Service interval is every  operating hour of 38, but it's not critical.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 485,
+      "role": "assistant",
+      "content": "That's clear. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 486,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 487,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 488,
+      "role": "user",
+      "content": "In informal settings, Clearance fit tolerance is H/g might be 566.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 489,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 490,
+      "role": "user",
+      "content": "Let's continue with the engineering specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 491,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 492,
+      "role": "user",
+      "content": "By the way, I was thinking about training opportunities recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 493,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 494,
+      "role": "user",
+      "content": "Let me check the current status of our engineering requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 495,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 496,
+      "role": "user",
+      "content": "The old standard required the specification of 652, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 497,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 498,
+      "role": "user",
+      "content": "The Coolant flow rate must be at least  L/min should ideally be around 741, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 499,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    }
+  ],
+  "ground_truth_constraints": [
+    "Maximum operating temperature must not exceed 351°C",
+    "Minimum wall thickness shall be 366mm",
+    "Tensile strength must be at least 452 MPa",
+    "Operating pressure range is 84 to 249 bar",
+    "Surface roughness Ra must not exceed 327 μm",
+    "Vibration tolerance must be within 417g RMS",
+    "Material hardness must be at least 355 HRC",
+    "Thermal conductivity shall exceed 151 W/mK",
+    "Fatigue life must exceed 71 cycles",
+    "Corrosion resistance rating must be at least 406",
+    "Maximum deflection under load is 149mm",
+    "Bolt torque specification is 229 Nm",
+    "Clearance fit tolerance is H39/g171",
+    "Weld quality must meet ISO 228 Class B",
+    "Assembly sequence requires step 198 before step 372",
+    "Component weight must not exceed 290kg",
+    "Electrical insulation resistance minimum 282 MΩ",
+    "Coolant flow rate must be at least 269 L/min",
+    "Noise level must not exceed 16 dB at 1m distance",
+    "Service interval is every 104 operating hours"
+  ],
+  "gt_metadata": {
+    "gt_001": {
+      "text": "Maximum operating temperature must not exceed 351°C",
+      "inserted_at": 0,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_002": {
+      "text": "Minimum wall thickness shall be 366mm",
+      "inserted_at": 24,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_003": {
+      "text": "Tensile strength must be at least 452 MPa",
+      "inserted_at": 48,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_004": {
+      "text": "Operating pressure range is 84 to 249 bar",
+      "inserted_at": 72,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_005": {
+      "text": "Surface roughness Ra must not exceed 327 μm",
+      "inserted_at": 96,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_006": {
+      "text": "Vibration tolerance must be within 417g RMS",
+      "inserted_at": 120,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_007": {
+      "text": "Material hardness must be at least 355 HRC",
+      "inserted_at": 144,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_008": {
+      "text": "Thermal conductivity shall exceed 151 W/mK",
+      "inserted_at": 168,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_009": {
+      "text": "Fatigue life must exceed 71 cycles",
+      "inserted_at": 192,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_010": {
+      "text": "Corrosion resistance rating must be at least 406",
+      "inserted_at": 216,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_011": {
+      "text": "Maximum deflection under load is 149mm",
+      "inserted_at": 240,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_012": {
+      "text": "Bolt torque specification is 229 Nm",
+      "inserted_at": 264,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_013": {
+      "text": "Clearance fit tolerance is H39/g171",
+      "inserted_at": 288,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_014": {
+      "text": "Weld quality must meet ISO 228 Class B",
+      "inserted_at": 312,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_015": {
+      "text": "Assembly sequence requires step 198 before step 372",
+      "inserted_at": 336,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_016": {
+      "text": "Component weight must not exceed 290kg",
+      "inserted_at": 360,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_017": {
+      "text": "Electrical insulation resistance minimum 282 MΩ",
+      "inserted_at": 384,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_018": {
+      "text": "Coolant flow rate must be at least 269 L/min",
+      "inserted_at": 408,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_019": {
+      "text": "Noise level must not exceed 16 dB at 1m distance",
+      "inserted_at": 432,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_020": {
+      "text": "Service interval is every 104 operating hours",
+      "inserted_at": 456,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    }
+  },
+  "evaluation_protocol": {
+    "metric": "exact_match_recall",
+    "measurement_turns": [
+      10,
+      25,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      499
+    ],
+    "ua_targets": []
+  }
+}

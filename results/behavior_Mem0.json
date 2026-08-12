@@ -1,0 +1,1134 @@
+[
+ {
+  "scenario_id": "hold-out-U001",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.8636,
+  "context_ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "329°C"
+    ],
+    "old_only_tokens": [
+     "341°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked about the current status of engineering requirements\n- User mentioned checking current status of engineering requirements\n- User requested to check the current status of engineering requirements again\n- User asked about the next requirement for this engineering project\n- User requested to review the constraints established for the project\n- User requested to review constraints established for the project\n- User asked if there was anything else to consider regarding the project requirements\n- User requested to review established constraints\n- Assistant noted that the requirement will be compared to industry standards and factored into analysis\n- User specified a new requirement for tensile strength of at least 447 MPa\n- User specified a new requirement for minimum wall thickness of 669mm, but noted it is not critical\n- User specified a new requirement for corrosion resistance rating of at least 730, but noted it is not critical\n- User mentioned a new requirement for operating pressure range between 81 to 372 bar\n- User specified a new requirement for minimum wall thickness of 328mm\n- User specified a new requirement for material hardness of at least 156 HRC\n- User specified a new requirement for surface roughness Ra not to exceed 195 μm\n- User specified an important requirement for material hardness to be at least 156 HRC\n- User stated that minimum wall thickness should be 669 but it's not critical\n- Historical data indicates that maximum deflection under load averaged 891 in past projects\n- User mentioned that the old standard required a specification of 272, which has since been updated",
+  "answer_text": "Here are the current engineering constraints and requirements based on the information provided:\n\n1. Tensile strength of at least 447 MPa\n2. Minimum wall thickness of 328mm (Note: The user previously mentioned a minimum wall thickness of 669mm, but it is not critical)\n3. Corrosion resistance rating of at least 730 (Note: This requirement was stated as non-critical)\n4. Operating pressure range between 81 to 372 bar\n5. Material hardness of at least 156 HRC (Important requirement)\n6. Surface roughness Ra not to exceed 195 μm\n\nHistorical data indicates that the maximum deflection under load averaged 891 in past projects, which may be relevant for design considerations.\n\nThe old standard required a specification of 272, but this has since been updated (the specific constraint or requirement related to this update is not detailed).",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 567.5
+ },
+ {
+  "scenario_id": "hold-out-U002",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.125,
+  "found": 1,
+  "total_gt": 8,
+  "ccr": 0.8367,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "412mm"
+    ],
+    "old_only_tokens": [
+     "320mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "320mm"
+    ]
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "61"
+    ],
+    "old_only_tokens": [
+     "9"
+    ],
+    "new_tokens_hit": [
+     "61"
+    ],
+    "old_tokens_hit": [
+     "9"
+    ]
+   }
+  ],
+  "context_text": "- User inquired about the current status of their medical requirements\n- User requested to review the constraints established for the medical project\n- User asked how the current medical project requirements compare to industry standards\n- User specified a new requirement for the medical project: previously discussed specification of 760 was for an old project, not the current one\n- User asked about the next requirement for the medical project\n- User asked about the next requirement for this medical project\n- User specified a new requirement for the medical project: before revision, the specification was 770\n- User specified a new requirement for the medical project: patient BMI threshold below 476\n- User noted that the old standard required a specification of 387, which has since been updated for the medical project\n- User mentioned sustainability goals in relation to the medical project requirements\n- User specified a new requirement for the medical project: Blood glucose target range is 61 to 28 mg/dL (replaces the earlier specification)\n- User inquired if there are any dependencies between the specifications discussed for the medical project\n- User inquired if there are any dependencies between specifications discussed for the medical project\n- User requested a summary of what has been covered so far for the medical project\n- User inquired about dependencies between specifications discussed for the medical project\n- User specified a new requirement for the medical project: dosage must not exceed 187mg per kg body weight\n- User specified a new requirement for the medical project: blood glucose target range is 9 to 28 mg/dL\n- User specified a new requirement for the medical project: surgical margin must be at least 320mm\n- User mentioned a new requirement for the medical project: surgical margin must be at least 320mm\n- Before revision, the specification was 508 for the medical project",
+  "answer_text": "Here is a list of the current medical constraints and requirements as per our conversation:\n\n1. Before revision, the specification was 760 for an old project (not the current one).\n2. Before revision, the specification was 770 (current requirement).\n3. Patient BMI threshold below 476.\n4. Blood glucose target range is 9 to 28 mg/dL (replaces earlier specification of 61 to 28 mg/dL).\n5. Dosage must not exceed 187mg per kg body weight.\n6. Surgical margin must be at least 320mm.\n7. Before revision, the specification was 508 for the medical project.\n\nPlease note that some constraints were mentioned in the context of revisions or updates to previous standards.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 575.9
+ },
+ {
+  "scenario_id": "hold-out-U003",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.375,
+  "found": 3,
+  "total_gt": 8,
+  "ccr": 0.8605,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "312"
+    ],
+    "old_only_tokens": [
+     "406"
+    ],
+    "new_tokens_hit": [
+     "312"
+    ],
+    "old_tokens_hit": [
+     "406"
+    ]
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "100"
+    ],
+    "old_only_tokens": [
+     "167"
+    ],
+    "new_tokens_hit": [
+     "100"
+    ],
+    "old_tokens_hit": [
+     "167"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "250"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked to review the constraints established for this legal project\n- User suggested continuing with the legal specifications\n- User inquired about the next requirement for the legal project\n- User asked about the next requirement for the legal project\n- Important requirement: Indemnification limit is 446 times annual fee for this legal project\n- User mentioned supply chain challenges related to the legal project specifications\n- User asked about dependencies between the specifications discussed in the legal project\n- Important requirement: Response time for legal hold notice is 149 business days\n- Force majeure notification deadline is 312 hours for this legal project (replaces the earlier specification)\n- A rough guideline for Amendment requires 68 days written notice for this legal project\n- In version 1, the specification was 489 but changed in current revision\n- Assistant acknowledged considering how requirements compare to industry standards\n- User updated the arbitration venue requirement to be in 100 jurisdiction (replaces earlier specification)\n- Important requirement: Confidentiality obligation extends for 343 years after termination\n- User mentioned the force majeure notification deadline is 406 hours for this legal project\n- Arbitration venue must be in jurisdiction of 586, but it's not critical according to user\n- In version 1, the specification was 309 but changed in current revision\n- Arbitration venue must be in jurisdiction 167 for this legal project\n- A rough guideline for Minimum insurance coverage is 254 million USD for this legal project\n- Arbitration venue must be in jurisdiction of 167 for this legal project",
+  "answer_text": "Here are the current legal constraints and requirements based on the provided memory:\n\n1. Indemnification limit is 446 times annual fee for this legal project.\n2. Response time for legal hold notice is 149 business days.\n3. Force majeure notification deadline is 406 hours for this legal project (Note: This replaces an earlier specification of 312 hours).\n4. A rough guideline for Amendment requires 68 days written notice for this legal project.\n5. Confidentiality obligation extends for 343 years after termination.\n6. Arbitration venue must be in jurisdiction 167 for this legal project (Note: This replaces earlier specifications of jurisdictions 100 and 586, which were not critical according to the user).",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 566.6
+ },
+ {
+  "scenario_id": "hold-out-U004",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.15384615384615385,
+  "found": 2,
+  "total_gt": 13,
+  "ccr": 0.8302,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "468%"
+    ],
+    "old_only_tokens": [
+     "378%"
+    ],
+    "new_tokens_hit": [
+     "468%"
+    ],
+    "old_tokens_hit": [
+     "378%"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "509"
+    ],
+    "old_only_tokens": [
+     "442"
+    ],
+    "new_tokens_hit": [
+     "509"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested a summary of the finance project requirements and constraints covered so far\n- User is reviewing the constraints established for their finance project\n- User requested to review the constraints established for their finance project\n- Assistant will update documentation accordingly after user's request to check current status of finance requirements\n- User asked how their finance requirements compare to industry standards\n- Assistant will update documentation to reflect new requirements and dependencies for finance project\n- User specified an important requirement for the finance project: Loan-to-value ratio maximum is 257%\n- Assistant will factor in the next requirement for the finance project into the analysis\n- Assistant acknowledged and will factor in the next requirement for the finance project into the analysis\n- Assistant will update documentation to reflect new requirements and dependencies for finance project after noting historical transaction approval threshold\n- User specified an important requirement for the finance project: Trading volume daily limit is 266 million USD\n- User asked how the current requirements compare to industry standards\n- User specified that the debt-to-equity ratio ceiling requirement is now 358, down from the original proposal of 920\n- Update to previous requirement: Foreign exchange exposure limit is now 468% of assets, replacing the earlier specification\n- Important requirement: Foreign exchange exposure limit is 378% of assets\n- User specified an interest rate cap of 418% on variable loans for the finance project\n- User mentioned that the old standard required specification of 414 for a certain requirement, which has since been updated\n- User updated the previous requirement to a quarterly reporting deadline of 509 business days after quarter end\n- User specified an important requirement for minimum collateral coverage ratio of 238x\n- Assistant will update documentation to reflect new requirements and dependencies",
+  "answer_text": "Here are the current finance constraints and requirements as listed in our conversation:\n\n1. Loan-to-value ratio maximum is 257%\n2. Trading volume daily limit is 266 million USD\n3. Debt-to-equity ratio ceiling requirement is now 358\n4. Foreign exchange exposure limit is now 468% of assets (Note: This replaces the earlier specification which was 378%)\n5. Interest rate cap on variable loans is 418%\n6. Quarterly reporting deadline is 509 business days after quarter end\n7. Minimum collateral coverage ratio is 238x",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 589.2
+ },
+ {
+  "scenario_id": "hold-out-U005",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9428,
+  "context_ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "143"
+    ],
+    "old_only_tokens": [
+     "172"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested to check the current status of general requirements\n- User requested a review of current status of general requirements\n- User mentioned checking the current status of general requirements again\n- Assistant acknowledged and recorded the user's request to check the current status of general requirements\n- Assistant recorded the user's request to check the current status of general requirements\n- User requested a check of the current status of general requirements and assistant noted it\n- User requested a review of established constraints\n- User requested to continue with general specifications\n- User asked about the next requirement for the general project\n- User asked about the next requirement for the general project\n- User requested to continue with general specifications and inquired about dependencies between them\n- User asked how the current requirements compare to industry standards\n- User requested a review of established project constraints\n- User requested to review the constraints established for the project\n- Assistant will proceed with factoring in the next requirement for the general project as specified by the user\n- User asked how the current requirements compare to industry standards and assistant noted it\n- User requested a review of established constraints, assistant noted it and will update documentation accordingly\n- User requested a comparison of current requirements to industry standards and assistant noted it\n- User requested a summary of covered requirements and considerations so far\n- Assistant updated documentation based on user's request for next requirement of the general project",
+  "answer_text": "Based on the memory provided, there is no specific list of verbatim constraints or requirements mentioned. The user has requested reviews and checks for established constraints and requirements but did not provide a detailed list within the context given. To accurately respond to your request, I would need more explicit details from previous interactions that are not present in this memory log.\n\nHowever, if you're looking for a summary of what was discussed regarding constraints and requirements:\n\n- The user requested reviews of established project constraints multiple times.\n- There were requests to check the status of general requirements several times.\n- Comparisons to industry standards were also mentioned as part of these discussions.\n\nIf you need specific verbatim statements from earlier in our conversation, please provide more context or details.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1442.4
+ },
+ {
+  "scenario_id": "hold-out-U006",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.07692307692307693,
+  "found": 1,
+  "total_gt": 13,
+  "ccr": 0.9465,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "36"
+    ],
+    "old_only_tokens": [
+     "98"
+    ],
+    "new_tokens_hit": [
+     "36"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "404mm"
+    ],
+    "old_only_tokens": [
+     "452mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked to review the current status of engineering requirements\n- User asked to review the current status of engineering requirements.\n- User requested a review of the current status of engineering requirements\n- User asked to review established constraints for the engineering specifications\n- Assistant noted and is ready to discuss further engineering requirements.\n- User inquired about the next requirement for the engineering project\n- User inquired about the next requirement for the engineering project.\n- User asked about the next requirement for the engineering project.\n- User asked to continue discussing engineering specifications.\n- User asked to review the constraints established for the project.\n- User asked to continue discussing engineering specifications\n- User specified a corrosion resistance rating requirement of at least 21 for the engineering project\n- User asked to summarize what has been covered so far in the engineering project\n- User compared current specifications to industry standards\n- User asked for a summary of what has been covered so far in the engineering project\n- User specified a clearance fit tolerance requirement of H17/g51 for the engineering project\n- User specified a new requirement for maximum deflection under load to be 137mm\n- User asked how the current specifications compare to industry standards\n- User asked how the current specifications compare to industry standards.\n- User specified a new requirement: Operating pressure range is 36 to 272 bar, replacing the earlier specification of 98 to 272 bar",
+  "answer_text": "Here are the current engineering constraints and requirements as specified:\n\n1. Corrosion resistance rating of at least 21\n2. Clearance fit tolerance requirement of H17/g51\n3. Maximum deflection under load to be 137mm\n4. Operating pressure range is 36 to 272 bar",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1421.2
+ },
+ {
+  "scenario_id": "hold-out-U007",
+  "error": "'str' object has no attribute 'get'"
+ },
+ {
+  "scenario_id": "hold-out-U008",
+  "error": "'str' object has no attribute 'get'"
+ },
+ {
+  "scenario_id": "hold-out-U009",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9659,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "320%"
+    ],
+    "old_only_tokens": [
+     "289%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- The user requested a summary of the current status of finance requirements\n- The user requested to check the current status of finance requirements\n- The user asked to check the current status of finance requirements\n- The user asked about the current status of their finance requirements and if there are any related parameters to discuss\n- The user inquired about the current status of finance requirements for their project\n- The user requested to check the current status of finance requirements for the project\n- The user mentioned continuing with the finance specifications and requested an update on the current status of finance requirements\n- The user asked to check the current status of their finance requirements\n- The user requested a review of the current finance project constraints\n- The user requested an update on the current status of finance requirements and asked about dependencies between specifications\n- The assistant noted to factor the current status of finance requirements into the analysis\n- The user requested a summary of what has been covered so far regarding their finance requirements\n- The user requested to review the constraints established for the finance project\n- The user requested an update on the current status of finance requirements and asked for documentation updates accordingly\n- The user requested to review the constraints established for the finance project and mentioned related parameters\n- The user requested an update on the current status of finance requirements and asked about supply chain challenges\n- The user mentioned reviewing the constraints established for the finance project\n- The user requested to check the current status of finance requirements and mentioned historical data on interest rate cap for variable loans\n- The user mentioned reviewing the constraints established for the finance project and requested an update to documentation accordingly\n- The user asked about the next requirement for the finance project",
+  "answer_text": "Based on the conversation history provided, here are the relevant finance constraints and requirements mentioned:\n\n1. The current status of finance requirements for the project.\n2. Dependencies between specifications.\n3. Supply chain challenges.\n4. Historical data on interest rate cap for variable loans.\n\nThese points have been referenced in your requests to review or update documentation accordingly.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3009.3
+ },
+ {
+  "scenario_id": "hold-out-U010",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9688,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "236"
+    ],
+    "old_only_tokens": [
+     "199"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "170"
+    ],
+    "old_only_tokens": [
+     "148"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested to check the current status of general requirements\n- User checked the current status of general requirements multiple times\n- Assistant acknowledged and noted the user's request to check the current status of general requirements\n- Assistant acknowledged the user's request to check current status of general requirements and will keep that in mind\n- Assistant acknowledged the user's request to check the current status of general requirements and will factor this into analysis\n- Assistant acknowledged user's request to check the status of general requirements and will keep it in mind\n- User checked the current status of general requirements and inquired about proceeding with the next item\n- User requested to check the current status of general requirements and assistant noted that\n- User requested to check the current status of general requirements and assistant acknowledged\n- User requested to review the constraints established so far\n- User requested to check the current status of general requirements and assistant noted it\n- Assistant noted user's request to check the current status of general requirements and asked if they should proceed with the next item\n- User requested to continue with general specifications\n- User requested to check the current status of general requirements and assistant acknowledged updating documentation accordingly\n- User inquired about the next requirement for a general project\n- User asked about the next requirement for the general project\n- User asked about the next requirement for the general project\n- User asked to check the current status of general requirements and assistant noted it\n- User requested a review of established constraints for the project\n- User requested to review established constraints for the project",
+  "answer_text": "Based on the provided memory, there is no specific mention of any particular constraints or requirements verbatim. The conversation indicates repeated requests to check the status of general requirements and constraints but does not list them explicitly. Therefore, I cannot provide a list of current general constraints and requirements as requested since they are not detailed in the given context. If you would like me to summarize what was discussed regarding these topics, please let me know!",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2983.0
+ },
+ {
+  "scenario_id": "hold-out-U011",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9712,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "267"
+    ],
+    "old_only_tokens": [
+     "365"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "445"
+    ],
+    "old_only_tokens": [
+     "387"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "283"
+    ],
+    "old_only_tokens": [
+     "328"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User inquired about the current status of engineering requirements\n- User asked about the current status of engineering requirements\n- User requested an update on the current status of engineering requirements\n- User checked the current status of engineering requirements\n- User inquired about the status of engineering requirements\n- User requested an update on the status of engineering requirements\n- User requested to check the current status of engineering requirements and asked about dependencies between specifications\n- User requested to review the constraints established for the engineering project\n- User compared current requirement to industry standards for the engineering project\n- User asked how the current requirement compares to industry standards for an engineering project\n- User requested a review of established constraints in the engineering project\n- User asked how the current requirement compares to industry standards for the engineering project\n- User asked to review the constraints established for the engineering project\n- User asked to review the constraints established for the engineering project\n- User requested a review of the constraints established for the engineering project\n- User asked how the current requirement compares to industry standards for engineering project\n- User requested to review constraints established for the engineering project\n- User suggested reviewing the constraints established for the engineering project\n- User suggested reviewing the constraints established for the engineering project\n- Assistant acknowledged user's request to summarize what has been covered so far in engineering requirements discussion",
+  "answer_text": "Based on the memory provided, there is no specific list of engineering constraints or requirements mentioned. The conversation indicates repeated requests to review or check the status and constraints established for an engineering project but does not provide a detailed list of these constraints or requirements.\n\nThe verbatim phrases related to reviewing constraints are:\n- \"User requested to review the constraints established for the engineering project\"\n- \"User asked how the current requirement compares to industry standards for the engineering project\"\n- \"User suggested reviewing the constraints established for the engineering project\"\n\nSince no specific details about the constraints and requirements have been provided in the memory, I cannot list them verbatim. If you would like me to summarize what has been covered so far regarding the engineering requirements discussion, please let me know.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2856.8
+ },
+ {
+  "scenario_id": "hold-out-U012",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9656,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "158"
+    ],
+    "old_only_tokens": [
+     "225"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "205°C"
+    ],
+    "old_only_tokens": [
+     "232°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "110"
+    ],
+    "old_only_tokens": [
+     "50"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested to check the current status of medical requirements\n- User requested to check the current status of medical requirements\n- User checked the current status of medical requirements\n- User mentioned reviewing medical specifications and constraints\n- Assistant acknowledged checking the current status of medical requirements\n- Assistant recorded the requirement for continuing with medical specifications and asked if there is anything else to consider\n- Assistant acknowledged user's request to check the current status of medical requirements and will keep that in mind\n- Assistant acknowledged user's request to check current status of medical requirements and will factor this into analysis\n- Assistant acknowledged user's request to check current status of medical requirements and will keep that in mind\n- Assistant noted user's request to check current status of medical requirements and will keep that in mind\n- User requested to check the current status of medical requirements and assistant will factor this into analysis\n- Assistant acknowledged user's request to check the current status of medical requirements and will account for that\n- Assistant recorded user's request to check current status of medical requirements and will update documentation accordingly\n- Assistant acknowledged user's request to check current status of medical requirements and will account for that\n- User asked to check the current status of medical requirements and assistant will factor this into analysis\n- User requested to check the current status of medical requirements and assistant will update documentation accordingly\n- User asked to check current status of medical requirements and assistant will factor this into analysis\n- Assistant recorded the requirement for medical specifications and will update documentation accordingly\n- User inquired about the next requirement for a medical project\n- User requested to check the current status of medical requirements, assistant thanked for specifying and asked if there are other specifications",
+  "answer_text": "Based on the provided memory, the exact phrasing of the user's requests regarding medical constraints and requirements is:\n\n1. User requested to check the current status of medical requirements.\n2. User mentioned reviewing medical specifications and constraints.\n\nThere are no verbatim lists or detailed descriptions of specific medical constraints and requirements provided in the memory. The assistant has acknowledged these requests multiple times but did not provide a list of constraints or requirements directly from the user's statements.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3081.0
+ },
+ {
+  "scenario_id": "hold-out-U013",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.2,
+  "found": 1,
+  "total_gt": 5,
+  "ccr": 0.8571,
+  "context_ua": [
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "550mm"
+    ],
+    "old_only_tokens": [
+     "495mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked to check the current status of engineering requirements\n- User asked about the next requirement for the engineering project\n- User requested to review the constraints established so far\n- Assistant recorded the requirement to review established constraints\n- Assistant recorded the requirement and inquired if there are other specifications to consider\n- Assistant noted the requirement and inquired if related parameters should be discussed\n- Assistant recorded the requirement regarding dependencies between specifications and inquired if there are other items to proceed with\n- User mentioned reviewing established constraints\n- Assistant acknowledged the tensile strength requirement and will factor it into analysis\n- Assistant recorded the new minimum wall thickness requirement and will factor it into analysis\n- User mentioned reviewing established constraints again\n- Assistant will account for the operating pressure range and inquire if there are other specifications to consider\n- Assistant acknowledged the requirement and will account for it, asking if related parameters should be discussed\n- User specified a requirement for tensile strength of at least 174 MPa\n- Assistant recorded the new requirement and will factor it into analysis\n- User mentioned that the previous project had a specification of 363, but this is not applicable to the current one\n- User specified an important requirement for operating pressure range between 241 to 547 bar\n- User specified an important requirement for surface roughness Ra not to exceed 475 μm\n- User stated that the old standard required a specification of 575, which has since been updated\n- Important requirement: Tensile strength must be at least 174 MPa",
+  "answer_text": "Here are the current engineering constraints and requirements as listed:\n\n1. Tensile strength must be at least 174 MPa\n2. Operating pressure range between 241 to 547 bar\n3. Surface roughness Ra not to exceed 475 μm",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 629.6
+ },
+ {
+  "scenario_id": "hold-out-U014",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.15384615384615385,
+  "found": 2,
+  "total_gt": 13,
+  "ccr": 0.8414,
+  "context_ua": [
+   {
+    "gt_id": "gt_011",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_011",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "483"
+    ],
+    "old_only_tokens": [
+     "385"
+    ],
+    "new_tokens_hit": [
+     "483"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked to check the current status of medical requirements\n- User is checking the current status of medical requirements\n- User asked for a summary of what has been covered so far in the medical project specifications discussion\n- Office renovation plans are being considered separately from the medical project requirements\n- Ventilator tidal volume requirement is 96mL per kg ideal body weight for the medical project\n- Blood pressure target must be below 382/554 mmHg for the medical project\n- Dosage must not exceed 352mg per kg body weight for the medical project\n- Documentation is being updated to reflect the dosage requirement\n- Patient BMI threshold for procedure must be below 85 based on the latest requirement\n- User updated the previous requirement to a hemoglobin threshold of below 483 g/dL, replacing an earlier specification\n- Assistant recorded user's requirement to compare current specifications with industry standards and asked if next item can proceed\n- Assistant recorded the requirement to compare current specifications with industry standards and asked if next item can proceed\n- User inquired about dependencies between medical specifications discussed, assistant noted to keep it in mind and factor into analysis\n- Assistant asked if user would like to discuss related parameters after noting the blood glucose target range requirement\n- Medication interval must be at least 142 hours for the medical project\n- User mentioned a suggested patient BMI threshold of below 525 for procedure but noted it's not critical\n- Antibiotic prophylaxis must begin 257 minutes before a procedure based on historical data from past projects\n- User stated the drug concentration must remain below 484 ng/mL as an important requirement\n- Heart rate alert threshold must be above 383 bpm for the medical project\n- Assistant recorded the update to previous requirement for hemoglobin threshold below 483 g/dL for transfusion",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Ventilator tidal volume requirement is 96mL per kg ideal body weight for the medical project.\n2. Blood pressure target must be below 382/554 mmHg for the medical project.\n3. Dosage must not exceed 352mg per kg body weight for the medical project.\n4. Patient BMI threshold for procedure must be below 85 based on the latest requirement.\n5. Hemoglobin threshold of below 483 g/dL for transfusion, replacing an earlier specification.\n6. Medication interval must be at least 142 hours for the medical project.\n7. Antibiotic prophylaxis must begin 257 minutes before a procedure based on historical data from past projects.\n8. Drug concentration must remain below 484 ng/mL as an important requirement.\n9. Heart rate alert threshold must be above 383 bpm for the medical project.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 587.7
+ },
+ {
+  "scenario_id": "hold-out-U015",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.2,
+  "found": 1,
+  "total_gt": 5,
+  "ccr": 0.8556,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "67"
+    ],
+    "old_only_tokens": [
+     "22"
+    ],
+    "new_tokens_hit": [
+     "67"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "420"
+    ],
+    "old_only_tokens": [
+     "342"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- Remote work policies are being considered for the legal project\n- A new requirement for the legal project is that the force majeure notification deadline is 22 hours\n- The user asked about dependencies between specifications in the legal project\n- The user asked how recent considerations compare to industry standards in the legal project\n- The confidentiality obligation extends 67 years after termination, which is an important requirement for the legal project\n- The Amendment requires 918 days written notice as a preference for the legal project\n- In version 1, the specification was 924 but has been changed\n- The old standard required the specification of 288, which has since been updated\n- The user mentioned a dependency between specifications in the legal project\n- The old standard required the specification of 955, which has since been updated\n- The non-compete radius is ideally around 980 kilometers, though this is just a preference for the legal project\n- The non-compete radius is ideally around 980 kilometers, though this is just a preference for the legal project\n- The user asked about recent news in technology and its relevance to the legal project\n- The old standard required the specification of 683, which has since been updated\n- Important requirement: Liability cap must not exceed 192% of contract value\n- The original proposal had a specification of 744 which was later revised\n- The user mentioned considering a new software tool for the legal project\n- Arbitration venue must be in the jurisdiction of 576, though it's not critical\n- The user updated the force majeure notification deadline to 67 hours in the legal project\n- The original proposal had a specification of 735 which was later revised",
+  "answer_text": "- Remote work policies are being considered for the legal project\n- The force majeure notification deadline is 67 hours\n- The confidentiality obligation extends 67 years after termination\n- The Amendment requires 918 days written notice as a preference\n- Liability cap must not exceed 192% of contract value\n- Non-compete radius is ideally around 980 kilometers, though this is just a preference\n- Arbitration venue must be in the jurisdiction of 576, though it's not critical",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 560.3
+ },
+ {
+  "scenario_id": "hold-out-U016",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.07692307692307693,
+  "found": 1,
+  "total_gt": 13,
+  "ccr": 0.8521,
+  "context_ua": [
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "77%"
+    ],
+    "old_only_tokens": [
+     "11%"
+    ],
+    "new_tokens_hit": [
+     "77%"
+    ],
+    "old_tokens_hit": [
+     "11%"
+    ]
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "274x"
+    ],
+    "old_only_tokens": [
+     "239x"
+    ],
+    "new_tokens_hit": [
+     "274x"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "292"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [
+     "292"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested a review of established constraints for the finance project\n- User mentioned a new requirement for the finance project but did not specify details\n- User mentioned a recent conference in the context of finance requirements and remote work policies\n- A rough guideline for Capital adequacy ratio must exceed 750% for the finance project\n- User requested a review of established constraints for the project\n- Before the revision, the specification was 494 for the finance project\n- User updated the minimum collateral coverage ratio requirement to 274x, replacing an earlier specification\n- User specified that the Debt-to-equity ratio ceiling is now 432 for the finance project\n- User specified an important requirement that foreign exchange exposure limit is 209% of assets\n- User specified that the Trading volume daily limit guideline is approximately 393 million USD for the finance project\n- Quarterly reporting deadline is 187 business days after quarter end for the finance project\n- User specified an important requirement that the trading volume daily limit is 196 million USD for the finance project\n- User updated the Capital adequacy ratio requirement to exceed 77% (replacing an earlier specification)\n- User specified an important requirement that interest rate cap on variable loans is 84%\n- User specified that capital adequacy ratio must exceed 11% as a critical requirement\n- User provided a rough guideline for loan-to-value ratio maximum of about 44%\n- User updated the Credit risk score minimum requirement to 292 points, replacing the earlier specification\n- User updated the requirement for credit risk score minimum to 292 points\n- User mentioned an important requirement for minimum collateral coverage ratio of 239x\n- User mentioned a preference for the Net stable funding ratio minimum to be around 618%",
+  "answer_text": "Here are the current finance constraints and requirements based on the provided memory:\n\n1. Capital adequacy ratio must exceed 77%\n2. Minimum collateral coverage ratio is 274x\n3. Debt-to-equity ratio ceiling is 432\n4. Foreign exchange exposure limit is 209% of assets\n5. Trading volume daily limit guideline is approximately 393 million USD (updated to 196 million USD)\n6. Quarterly reporting deadline is 187 business days after quarter end\n7. Interest rate cap on variable loans is 84%\n8. Capital adequacy ratio must exceed 11% as a critical requirement\n9. Loan-to-value ratio maximum of about 44%\n10. Credit risk score minimum requirement to 292 points\n11. Net stable funding ratio minimum around 618%",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 580.6
+ },
+ {
+  "scenario_id": "hold-out-U017",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9458,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "64"
+    ],
+    "old_only_tokens": [
+     "45"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "45"
+    ]
+   }
+  ],
+  "context_text": "- User mentioned checking the current status of general requirements\n- User requested to check the current status of general requirements and continue with specifications\n- User mentioned the current status of general requirements needs to be checked before proceeding\n- Assistant will factor the current status of general requirements into analysis\n- User requested to review established constraints and specifications\n- The assistant will factor the current status of general requirements into analysis\n- User asked about the next requirement for the general project\n- User requested to review established constraints and proceed with the next item\n- User requested a summary of covered requirements so far\n- User mentioned reviewing established constraints and requested to proceed with the next item\n- Assistant will factor the general specifications into analysis\n- Assistant acknowledged the user's request to review constraints established and recorded it\n- The old standard required the specification of 807 which has since been updated\n- Assistant will factor the next requirement for this general project into analysis\n- Assistant will factor the next requirement for this general project into analysis\n- Assistant will factor the next requirement for this general project into analysis\n- Assistant acknowledged and asked if there are other specifications to consider\n- User specified an important requirement for maximum concurrent users supported is 45\n- In version 1, the specification was set to 137 but has since been changed\n- Assistant noted there are no dependencies between the specifications discussed",
+  "answer_text": "Based on the information provided in our conversation:\n\n1. The specification for maximum concurrent users supported is 45.\n2. In version 1, the specification was set to 137 but has since been changed.\n\nThere are no other dependencies between the specifications discussed as noted.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1505.4
+ },
+ {
+  "scenario_id": "hold-out-U018",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9341,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "184"
+    ],
+    "old_only_tokens": [
+     "159"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "390"
+    ],
+    "old_only_tokens": [
+     "351"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "74"
+    ],
+    "old_only_tokens": [
+     "14"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "14"
+    ]
+   }
+  ],
+  "context_text": "- User requested to check the current status of engineering requirements\n- User requested to check the current status of engineering requirements and continue with specifications\n- User inquired about the next requirement for an engineering project and requested to review established constraints\n- User asked about the next requirement for an engineering project and requested to review established constraints\n- User requested to check the current status of engineering requirements, noted by assistant\n- User requested to check the current status of engineering requirements and acknowledged by assistant\n- User mentioned continuing to review engineering specifications and constraints\n- Assistant recorded the user's request to check the current status of engineering requirements and will update documentation accordingly\n- User asked about the next requirement for an engineering project\n- User asked to review established constraints for an engineering project, noted by assistant\n- User specified that tensile strength must be at least 470 MPa for the engineering requirements\n- User asked how the current requirements compare to industry standards\n- User requested to summarize what has been covered so far in the engineering project\n- Assistant recorded another consideration for the engineering project as a new requirement\n- User asked about comparing the current requirements to industry standards\n- Assistant noted user's request to continue with engineering specifications and will factor this into analysis\n- User inquired about dependencies between specifications discussed for the engineering project\n- User specified the roughness requirement Ra must not exceed 67 μm for an engineering project\n- User specified material hardness must be at least 14 HRC for the engineering project\n- Assistant recorded the user's request to continue with engineering specifications and will factor this into analysis",
+  "answer_text": "The current engineering constraints and requirements listed in the memory are:\n\n1. Tensile strength must be at least 470 MPa.\n2. Roughness requirement Ra must not exceed 67 μm.\n3. Material hardness must be at least 14 HRC.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1470.7
+ },
+ {
+  "scenario_id": "hold-out-U019",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.23076923076923078,
+  "found": 3,
+  "total_gt": 13,
+  "ccr": 0.9472,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "125"
+    ],
+    "old_only_tokens": [
+     "222"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "222"
+    ]
+   }
+  ],
+  "context_text": "- User requested to check the current status of medical requirements.\n- User requested to check the current status of medical requirements and asked about next requirement.\n- User inquired about summarizing the covered medical requirements so far.\n- User asked for a summary of covered medical requirements so far.\n- User inquired about the next requirement for the medical project.\n- User discussed the next requirement for the medical project.\n- User requested to continue discussing medical specifications.\n- User requested a review of established constraints.\n- User requested review of established constraints.\n- Assistant updated documentation to account for specified requirements and noted additional considerations.\n- Assistant recorded and will update documentation to account for the requirement to review established constraints.\n- Important requirement: Patient BMI threshold for procedure is below 378.\n- Assistant updated documentation to account for specified requirements and noted additional considerations\n- User specified a medical requirement that the medication interval must be at least 81 hours.\n- User inquired about comparison to industry standards for medical specifications.\n- Assistant updated documentation and noted additional considerations for specified requirements.\n- Dosage must not exceed 222mg per kg body weight for the medical project\n- Important requirement: Hemoglobin threshold for transfusion is below 491 g/dL.\n- User has another consideration for this medical project.\n- The specification for the current project is set to 28, but this was for an old project.",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Patient BMI threshold for procedure is below 378.\n2. Medication interval must be at least 81 hours.\n3. Dosage must not exceed 222mg per kg body weight.\n4. Hemoglobin threshold for transfusion is below 491 g/dL.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1534.0
+ },
+ {
+  "scenario_id": "hold-out-U020",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9425,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "303"
+    ],
+    "old_only_tokens": [
+     "398"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "252"
+    ],
+    "old_only_tokens": [
+     "240"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked to check the current status of legal requirements\n- User asked to check the current status of legal requirements\n- User is checking the current status of legal requirements for a project\n- User asked to check the current status of legal requirements and assistant acknowledged\n- User asked to check the current status of legal requirements and mentioned a previous discussion about setting specification to 433 for an old project\n- User and assistant are summarizing the covered requirements for legal specifications\n- User inquired about the next requirement for this legal project\n- User asked about the next requirement for this legal project\n- User asked about the next requirement for the legal project\n- Assistant acknowledged reviewing the constraints established and updating documentation accordingly\n- User asked about supply chain challenges in relation to legal specifications\n- User requested to review established constraints for the project\n- User and assistant are discussing legal specifications for a project\n- User requested a summary of what has been covered so far in the legal project discussion\n- User and assistant are discussing dependencies between legal specifications for the project\n- User mentioned sustainability goals in relation to the discussion on legal specifications\n- Assistant recorded the requirement to review established constraints in the analysis\n- User and assistant are continuing to discuss legal specifications for the project\n- Assistant recorded the requirement to review established constraints and asked if user wants to proceed with next item\n- User mentioned a rough guideline for Escrow release conditions requiring approval would be about 953",
+  "answer_text": "Based on the provided memory, here are the listed legal constraints and requirements:\n\n1. Setting specification to 433 for an old project (mentioned in a previous discussion).\n2. Review established constraints for the project.\n3. A rough guideline for Escrow release conditions requiring approval would be about 953.\n\nPlease note that some details might not explicitly state they are legal constraints or requirements but are mentioned within the context of the legal specifications and project discussions.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1546.4
+ },
+ {
+  "scenario_id": "hold-out-U021",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9659,
+  "context_ua": [
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "515%"
+    ],
+    "old_only_tokens": [
+     "436%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "205"
+    ],
+    "old_only_tokens": [
+     "125"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested to check the current status of finance requirements\n- User asked to check the current status of finance requirements\n- User asked how the current finance requirements compare to industry standards and assistant will keep that in mind\n- User requested to check the current status of finance requirements, which assistant noted\n- User requested a summary of what has been covered so far in the finance requirements discussion\n- User asked how the current finance requirements compare to industry standards and assistant will factor this into analysis\n- User requested a review of established constraints for the finance project\n- User requested a review of established constraints for the finance project\n- User mentioned the need to review established constraints for the finance project\n- User requested to review established constraints for the finance project\n- User requested to review established constraints for the finance project\n- User requested to review the constraints established for the finance project\n- Assistant acknowledged user's request for information on finance requirements and will proceed accordingly\n- User asked about the current status of finance requirements and assistant acknowledged\n- User requested a review of the current status of finance requirements and assistant acknowledged\n- User requested to check the current status of finance requirements, which assistant noted and will factor into analysis\n- User requested to check the current status of finance requirements and assistant will update documentation accordingly\n- User requested to check the current status of finance requirements, which assistant will update in documentation\n- User asked about checking the current status of finance requirements, which assistant noted and will keep in mind\n- Assistant recorded user's request to check the status of finance requirements and offered to proceed with related parameters",
+  "answer_text": "From the provided memory, there is no specific verbatim list of current finance constraints and requirements given. The requests from the user pertain to checking and reviewing these aspects but do not include a detailed listing of them within the context provided. Therefore, I cannot provide an exact verbatim list as requested.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2954.1
+ },
+ {
+  "scenario_id": "hold-out-U022",
+  "error": "'str' object has no attribute 'get'"
+ },
+ {
+  "scenario_id": "hold-out-U023",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9681,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "32g"
+    ],
+    "old_only_tokens": [
+     "87g"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "284°C"
+    ],
+    "old_only_tokens": [
+     "260°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested a summary of the current engineering specifications and constraints discussed so far\n- User requested to check the current status of engineering requirements\n- User requested to check the current status of engineering requirements and discuss related parameters\n- User asked to check the current status of engineering requirements\n- User requested to review established constraints for the engineering project\n- User checked the current status of engineering requirements and discussed related parameters with assistant\n- User requested to review established constraints in the engineering project\n- User checked the current status of engineering requirements and requested to proceed with the next item\n- User requested to check the current status of engineering requirements and discussed rough guidelines for assembly sequence\n- User requested to check the current status of engineering requirements and assistant noted this requirement\n- User requested to check the current status of engineering requirements and assistant understood this requirement\n- User requested a summary of the covered engineering requirements so far\n- User requested to review constraints established for the engineering project and assistant acknowledged\n- User asked about the current status of engineering requirements and the assistant noted this for documentation\n- User requested to check the current status of engineering requirements and the assistant will update documentation accordingly\n- User requested to check the current status of engineering requirements and the assistant noted it\n- User inquired about the next requirement for the engineering project\n- User discussed training opportunities related to engineering requirements\n- User wants to review established constraints and requirements\n- User wants to check the status of engineering requirements and discuss related parameters with assistant",
+  "answer_text": "Based on the provided memory, there isn't a direct listing of specific engineering constraints and requirements. However, the user has repeatedly requested to review established constraints for the engineering project and check the status of engineering requirements. The exact verbatim statements from the memory related to these requests are:\n\n1. \"User requested to review established constraints for the engineering project\"\n2. \"User reviewed established constraints in the engineering project\"\n3. \"User requested to review constraints established for the engineering project\"\n\nGiven that no specific details about the actual constraints and requirements have been provided within the context of this memory, I can only list these requests as they appear. For a detailed list of constraints and requirements, further information or documentation would be necessary.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3097.7
+ },
+ {
+  "scenario_id": "hold-out-U024",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9616,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "152mm"
+    ],
+    "old_only_tokens": [
+     "171mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested a check on the current status of medical requirements\n- User requested checking the current status of medical requirements\n- User requested a summary of covered medical requirements so far\n- Assistant noted user's request to check the current status of medical requirements and asked if there are other specifications\n- Assistant acknowledged user's request to check the current status of medical requirements and will factor this into analysis\n- Assistant acknowledged user's request to check the current status of medical requirements and asked if there are other considerations\n- Assistant asked if there are other specifications after acknowledging user's request to check the current status of medical requirements\n- User requested to check the current status of medical requirements and assistant asked if there are other considerations\n- Assistant updated documentation based on user's request for medical requirements\n- Assistant recorded user's request to check the current status of medical requirements and will keep it in mind\n- Assistant acknowledged checking the current status of medical requirements and factoring it into analysis\n- User requested checking the current status of medical requirements and assistant will keep that in mind\n- User requested to check the current status of medical requirements and assistant noted that\n- User requested to check the current status of medical requirements and assistant acknowledged\n- User requested summary of covered medical requirements so far and assistant acknowledged proceeding with other specifications\n- User requested to check the current status of medical requirements and assistant recorded that requirement\n- User requested a summary of covered medical requirements so far and assistant acknowledged proceeding with other specifications\n- User requested to check the current status of medical requirements and assistant promised to update documentation accordingly\n- Assistant noted user's request for the next requirement in the medical project and asked if there are other specifications\n- User requested to check the current status of medical requirements and assistant acknowledged making sure to account for it",
+  "answer_text": "The exact phrasing of the user's requests related to medical constraints and requirements from the memory provided is:\n\n1. User requested a check on the current status of medical requirements.\n2. User requested checking the current status of medical requirements.\n3. User requested a summary of covered medical requirements so far.\n\nThese are the direct statements made by the user regarding their interest in understanding the current status and constraints related to medical requirements.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2953.9
+ }
+]

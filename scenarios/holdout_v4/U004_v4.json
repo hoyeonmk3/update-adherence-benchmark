@@ -1,0 +1,1629 @@
+{
+  "scenario_id": "hold-out-U004",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "params": {
+    "total_turns": 200,
+    "gt_count": 13,
+    "gt_timing": {
+      "distribution": "UNIFORM",
+      "earliest": 0,
+      "latest": 180
+    },
+    "gt_visibility": "EXPLICIT",
+    "distractor_density": 0.3,
+    "distractor_types": {
+      "topic_drift": 0.5,
+      "semantic_near_miss": 0.3,
+      "temporal_confusion": 0.2
+    },
+    "domain": "FINANCE",
+    "seed": 60003,
+    "gt_update_count": 2,
+    "update_delay": 20
+  },
+  "seed": 60003,
+  "total_turns": 200,
+  "domain": "FINANCE",
+  "query": "What are all the current finance constraints and requirements?",
+  "turns": [
+    {
+      "turn": 0,
+      "role": "user",
+      "content": "Important requirement: Maximum portfolio exposure to single sector is 167%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_001"
+    },
+    {
+      "turn": 1,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "On a different note, a new restaurant is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 3,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 5,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 7,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 9,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 11,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 13,
+      "role": "assistant",
+      "content": "That's clear. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Important requirement: Minimum reserve ratio must be maintained at 438%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_002"
+    },
+    {
+      "turn": 15,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 16,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 17,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 18,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 19,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 20,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 21,
+      "role": "assistant",
+      "content": "Thank you for specifying.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 22,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 23,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 24,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 25,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 26,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 27,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 28,
+      "role": "user",
+      "content": "Important requirement: Transaction approval threshold is 240 USD",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_003"
+    },
+    {
+      "turn": 29,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 30,
+      "role": "user",
+      "content": "A rough guideline for Debt-to-equity ratio ceiling would be about 924.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 31,
+      "role": "assistant",
+      "content": "Noted. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 32,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 33,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 34,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 35,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 36,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 37,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 38,
+      "role": "user",
+      "content": "On a different note, team building activities is quite interesting.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 39,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 40,
+      "role": "user",
+      "content": "Before the revision, the specification was 122.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 41,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 42,
+      "role": "user",
+      "content": "Important requirement: Credit risk score minimum is 239 points",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_004"
+    },
+    {
+      "turn": 43,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 44,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 45,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 46,
+      "role": "user",
+      "content": "I read an article about a documentary about space yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 47,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 48,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 49,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 50,
+      "role": "user",
+      "content": "By the way, I was thinking about a documentary about space recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 51,
+      "role": "assistant",
+      "content": "Noted. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 52,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 53,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 54,
+      "role": "user",
+      "content": "The Capital adequacy ratio must exceed % should ideally be around 185, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 55,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 56,
+      "role": "user",
+      "content": "Important requirement: Dividend payout ratio must not exceed 227%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_005"
+    },
+    {
+      "turn": 57,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 58,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 59,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 60,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 61,
+      "role": "assistant",
+      "content": "Acknowledged. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 62,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 63,
+      "role": "assistant",
+      "content": "Thank you for specifying.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 64,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 65,
+      "role": "assistant",
+      "content": "Noted.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 66,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 67,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 68,
+      "role": "user",
+      "content": "This reminds me of something about team building activities.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 69,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 70,
+      "role": "user",
+      "content": "Important requirement: Debt-to-equity ratio ceiling is 358",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_006"
+    },
+    {
+      "turn": 71,
+      "role": "assistant",
+      "content": "I've recorded that requirement.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 72,
+      "role": "user",
+      "content": "The original proposal had the specification at 920, which was later revised.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 73,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 74,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 75,
+      "role": "assistant",
+      "content": "Noted. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 76,
+      "role": "user",
+      "content": "In informal settings, Transaction approval threshold is  USD might be 845.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 77,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 78,
+      "role": "user",
+      "content": "The old standard required the specification of 414, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 79,
+      "role": "assistant",
+      "content": "I've recorded that requirement. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 80,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 81,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 82,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 83,
+      "role": "assistant",
+      "content": "Acknowledged. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 84,
+      "role": "user",
+      "content": "Important requirement: Quarterly reporting deadline is 442 business days after quarter end",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_007"
+    },
+    {
+      "turn": 85,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 86,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 87,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 88,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 89,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 90,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 91,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 92,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 93,
+      "role": "assistant",
+      "content": "Noted.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 94,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 95,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 96,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 97,
+      "role": "assistant",
+      "content": "Acknowledged. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 98,
+      "role": "user",
+      "content": "Important requirement: Interest rate cap on variable loans is 418%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_008"
+    },
+    {
+      "turn": 99,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 100,
+      "role": "user",
+      "content": "The old standard required the specification of 566, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 101,
+      "role": "assistant",
+      "content": "That's clear. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 102,
+      "role": "user",
+      "content": "The old standard required the specification of 268, which has since been updated.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 103,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 104,
+      "role": "user",
+      "content": "Speaking of which, have you considered the weather forecast?",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 105,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 106,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 107,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 108,
+      "role": "user",
+      "content": "A rough guideline for Stress test scenario loss limit is % would be about 810.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 109,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 110,
+      "role": "user",
+      "content": "In informal settings, Debt-to-equity ratio ceiling might be 574.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 111,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 112,
+      "role": "user",
+      "content": "Important requirement: Minimum collateral coverage ratio is 238x",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_009"
+    },
+    {
+      "turn": 113,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 114,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 115,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 116,
+      "role": "user",
+      "content": "Update to previous requirement: Quarterly reporting deadline is 509 business days after quarter end (replaces the earlier specification)",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_007_upd"
+    },
+    {
+      "turn": 117,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 118,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 119,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 120,
+      "role": "user",
+      "content": "In informal settings, Maximum portfolio exposure to single sector is % might be 760.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 121,
+      "role": "assistant",
+      "content": "I've recorded that requirement. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 122,
+      "role": "user",
+      "content": "How does this compare to industry standards?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 123,
+      "role": "assistant",
+      "content": "Noted. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 124,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 125,
+      "role": "assistant",
+      "content": "Thank you for specifying. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 126,
+      "role": "user",
+      "content": "Important requirement: Foreign exchange exposure limit is 378% of assets",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_010"
+    },
+    {
+      "turn": 127,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 128,
+      "role": "user",
+      "content": "In version 1, the specification was 108, but we changed it.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 129,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 130,
+      "role": "user",
+      "content": "Historical data shows Transaction approval threshold is  USD averaged 633 in past projects.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 131,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 132,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 133,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 134,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 135,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 136,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 137,
+      "role": "assistant",
+      "content": "Thank you for specifying. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 138,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 139,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 140,
+      "role": "user",
+      "content": "Important requirement: Trading volume daily limit is 266 million USD",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_011"
+    },
+    {
+      "turn": 141,
+      "role": "assistant",
+      "content": "Acknowledged.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 142,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 143,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 144,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 145,
+      "role": "assistant",
+      "content": "Acknowledged. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 146,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 147,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 148,
+      "role": "user",
+      "content": "Let's review the constraints we've established.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 149,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 150,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 151,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 152,
+      "role": "user",
+      "content": "The original proposal had the specification at 817, which was later revised.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "temporal_confusion"
+    },
+    {
+      "turn": 153,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 154,
+      "role": "user",
+      "content": "Important requirement: Capital adequacy ratio must exceed 289%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_012"
+    },
+    {
+      "turn": 155,
+      "role": "assistant",
+      "content": "Noted. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 156,
+      "role": "user",
+      "content": "Update to previous requirement: Foreign exchange exposure limit is 468% of assets (replaces the earlier specification)",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_010_upd"
+    },
+    {
+      "turn": 157,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 158,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 159,
+      "role": "assistant",
+      "content": "Understood, I've noted that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 160,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 161,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 162,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 163,
+      "role": "assistant",
+      "content": "Noted. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 164,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 165,
+      "role": "assistant",
+      "content": "Thank you for specifying. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 166,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 167,
+      "role": "assistant",
+      "content": "Understood, I've noted that. Should I proceed with the next item?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 168,
+      "role": "user",
+      "content": "Important requirement: Loan-to-value ratio maximum is 257%",
+      "is_constraint": true,
+      "is_distractor": false,
+      "gt_id": "gt_013"
+    },
+    {
+      "turn": 169,
+      "role": "assistant",
+      "content": "That's clear.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 170,
+      "role": "user",
+      "content": "I read an article about a new software tool yesterday.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 171,
+      "role": "assistant",
+      "content": "I'll make sure to account for that.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 172,
+      "role": "user",
+      "content": "What about the next requirement for this finance project?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 173,
+      "role": "assistant",
+      "content": "Noted. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 174,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 175,
+      "role": "assistant",
+      "content": "That's clear. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 176,
+      "role": "user",
+      "content": "The Operational risk capital allocation is % of gross  should ideally be around 911, though this is just a preference.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 177,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 178,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 179,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 180,
+      "role": "user",
+      "content": "Are there any dependencies between the specifications we discussed?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 181,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 182,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 183,
+      "role": "assistant",
+      "content": "I'll make sure to account for that. Would you like to discuss related parameters?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 184,
+      "role": "user",
+      "content": "Let me check the current status of our finance requirements.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 185,
+      "role": "assistant",
+      "content": "Understood, I've noted that. I'll update the documentation accordingly.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 186,
+      "role": "user",
+      "content": "Some people suggest Operational risk capital allocation is % of gross  of 781, but it's not critical.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "semantic_near_miss"
+    },
+    {
+      "turn": 187,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 188,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 189,
+      "role": "assistant",
+      "content": "Got it. I'll keep that in mind. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 190,
+      "role": "user",
+      "content": "Speaking of which, have you considered team building activities?",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 191,
+      "role": "assistant",
+      "content": "Thank you for specifying. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 192,
+      "role": "user",
+      "content": "By the way, I was thinking about weekend plans recently.",
+      "is_constraint": false,
+      "is_distractor": true,
+      "distractor_type": "topic_drift"
+    },
+    {
+      "turn": 193,
+      "role": "assistant",
+      "content": "Noted. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 194,
+      "role": "user",
+      "content": "Let's continue with the finance specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 195,
+      "role": "assistant",
+      "content": "That's clear. Let me know if there are other specifications.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 196,
+      "role": "user",
+      "content": "Can you summarize what we've covered so far?",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 197,
+      "role": "assistant",
+      "content": "Acknowledged. I'll factor this into the analysis.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 198,
+      "role": "user",
+      "content": "I have another consideration for this project.",
+      "is_constraint": false,
+      "is_distractor": false
+    },
+    {
+      "turn": 199,
+      "role": "assistant",
+      "content": "That's clear. Is there anything else to consider?",
+      "is_constraint": false,
+      "is_distractor": false
+    }
+  ],
+  "ground_truth_constraints": [
+    "Maximum portfolio exposure to single sector is 167%",
+    "Minimum reserve ratio must be maintained at 438%",
+    "Transaction approval threshold is 240 USD",
+    "Credit risk score minimum is 239 points",
+    "Dividend payout ratio must not exceed 227%",
+    "Debt-to-equity ratio ceiling is 358",
+    "Interest rate cap on variable loans is 418%",
+    "Minimum collateral coverage ratio is 238x",
+    "Trading volume daily limit is 266 million USD",
+    "Capital adequacy ratio must exceed 289%",
+    "Loan-to-value ratio maximum is 257%",
+    "Foreign exchange exposure limit is 468% of assets",
+    "Quarterly reporting deadline is 509 business days after quarter end"
+  ],
+  "gt_metadata": {
+    "gt_001": {
+      "text": "Maximum portfolio exposure to single sector is 167%",
+      "inserted_at": 0,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_002": {
+      "text": "Minimum reserve ratio must be maintained at 438%",
+      "inserted_at": 14,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_003": {
+      "text": "Transaction approval threshold is 240 USD",
+      "inserted_at": 28,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_004": {
+      "text": "Credit risk score minimum is 239 points",
+      "inserted_at": 42,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_005": {
+      "text": "Dividend payout ratio must not exceed 227%",
+      "inserted_at": 56,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_006": {
+      "text": "Debt-to-equity ratio ceiling is 358",
+      "inserted_at": 70,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_007": {
+      "text": "Quarterly reporting deadline is 442 business days after quarter end",
+      "inserted_at": 84,
+      "visibility": "EXPLICIT",
+      "updated_at": 116,
+      "superseded_by": "gt_007_upd"
+    },
+    "gt_008": {
+      "text": "Interest rate cap on variable loans is 418%",
+      "inserted_at": 98,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_009": {
+      "text": "Minimum collateral coverage ratio is 238x",
+      "inserted_at": 112,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_010": {
+      "text": "Foreign exchange exposure limit is 378% of assets",
+      "inserted_at": 126,
+      "visibility": "EXPLICIT",
+      "updated_at": 156,
+      "superseded_by": "gt_010_upd"
+    },
+    "gt_011": {
+      "text": "Trading volume daily limit is 266 million USD",
+      "inserted_at": 140,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_012": {
+      "text": "Capital adequacy ratio must exceed 289%",
+      "inserted_at": 154,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_013": {
+      "text": "Loan-to-value ratio maximum is 257%",
+      "inserted_at": 168,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_010_upd": {
+      "text": "Foreign exchange exposure limit is 468% of assets",
+      "inserted_at": 156,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    },
+    "gt_007_upd": {
+      "text": "Quarterly reporting deadline is 509 business days after quarter end",
+      "inserted_at": 116,
+      "visibility": "EXPLICIT",
+      "updated_at": null,
+      "superseded_by": null
+    }
+  },
+  "evaluation_protocol": {
+    "metric": "exact_match_recall",
+    "measurement_turns": [
+      136,
+      176,
+      199
+    ],
+    "ua_targets": [
+      {
+        "gt_id": "gt_010",
+        "old_value": "Foreign exchange exposure limit is 378% of assets",
+        "new_value": "Foreign exchange exposure limit is 468% of assets",
+        "update_turn": 156
+      },
+      {
+        "gt_id": "gt_007",
+        "old_value": "Quarterly reporting deadline is 442 business days after quarter end",
+        "new_value": "Quarterly reporting deadline is 509 business days after quarter end",
+        "update_turn": 116
+      }
+    ]
+  },
+  "update_schedule": [
+    {
+      "gt_id": "gt_010",
+      "update_turn": 156,
+      "old_value": "Foreign exchange exposure limit is 378% of assets",
+      "new_value": "Foreign exchange exposure limit is 468% of assets"
+    },
+    {
+      "gt_id": "gt_007",
+      "update_turn": 116,
+      "old_value": "Quarterly reporting deadline is 442 business days after quarter end",
+      "new_value": "Quarterly reporting deadline is 509 business days after quarter end"
+    }
+  ]
+}

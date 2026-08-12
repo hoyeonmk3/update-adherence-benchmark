@@ -1,0 +1,9 @@
+﻿configuration,store_ua_pct,behavior_ua_pct
+Naive,13.3,31.1
+RAG,0.0,0.0
+EpSem,0.0,46.7
+EpSem-F,0.0,53.3
+EpSem-SS,31.1,75.6
+LWW,31.1,77.8
+TS-Read,31.1,86.7
+Mem0,6.7,8.9

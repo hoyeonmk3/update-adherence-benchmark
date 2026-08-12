@@ -1,0 +1,899 @@
+[
+ {
+  "scenario_id": "hold-out-F001",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7045,
+  "ua": [],
+  "wall_clock_s": 78.0
+ },
+ {
+  "scenario_id": "hold-out-F002",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6696,
+  "ua": [],
+  "wall_clock_s": 77.9
+ },
+ {
+  "scenario_id": "hold-out-F003",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.714,
+  "ua": [],
+  "wall_clock_s": 77.8
+ },
+ {
+  "scenario_id": "hold-out-F004",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6667,
+  "ua": [],
+  "wall_clock_s": 77.3
+ },
+ {
+  "scenario_id": "hold-out-F005",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8515,
+  "ua": [],
+  "wall_clock_s": 194.5
+ },
+ {
+  "scenario_id": "hold-out-F006",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.7825,
+  "ua": [],
+  "wall_clock_s": 194.3
+ },
+ {
+  "scenario_id": "hold-out-F007",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8374,
+  "ua": [],
+  "wall_clock_s": 195.6
+ },
+ {
+  "scenario_id": "hold-out-F008",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.7814,
+  "ua": [],
+  "wall_clock_s": 194.5
+ },
+ {
+  "scenario_id": "hold-out-F009",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8742,
+  "ua": [],
+  "wall_clock_s": 389.5
+ },
+ {
+  "scenario_id": "hold-out-F010",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9085,
+  "ua": [],
+  "wall_clock_s": 392.0
+ },
+ {
+  "scenario_id": "hold-out-F011",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8579,
+  "ua": [],
+  "wall_clock_s": 390.6
+ },
+ {
+  "scenario_id": "hold-out-F012",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8793,
+  "ua": [],
+  "wall_clock_s": 390.5
+ },
+ {
+  "scenario_id": "hold-out-N001",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7012,
+  "ua": [],
+  "wall_clock_s": 77.9
+ },
+ {
+  "scenario_id": "hold-out-N002",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6931,
+  "ua": [],
+  "wall_clock_s": 78.1
+ },
+ {
+  "scenario_id": "hold-out-N003",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7006,
+  "ua": [],
+  "wall_clock_s": 78.6
+ },
+ {
+  "scenario_id": "hold-out-N004",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7524,
+  "ua": [],
+  "wall_clock_s": 78.5
+ },
+ {
+  "scenario_id": "hold-out-N005",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8538,
+  "ua": [],
+  "wall_clock_s": 195.1
+ },
+ {
+  "scenario_id": "hold-out-N006",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.816,
+  "ua": [],
+  "wall_clock_s": 195.3
+ },
+ {
+  "scenario_id": "hold-out-N007",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.82,
+  "ua": [],
+  "wall_clock_s": 198.4
+ },
+ {
+  "scenario_id": "hold-out-N008",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8465,
+  "ua": [],
+  "wall_clock_s": 197.1
+ },
+ {
+  "scenario_id": "hold-out-N009",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8659,
+  "ua": [],
+  "wall_clock_s": 390.4
+ },
+ {
+  "scenario_id": "hold-out-N010",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8913,
+  "ua": [],
+  "wall_clock_s": 392.1
+ },
+ {
+  "scenario_id": "hold-out-N011",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8698,
+  "ua": [],
+  "wall_clock_s": 393.4
+ },
+ {
+  "scenario_id": "hold-out-N012",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9075,
+  "ua": [],
+  "wall_clock_s": 399.0
+ },
+ {
+  "scenario_id": "hold-out-U001",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7163,
+  "ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.9
+ },
+ {
+  "scenario_id": "hold-out-U002",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7375,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.6
+ },
+ {
+  "scenario_id": "hold-out-U003",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6078,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.6
+ },
+ {
+  "scenario_id": "hold-out-U004",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6253,
+  "ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.4
+ },
+ {
+  "scenario_id": "hold-out-U005",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8509,
+  "ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 194.7
+ },
+ {
+  "scenario_id": "hold-out-U006",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8115,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 194.4
+ },
+ {
+  "scenario_id": "hold-out-U007",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.7979,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 194.4
+ },
+ {
+  "scenario_id": "hold-out-U008",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8052,
+  "ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 196.1
+ },
+ {
+  "scenario_id": "hold-out-U009",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8691,
+  "ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 390.0
+ },
+ {
+  "scenario_id": "hold-out-U010",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8655,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 389.4
+ },
+ {
+  "scenario_id": "hold-out-U011",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8641,
+  "ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 390.2
+ },
+ {
+  "scenario_id": "hold-out-U012",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8746,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 393.6
+ },
+ {
+  "scenario_id": "hold-out-F013",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7177,
+  "ua": [],
+  "wall_clock_s": 78.5
+ },
+ {
+  "scenario_id": "hold-out-F014",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7381,
+  "ua": [],
+  "wall_clock_s": 78.3
+ },
+ {
+  "scenario_id": "hold-out-F015",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6386,
+  "ua": [],
+  "wall_clock_s": 77.7
+ },
+ {
+  "scenario_id": "hold-out-F016",
+  "scenario_type": "FORGETTING",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7035,
+  "ua": [],
+  "wall_clock_s": 77.7
+ },
+ {
+  "scenario_id": "hold-out-F017",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8852,
+  "ua": [],
+  "wall_clock_s": 195.6
+ },
+ {
+  "scenario_id": "hold-out-F018",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8085,
+  "ua": [],
+  "wall_clock_s": 193.9
+ },
+ {
+  "scenario_id": "hold-out-F019",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.7914,
+  "ua": [],
+  "wall_clock_s": 195.9
+ },
+ {
+  "scenario_id": "hold-out-F020",
+  "scenario_type": "FORGETTING",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8096,
+  "ua": [],
+  "wall_clock_s": 195.2
+ },
+ {
+  "scenario_id": "hold-out-F021",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.899,
+  "ua": [],
+  "wall_clock_s": 390.7
+ },
+ {
+  "scenario_id": "hold-out-F022",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9034,
+  "ua": [],
+  "wall_clock_s": 392.5
+ },
+ {
+  "scenario_id": "hold-out-F023",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8831,
+  "ua": [],
+  "wall_clock_s": 392.2
+ },
+ {
+  "scenario_id": "hold-out-F024",
+  "scenario_type": "FORGETTING",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8539,
+  "ua": [],
+  "wall_clock_s": 390.2
+ },
+ {
+  "scenario_id": "hold-out-N013",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6858,
+  "ua": [],
+  "wall_clock_s": 77.6
+ },
+ {
+  "scenario_id": "hold-out-N014",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6868,
+  "ua": [],
+  "wall_clock_s": 78.4
+ },
+ {
+  "scenario_id": "hold-out-N015",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7082,
+  "ua": [],
+  "wall_clock_s": 78.7
+ },
+ {
+  "scenario_id": "hold-out-N016",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7686,
+  "ua": [],
+  "wall_clock_s": 78.6
+ },
+ {
+  "scenario_id": "hold-out-N017",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8597,
+  "ua": [],
+  "wall_clock_s": 194.8
+ },
+ {
+  "scenario_id": "hold-out-N018",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8065,
+  "ua": [],
+  "wall_clock_s": 196.0
+ },
+ {
+  "scenario_id": "hold-out-N019",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8374,
+  "ua": [],
+  "wall_clock_s": 197.6
+ },
+ {
+  "scenario_id": "hold-out-N020",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8613,
+  "ua": [],
+  "wall_clock_s": 198.1
+ },
+ {
+  "scenario_id": "hold-out-N021",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.874,
+  "ua": [],
+  "wall_clock_s": 390.1
+ },
+ {
+  "scenario_id": "hold-out-N022",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8962,
+  "ua": [],
+  "wall_clock_s": 391.5
+ },
+ {
+  "scenario_id": "hold-out-N023",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8715,
+  "ua": [],
+  "wall_clock_s": 393.6
+ },
+ {
+  "scenario_id": "hold-out-N024",
+  "scenario_type": "NOISE_TOLERANCE",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8796,
+  "ua": [],
+  "wall_clock_s": 397.2
+ },
+ {
+  "scenario_id": "hold-out-U013",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7133,
+  "ua": [
+   {
+    "gt_id": "gt_002",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 78.0
+ },
+ {
+  "scenario_id": "hold-out-U014",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6985,
+  "ua": [
+   {
+    "gt_id": "gt_011",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.7
+ },
+ {
+  "scenario_id": "hold-out-U015",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6664,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 78.1
+ },
+ {
+  "scenario_id": "hold-out-U016",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.6843,
+  "ua": [
+   {
+    "gt_id": "gt_012",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 77.8
+ },
+ {
+  "scenario_id": "hold-out-U017",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8774,
+  "ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 196.2
+ },
+ {
+  "scenario_id": "hold-out-U018",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.81,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 194.2
+ },
+ {
+  "scenario_id": "hold-out-U019",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8339,
+  "ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 195.7
+ },
+ {
+  "scenario_id": "hold-out-U020",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.7854,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 194.4
+ },
+ {
+  "scenario_id": "hold-out-U021",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8675,
+  "ua": [
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 389.9
+ },
+ {
+  "scenario_id": "hold-out-U022",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9243,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 393.2
+ },
+ {
+  "scenario_id": "hold-out-U023",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8609,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 392.1
+ },
+ {
+  "scenario_id": "hold-out-U024",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.8699,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "wall_clock_s": 390.9
+ }
+]

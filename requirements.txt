@@ -1,0 +1,7 @@
+requests
+pyyaml
+numpy
+
+# Optional, per arm:
+# mem0ai==2.0.17          # Mem0 external-system arm (run_mem0_arm*.py)
+# sentence-transformers   # analysis/embedder_ablation.py only

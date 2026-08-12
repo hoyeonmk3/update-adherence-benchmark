@@ -1,0 +1,2628 @@
+{
+  "EpSemSupersession": [
+    {
+      "scenario_id": "hold-out-F001",
+      "scenario_type": "FORGETTING",
+      "domain": "ENGINEERING",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 5,
+      "total_gt": 5,
+      "missed_gt": [],
+      "ccr": 0.779,
+      "wall_clock_s": 126.83,
+      "context_length": 2590,
+      "raw_conv_length": 11728,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1038,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1894,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1823,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2107,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2413,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2590,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F002",
+      "scenario_type": "FORGETTING",
+      "domain": "MEDICAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.737,
+      "wall_clock_s": 117.52,
+      "context_length": 3037,
+      "raw_conv_length": 11548,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 991,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1906,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2227,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2471,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 11,
+          "total_gt": 11,
+          "context_length": 2841,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3037,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F003",
+      "scenario_type": "FORGETTING",
+      "domain": "LEGAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 5,
+      "total_gt": 5,
+      "missed_gt": [],
+      "ccr": 0.801,
+      "wall_clock_s": 134.46,
+      "context_length": 2264,
+      "raw_conv_length": 11369,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1050,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1798,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1818,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 2120,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2067,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2264,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F004",
+      "scenario_type": "FORGETTING",
+      "domain": "FINANCE",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.722,
+      "wall_clock_s": 124.99,
+      "context_length": 3162,
+      "raw_conv_length": 11392,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 955,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1634,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1790,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2126,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 12,
+          "total_gt": 12,
+          "context_length": 2906,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3162,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F005",
+      "scenario_type": "FORGETTING",
+      "domain": "GENERAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.91,
+      "wall_clock_s": 285.87,
+      "context_length": 2541,
+      "raw_conv_length": 28377,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 987,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1781,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1831,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1737,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2252,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2334,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2298,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2410,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2569,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2476,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2872,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2541,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F006",
+      "scenario_type": "FORGETTING",
+      "domain": "ENGINEERING",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 20,
+      "total_gt": 20,
+      "missed_gt": [],
+      "ccr": 0.844,
+      "wall_clock_s": 287.4,
+      "context_length": 4548,
+      "raw_conv_length": 29218,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1045,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1836,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2118,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2437,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2682,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 3079,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 11,
+          "total_gt": 11,
+          "context_length": 3406,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3719,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 15,
+          "total_gt": 15,
+          "context_length": 3847,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 17,
+          "total_gt": 17,
+          "context_length": 4033,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 19,
+          "total_gt": 19,
+          "context_length": 3921,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 20,
+          "total_gt": 20,
+          "context_length": 4548,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F007",
+      "scenario_type": "FORGETTING",
+      "domain": "MEDICAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.893,
+      "wall_clock_s": 294.8,
+      "context_length": 3109,
+      "raw_conv_length": 29135,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1055,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1793,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1828,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1939,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 2210,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 2147,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2240,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2623,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2681,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2768,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2780,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3109,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F008",
+      "scenario_type": "FORGETTING",
+      "domain": "LEGAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.867,
+      "wall_clock_s": 350.64,
+      "context_length": 4020,
+      "raw_conv_length": 30338,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1033,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1923,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1970,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 2096,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2690,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2883,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 2746,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 3384,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 3439,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 4012,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 4119,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 4020,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F009",
+      "scenario_type": "FORGETTING",
+      "domain": "FINANCE",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.937,
+      "wall_clock_s": 581.98,
+      "context_length": 3568,
+      "raw_conv_length": 57086,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 919,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1896,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1883,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2152,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2339,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2368,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2522,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2541,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 10,
+          "total_gt": 10,
+          "context_length": 2823,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 11,
+          "total_gt": 11,
+          "context_length": 2935,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 12,
+          "total_gt": 12,
+          "context_length": 3082,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3389,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F010",
+      "scenario_type": "FORGETTING",
+      "domain": "GENERAL",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.944,
+      "wall_clock_s": 502.02,
+      "context_length": 3261,
+      "raw_conv_length": 58540,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 911,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1769,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1932,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1872,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2076,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2102,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2442,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2377,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2458,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2653,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 2730,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3086,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F011",
+      "scenario_type": "FORGETTING",
+      "domain": "ENGINEERING",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 20,
+      "total_gt": 20,
+      "missed_gt": [],
+      "ccr": 0.913,
+      "wall_clock_s": 569.76,
+      "context_length": 4980,
+      "raw_conv_length": 57001,
+      "checkpoints": {
+        "10": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1021,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1772,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2088,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2229,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2566,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 2888,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 11,
+          "total_gt": 11,
+          "context_length": 3215,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3683,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 15,
+          "total_gt": 15,
+          "context_length": 3934,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 17,
+          "total_gt": 17,
+          "context_length": 4044,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 19,
+          "total_gt": 19,
+          "context_length": 4599,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 20,
+          "total_gt": 20,
+          "context_length": 4531,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-F012",
+      "scenario_type": "FORGETTING",
+      "domain": "MEDICAL",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.943,
+      "wall_clock_s": 582.65,
+      "context_length": 3223,
+      "raw_conv_length": 56244,
+      "checkpoints": {
+        "10": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 901,
+          "missed_gt": []
+        },
+        "25": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1657,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1805,
+          "missed_gt": []
+        },
+        "100": {
+          "recall": 0.0,
+          "found": 0,
+          "total_gt": 0,
+          "context_length": 1915,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2269,
+          "missed_gt": []
+        },
+        "200": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2252,
+          "missed_gt": []
+        },
+        "250": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2179,
+          "missed_gt": []
+        },
+        "300": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2539,
+          "missed_gt": []
+        },
+        "350": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2447,
+          "missed_gt": []
+        },
+        "400": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2797,
+          "missed_gt": []
+        },
+        "450": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2968,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3022,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N001",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "ENGINEERING",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.758,
+      "wall_clock_s": 112.91,
+      "context_length": 2690,
+      "raw_conv_length": 11136,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1895,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 1976,
+          "missed_gt": []
+        },
+        "72": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 1987,
+          "missed_gt": []
+        },
+        "94": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2175,
+          "missed_gt": []
+        },
+        "116": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2164,
+          "missed_gt": []
+        },
+        "136": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2243,
+          "missed_gt": []
+        },
+        "158": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2437,
+          "missed_gt": []
+        },
+        "180": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2751,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N002",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "MEDICAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.747,
+      "wall_clock_s": 113.03,
+      "context_length": 3005,
+      "raw_conv_length": 11867,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1951,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 1936,
+          "missed_gt": []
+        },
+        "72": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2021,
+          "missed_gt": []
+        },
+        "94": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2292,
+          "missed_gt": []
+        },
+        "116": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2081,
+          "missed_gt": []
+        },
+        "136": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2484,
+          "missed_gt": []
+        },
+        "158": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2627,
+          "missed_gt": []
+        },
+        "180": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2899,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N003",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "LEGAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.768,
+      "wall_clock_s": 119.01,
+      "context_length": 2814,
+      "raw_conv_length": 12113,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2036,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2048,
+          "missed_gt": []
+        },
+        "72": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2539,
+          "missed_gt": []
+        },
+        "94": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2383,
+          "missed_gt": []
+        },
+        "116": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2455,
+          "missed_gt": []
+        },
+        "136": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2591,
+          "missed_gt": []
+        },
+        "158": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2596,
+          "missed_gt": []
+        },
+        "180": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2715,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N004",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "FINANCE",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.752,
+      "wall_clock_s": 78.81,
+      "context_length": 3205,
+      "raw_conv_length": 12944,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2100,
+          "missed_gt": []
+        },
+        "50": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2256,
+          "missed_gt": []
+        },
+        "72": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2140,
+          "missed_gt": []
+        },
+        "94": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2284,
+          "missed_gt": []
+        },
+        "116": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2669,
+          "missed_gt": []
+        },
+        "136": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2668,
+          "missed_gt": []
+        },
+        "158": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2839,
+          "missed_gt": []
+        },
+        "180": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3174,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N005",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "GENERAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.908,
+      "wall_clock_s": 283.36,
+      "context_length": 2650,
+      "raw_conv_length": 28794,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1989,
+          "missed_gt": []
+        },
+        "88": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1961,
+          "missed_gt": []
+        },
+        "148": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2172,
+          "missed_gt": []
+        },
+        "206": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 1871,
+          "missed_gt": []
+        },
+        "266": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2312,
+          "missed_gt": []
+        },
+        "324": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2366,
+          "missed_gt": []
+        },
+        "384": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2289,
+          "missed_gt": []
+        },
+        "442": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2595,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N006",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "ENGINEERING",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.877,
+      "wall_clock_s": 299.03,
+      "context_length": 3708,
+      "raw_conv_length": 30035,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1919,
+          "missed_gt": []
+        },
+        "88": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2099,
+          "missed_gt": []
+        },
+        "148": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2631,
+          "missed_gt": []
+        },
+        "206": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2672,
+          "missed_gt": []
+        },
+        "266": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2993,
+          "missed_gt": []
+        },
+        "324": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2969,
+          "missed_gt": []
+        },
+        "384": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3153,
+          "missed_gt": []
+        },
+        "442": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3672,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N007",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "MEDICAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.874,
+      "wall_clock_s": 281.76,
+      "context_length": 3927,
+      "raw_conv_length": 31202,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1956,
+          "missed_gt": []
+        },
+        "88": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2337,
+          "missed_gt": []
+        },
+        "148": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2567,
+          "missed_gt": []
+        },
+        "206": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2777,
+          "missed_gt": []
+        },
+        "266": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 3198,
+          "missed_gt": []
+        },
+        "324": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 3497,
+          "missed_gt": []
+        },
+        "384": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3710,
+          "missed_gt": []
+        },
+        "442": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3727,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N008",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "LEGAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.882,
+      "wall_clock_s": 276.18,
+      "context_length": 3796,
+      "raw_conv_length": 32086,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1996,
+          "missed_gt": []
+        },
+        "88": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2244,
+          "missed_gt": []
+        },
+        "148": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2620,
+          "missed_gt": []
+        },
+        "206": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2769,
+          "missed_gt": []
+        },
+        "266": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2928,
+          "missed_gt": []
+        },
+        "324": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 3439,
+          "missed_gt": []
+        },
+        "384": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3662,
+          "missed_gt": []
+        },
+        "442": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3791,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N009",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "FINANCE",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.944,
+      "wall_clock_s": 631.11,
+      "context_length": 3226,
+      "raw_conv_length": 57275,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1739,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 1944,
+          "missed_gt": []
+        },
+        "272": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2583,
+          "missed_gt": []
+        },
+        "394": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2677,
+          "missed_gt": []
+        },
+        "516": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2691,
+          "missed_gt": []
+        },
+        "636": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2861,
+          "missed_gt": []
+        },
+        "758": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2880,
+          "missed_gt": []
+        },
+        "880": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3171,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N010",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "GENERAL",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.946,
+      "wall_clock_s": 593.67,
+      "context_length": 3203,
+      "raw_conv_length": 59490,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 2248,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2115,
+          "missed_gt": []
+        },
+        "272": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2561,
+          "missed_gt": []
+        },
+        "394": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2518,
+          "missed_gt": []
+        },
+        "516": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2537,
+          "missed_gt": []
+        },
+        "636": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2975,
+          "missed_gt": []
+        },
+        "758": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3062,
+          "missed_gt": []
+        },
+        "880": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3027,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N011",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "ENGINEERING",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.936,
+      "wall_clock_s": 579.33,
+      "context_length": 3871,
+      "raw_conv_length": 60247,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 1959,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2406,
+          "missed_gt": []
+        },
+        "272": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2815,
+          "missed_gt": []
+        },
+        "394": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 3158,
+          "missed_gt": []
+        },
+        "516": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 3204,
+          "missed_gt": []
+        },
+        "636": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 3497,
+          "missed_gt": []
+        },
+        "758": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3664,
+          "missed_gt": []
+        },
+        "880": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3823,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-N012",
+      "scenario_type": "NOISE_TOLERANCE",
+      "domain": "MEDICAL",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.933,
+      "wall_clock_s": 506.87,
+      "context_length": 4206,
+      "raw_conv_length": 62963,
+      "checkpoints": {
+        "30": {
+          "recall": 1.0,
+          "found": 1,
+          "total_gt": 1,
+          "context_length": 2172,
+          "missed_gt": []
+        },
+        "150": {
+          "recall": 1.0,
+          "found": 2,
+          "total_gt": 2,
+          "context_length": 2284,
+          "missed_gt": []
+        },
+        "272": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2582,
+          "missed_gt": []
+        },
+        "394": {
+          "recall": 1.0,
+          "found": 4,
+          "total_gt": 4,
+          "context_length": 2799,
+          "missed_gt": []
+        },
+        "516": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 3198,
+          "missed_gt": []
+        },
+        "636": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 3310,
+          "missed_gt": []
+        },
+        "758": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 3545,
+          "missed_gt": []
+        },
+        "880": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3965,
+          "missed_gt": []
+        }
+      }
+    },
+    {
+      "scenario_id": "hold-out-U001",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "ENGINEERING",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.756,
+      "wall_clock_s": 108.86,
+      "context_length": 2907,
+      "raw_conv_length": 11929,
+      "checkpoints": {
+        "44": {
+          "recall": 1.0,
+          "found": 3,
+          "total_gt": 3,
+          "context_length": 2308,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2907,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 1,
+        "passed": 0,
+        "ratio": 0.0,
+        "details": [
+          {
+            "gt_id": "gt_001",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U002",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "MEDICAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.753,
+      "wall_clock_s": 91.7,
+      "context_length": 2908,
+      "raw_conv_length": 11754,
+      "checkpoints": {
+        "170": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2765,
+          "missed_gt": []
+        },
+        "196": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2819,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2908,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 2,
+        "passed": 1,
+        "ratio": 0.5,
+        "details": [
+          {
+            "gt_id": "gt_006",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_008",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U003",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "LEGAL",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.714,
+      "wall_clock_s": 140.21,
+      "context_length": 3418,
+      "raw_conv_length": 11931,
+      "checkpoints": {
+        "112": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2440,
+          "missed_gt": []
+        },
+        "170": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2979,
+          "missed_gt": []
+        },
+        "182": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3159,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3418,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 3,
+        "passed": 2,
+        "ratio": 0.6666666666666666,
+        "details": [
+          {
+            "gt_id": "gt_004",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          },
+          {
+            "gt_id": "gt_005",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_007",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U004",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "FINANCE",
+      "total_turns": 200,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.717,
+      "wall_clock_s": 136.58,
+      "context_length": 3341,
+      "raw_conv_length": 11790,
+      "checkpoints": {
+        "136": {
+          "recall": 1.0,
+          "found": 10,
+          "total_gt": 10,
+          "context_length": 2976,
+          "missed_gt": []
+        },
+        "176": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 2990,
+          "missed_gt": []
+        },
+        "199": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3341,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 2,
+        "passed": 2,
+        "ratio": 1.0,
+        "details": [
+          {
+            "gt_id": "gt_010",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          },
+          {
+            "gt_id": "gt_007",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U005",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "GENERAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.909,
+      "wall_clock_s": 282.17,
+      "context_length": 2635,
+      "raw_conv_length": 28885,
+      "checkpoints": {
+        "306": {
+          "recall": 1.0,
+          "found": 6,
+          "total_gt": 6,
+          "context_length": 2346,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2635,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 1,
+        "passed": 1,
+        "ratio": 1.0,
+        "details": [
+          {
+            "gt_id": "gt_003",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U006",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "ENGINEERING",
+      "total_turns": 500,
+      "recall": 0.9230769230769231,
+      "found": 12,
+      "total_gt": 13,
+      "missed_gt": [
+        "Minimum wall thickness shall be 404mm"
+      ],
+      "ccr": 0.858,
+      "wall_clock_s": 276.47,
+      "context_length": 4166,
+      "raw_conv_length": 29318,
+      "checkpoints": {
+        "136": {
+          "recall": 0.75,
+          "found": 3,
+          "total_gt": 4,
+          "context_length": 2736,
+          "missed_gt": [
+            "Minimum wall thickness shall be 404mm"
+          ]
+        },
+        "194": {
+          "recall": 0.8333333333333334,
+          "found": 5,
+          "total_gt": 6,
+          "context_length": 2708,
+          "missed_gt": [
+            "Minimum wall thickness shall be 404mm"
+          ]
+        },
+        "499": {
+          "recall": 0.9230769230769231,
+          "found": 12,
+          "total_gt": 13,
+          "context_length": 4166,
+          "missed_gt": [
+            "Minimum wall thickness shall be 404mm"
+          ]
+        }
+      },
+      "ua": {
+        "total": 2,
+        "passed": 0,
+        "ratio": 0.0,
+        "details": [
+          {
+            "gt_id": "gt_004",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_002",
+            "has_new": false,
+            "has_old": true,
+            "accurate": false,
+            "category": "write_bug"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U007",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "MEDICAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.878,
+      "wall_clock_s": 322.11,
+      "context_length": 3512,
+      "raw_conv_length": 28691,
+      "checkpoints": {
+        "230": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2522,
+          "missed_gt": []
+        },
+        "234": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2580,
+          "missed_gt": []
+        },
+        "476": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3485,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3512,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 3,
+        "passed": 2,
+        "ratio": 0.6666666666666666,
+        "details": [
+          {
+            "gt_id": "gt_004",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_003",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          },
+          {
+            "gt_id": "gt_009",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U008",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "LEGAL",
+      "total_turns": 500,
+      "recall": 1.0,
+      "found": 8,
+      "total_gt": 8,
+      "missed_gt": [],
+      "ccr": 0.894,
+      "wall_clock_s": 350.01,
+      "context_length": 3211,
+      "raw_conv_length": 30251,
+      "checkpoints": {
+        "266": {
+          "recall": 1.0,
+          "found": 5,
+          "total_gt": 5,
+          "context_length": 2643,
+          "missed_gt": []
+        },
+        "464": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3445,
+          "missed_gt": []
+        },
+        "499": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3211,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 2,
+        "passed": 1,
+        "ratio": 0.5,
+        "details": [
+          {
+            "gt_id": "gt_007",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          },
+          {
+            "gt_id": "gt_003",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U009",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "FINANCE",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.934,
+      "wall_clock_s": 619.29,
+      "context_length": 3869,
+      "raw_conv_length": 58473,
+      "checkpoints": {
+        "628": {
+          "recall": 1.0,
+          "found": 9,
+          "total_gt": 9,
+          "context_length": 3179,
+          "missed_gt": []
+        },
+        "999": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3869,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 1,
+        "passed": 0,
+        "ratio": 0.0,
+        "details": [
+          {
+            "gt_id": "gt_005",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U010",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "GENERAL",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.942,
+      "wall_clock_s": 634.16,
+      "context_length": 3320,
+      "raw_conv_length": 57735,
+      "checkpoints": {
+        "488": {
+          "recall": 1.0,
+          "found": 7,
+          "total_gt": 7,
+          "context_length": 2554,
+          "missed_gt": []
+        },
+        "536": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 2591,
+          "missed_gt": []
+        },
+        "999": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 3320,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 2,
+        "passed": 0,
+        "ratio": 0.0,
+        "details": [
+          {
+            "gt_id": "gt_006",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_005",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U011",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "ENGINEERING",
+      "total_turns": 1000,
+      "recall": 1.0,
+      "found": 13,
+      "total_gt": 13,
+      "missed_gt": [],
+      "ccr": 0.925,
+      "wall_clock_s": 598.53,
+      "context_length": 4357,
+      "raw_conv_length": 58403,
+      "checkpoints": {
+        "536": {
+          "recall": 1.0,
+          "found": 8,
+          "total_gt": 8,
+          "context_length": 3157,
+          "missed_gt": []
+        },
+        "732": {
+          "recall": 1.0,
+          "found": 10,
+          "total_gt": 10,
+          "context_length": 3697,
+          "missed_gt": []
+        },
+        "928": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 4497,
+          "missed_gt": []
+        },
+        "999": {
+          "recall": 1.0,
+          "found": 13,
+          "total_gt": 13,
+          "context_length": 4357,
+          "missed_gt": []
+        }
+      },
+      "ua": {
+        "total": 3,
+        "passed": 0,
+        "ratio": 0.0,
+        "details": [
+          {
+            "gt_id": "gt_007",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_012",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          },
+          {
+            "gt_id": "gt_005",
+            "has_new": true,
+            "has_old": true,
+            "accurate": false,
+            "category": "append_only"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "hold-out-U012",
+      "scenario_type": "UPDATE_CONFLICT",
+      "domain": "MEDICAL",
+      "total_turns": 1000,
+      "recall": 0.875,
+      "found": 7,
+      "total_gt": 8,
+      "missed_gt": [
+        "Medication interval must be at least 158 hours"
+      ],
+      "ccr": 0.939,
+      "wall_clock_s": 585.27,
+      "context_length": 3677,
+      "raw_conv_length": 59911,
+      "checkpoints": {
+        "684": {
+          "recall": 0.8333333333333334,
+          "found": 5,
+          "total_gt": 6,
+          "context_length": 3231,
+          "missed_gt": [
+            "Medication interval must be at least 158 hours"
+          ]
+        },
+        "994": {
+          "recall": 0.875,
+          "found": 7,
+          "total_gt": 8,
+          "context_length": 3701,
+          "missed_gt": [
+            "Medication interval must be at least 158 hours"
+          ]
+        },
+        "996": {
+          "recall": 0.875,
+          "found": 7,
+          "total_gt": 8,
+          "context_length": 3738,
+          "missed_gt": [
+            "Medication interval must be at least 158 hours"
+          ]
+        },
+        "999": {
+          "recall": 0.875,
+          "found": 7,
+          "total_gt": 8,
+          "context_length": 3677,
+          "missed_gt": [
+            "Medication interval must be at least 158 hours"
+          ]
+        }
+      },
+      "ua": {
+        "total": 3,
+        "passed": 2,
+        "ratio": 0.6666666666666666,
+        "details": [
+          {
+            "gt_id": "gt_004",
+            "has_new": false,
+            "has_old": true,
+            "accurate": false,
+            "category": "write_bug"
+          },
+          {
+            "gt_id": "gt_007",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          },
+          {
+            "gt_id": "gt_008",
+            "has_new": true,
+            "has_old": false,
+            "accurate": true,
+            "category": "ok"
+          }
+        ]
+      }
+    }
+  ]
+}

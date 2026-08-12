@@ -1,0 +1,2378 @@
+[
+ {
+  "scenario_id": "hold-out-U001_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "found": 8,
+  "total_gt": 8,
+  "ccr": 0.7684,
+  "context_ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "329°C"
+    ],
+    "old_only_tokens": [
+     "341°C"
+    ],
+    "new_tokens_hit": [
+     "329°C"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 22): Important requirement: Minimum wall thickness shall be 328mm\n[CONSTRAINT] [user] (turn 24): Maximum operating temperature must not exceed 329°C going forward.\n[CONSTRAINT] [user] (turn 44): Important requirement: Tensile strength must be at least 447 MPa\n[CONSTRAINT] [user] (turn 68): Important requirement: Operating pressure range is 81 to 372 bar\n[CONSTRAINT] [user] (turn 90): Important requirement: Surface roughness Ra must not exceed 195 μm\n[CONSTRAINT] [user] (turn 112): Important requirement: Vibration tolerance must be within 497g RMS\n[CONSTRAINT] [user] (turn 136): Important requirement: Material hardness must be at least 156 HRC\n[CONSTRAINT] [user] (turn 138): Historical data shows Noise level must not exceed  dB at 1m distanc averaged 612 in past projects.\n[CONSTRAINT] [user] (turn 158): Important requirement: Thermal conductivity shall exceed 21 W/mK\n[CONSTRAINT] [user] (turn 180): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 196): Historical data shows Coolant flow rate must be at least  L/min averaged 298 in past projects.\n[EPHEMERAL] [assistant] (turn 199): Got it. I'll keep that in mind. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 198): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 197): Acknowledged. I'll update the documentation accordingly.\n[EPHEMERAL] [assistant] (turn 195): Understood, I've noted that. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 194): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 193): Noted. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 192): How does this compare to industry standards?\n[EPHEMERAL] [assistant] (turn 191): I've recorded that requirement. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 190): Speaking of which, have you considered industry trends?\n[EPHEMERAL] [assistant] (turn 189): Noted. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 188): Speaking of which, have you considered a documentary about space?\n[EPHEMERAL] [assistant] (turn 187): Noted. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 186): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 185): Understood, I've noted that. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 184): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 183): Got it. I'll keep that in mind. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 182): By the way, I was thinking about a new software tool recently.\n[EPHEMERAL] [assistant] (turn 181): Thank you for specifying. Should I proceed with the next item?",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Minimum wall thickness shall be 328mm\n2. Maximum operating temperature must not exceed 329°C going forward.\n3. Tensile strength must be at least 447 MPa\n4. Operating pressure range is 81 to 372 bar\n5. Surface roughness Ra must not exceed 195 μm\n6. Vibration tolerance must be within 497g RMS\n7. Material hardness must be at least 156 HRC\n8. Noise level must not exceed  dB at 1m distance averaged 612 in past projects.\n9. Thermal conductivity shall exceed 21 W/mK\n10. Coolant flow rate must be at least  L/min averaged 298 in past projects.",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200,
+   "supersession": 7
+  },
+  "supersession_events": [
+   {
+    "turn": 10,
+    "type": "supersession",
+    "data": "{\"archived_id\": 9, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 24,
+    "type": "supersession",
+    "data": "{\"archived_id\": 1, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Maximum operating temperature must not exceed 329\\u00b0C going forward.\"}"
+   },
+   {
+    "turn": 46,
+    "type": "supersession",
+    "data": "{\"archived_id\": 11, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 80,
+    "type": "supersession",
+    "data": "{\"archived_id\": 47, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 102,
+    "type": "supersession",
+    "data": "{\"archived_id\": 81, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 148,
+    "type": "supersession",
+    "data": "{\"archived_id\": 103, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 180,
+    "type": "supersession",
+    "data": "{\"archived_id\": 149, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 79.6
+ },
+ {
+  "scenario_id": "hold-out-U002_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.875,
+  "found": 7,
+  "total_gt": 8,
+  "ccr": 0.7596,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "412mm"
+    ],
+    "old_only_tokens": [
+     "320mm"
+    ],
+    "new_tokens_hit": [
+     "412mm"
+    ],
+    "old_tokens_hit": [
+     "320mm"
+    ]
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "61"
+    ],
+    "old_only_tokens": [
+     "9"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "9"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 426mg per kg body weight\n[CONSTRAINT] [user] (turn 22): Important requirement: Blood pressure target is below 158/239 mmHg\n[CONSTRAINT] [user] (turn 44): Important requirement: Heart rate alert threshold is above 467 bpm\n[CONSTRAINT] [user] (turn 54): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 68): Important requirement: Medication interval must be at least 97 hours\n[CONSTRAINT] [user] (turn 90): Important requirement: Patient BMI threshold for procedure is below 476\n[CONSTRAINT] [user] (turn 112): Important requirement: Surgical margin must be at least 320mm\n[CONSTRAINT] [user] (turn 136): Important requirement: Sterilization temperature must reach 228°C for 297 minutes\n[CONSTRAINT] [user] (turn 150): Surgical margin must be at least 412mm.\n[CONSTRAINT] [user] (turn 158): Important requirement: Blood glucose target range is 9 to 28 mg/dL\n[EPHEMERAL] [assistant] (turn 199): Acknowledged. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 198): By the way, I was thinking about remote work policies recently.\n[EPHEMERAL] [assistant] (turn 197): I'll make sure to account for that. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 196): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 195): I've recorded that requirement. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 194): Let me check the current status of our medical requirements.\n[EPHEMERAL] [assistant] (turn 193): Understood, I've noted that.\n[EPHEMERAL] [user] (turn 192): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 191): Understood, I've noted that. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 190): By the way, I was thinking about a documentary about space recently.\n[EPHEMERAL] [assistant] (turn 189): Thank you for specifying. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 188): Let's continue with the medical specifications.\n[EPHEMERAL] [assistant] (turn 187): Thank you for specifying.\n[EPHEMERAL] [user] (turn 186): Speaking of which, have you considered supply chain challenges?\n[EPHEMERAL] [assistant] (turn 185): Noted.\n[EPHEMERAL] [user] (turn 184): In informal settings, Maximum radiation dose is  mSv per session might be 730.\n[EPHEMERAL] [assistant] (turn 183): I've recorded that requirement. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 182): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 181): I'll make sure to account for that. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 180): Can you summarize what we've covered so far?",
+  "answer_text": "Here are the current medical constraints and requirements:\n\n1. Dosage must not exceed 426mg per kg body weight\n2. Blood pressure target is below 158/239 mmHg\n3. Heart rate alert threshold is above 467 bpm\n4. Medication interval must be at least 97 hours\n5. Patient BMI threshold for procedure is below 476\n6. Surgical margin must be at least 412mm (Note: This replaces the previous requirement of \"Surgical margin must be at least 320mm\")\n7. Sterilization temperature must reach 228°C for 297 minutes\n8. Blood glucose target range is 9 to 28 mg/dL",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200,
+   "supersession": 1
+  },
+  "supersession_events": [
+   {
+    "turn": 54,
+    "type": "supersession",
+    "data": "{\"archived_id\": 19, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 83.6
+ },
+ {
+  "scenario_id": "hold-out-U003_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.875,
+  "found": 7,
+  "total_gt": 8,
+  "ccr": 0.7315,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "312"
+    ],
+    "old_only_tokens": [
+     "406"
+    ],
+    "new_tokens_hit": [
+     "312"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "100"
+    ],
+    "old_only_tokens": [
+     "167"
+    ],
+    "new_tokens_hit": [
+     "100"
+    ],
+    "old_tokens_hit": [
+     "167"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "250"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "279"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Contract termination notice period is 256 business days\n[CONSTRAINT] [user] (turn 22): Important requirement: Liability cap must not exceed 107% of contract value\n[CONSTRAINT] [user] (turn 44): Important requirement: Confidentiality obligation extends 343 years after termination\n[CONSTRAINT] [user] (turn 90): Important requirement: Arbitration venue must be in 167 jurisdiction\n[CONSTRAINT] [user] (turn 92): Let's work with this from here: Force majeure notification deadline is 312 hours.\n[CONSTRAINT] [user] (turn 112): Important requirement: Indemnification limit is 446 times annual fee\n[CONSTRAINT] [user] (turn 136): Important requirement: Data retention period is 279 years from collection date\n[CONSTRAINT] [user] (turn 150): Let's work with this from here: Arbitration venue must be in 100 jurisdiction.\n[CONSTRAINT] [user] (turn 158): Important requirement: Response time for legal hold notice is 149 business days\n[CONSTRAINT] [user] (turn 164): Some people suggest Arbitration venue must be in  jurisdiction of 586, but it's not critical.\n[CONSTRAINT] [user] (turn 172): Let's continue with the legal specifications.\n[CONSTRAINT] [user] (turn 174): Historical data shows Dispute resolution must begin within  days of noti averaged 258 in past projects.\n[CONSTRAINT] [user] (turn 194): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 199): Thank you for specifying. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 198): I read an article about the weather forecast yesterday.\n[EPHEMERAL] [assistant] (turn 197): Understood, I've noted that. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 196): The Payment terms are net  days from invoic should ideally be around 289, though this is just a preference.\n[EPHEMERAL] [assistant] (turn 195): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [assistant] (turn 193): Got it. I'll keep that in mind. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 192): What about the next requirement for this legal project?\n[EPHEMERAL] [assistant] (turn 191): Understood, I've noted that. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 190): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 189): Noted. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 188): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 187): Acknowledged. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 186): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 185): I'll make sure to account for that.\n[EPHEMERAL] [user] (turn 184): What about the next requirement for this legal project?\n[EPHEMERAL] [assistant] (turn 183): Got it. I'll keep that in mind. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 182): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 181): Noted. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 180): By the way, I was thinking about sustainability goals recently.",
+  "answer_text": "Here are the current legal constraints and requirements:\n\n1. Contract termination notice period is 256 business days\n2. Liability cap must not exceed 107% of contract value\n3. Confidentiality obligation extends 343 years after termination\n4. Arbitration venue must be in 167 jurisdiction\n5. Force majeure notification deadline is 312 hours.\n6. Indemnification limit is 446 times annual fee\n7. Data retention period is 279 years from collection date\n8. Arbitration venue must be in 100 jurisdiction.\n9. Response time for legal hold notice is 149 business days\n10. Dispute resolution must begin within days of noti averaged 258 in past projects.",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200,
+   "supersession": 12,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 68,
+    "type": "supersession",
+    "data": "{\"archived_id\": 57, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Force majeure notification deadline is 406 hours\"}"
+   },
+   {
+    "turn": 80,
+    "type": "supersession",
+    "data": "{\"archived_id\": 7, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 90,
+    "type": "supersession",
+    "data": "{\"archived_id\": 17, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Arbitration venue must be in 167 jurisdiction\"}"
+   },
+   {
+    "turn": 92,
+    "type": "supersession",
+    "data": "{\"archived_id\": 69, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's work with this from here: Force majeure notification deadline is 312 hours.\"}"
+   },
+   {
+    "turn": 96,
+    "type": "supersession",
+    "data": "{\"archived_id\": 81, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 104,
+    "type": "supersession",
+    "data": "{\"archived_id\": 37, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 114,
+    "type": "supersession",
+    "data": "{\"archived_id\": 105, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 120,
+    "type": "supersession",
+    "data": "{\"archived_id\": 115, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 128,
+    "type": "supersession",
+    "data": "{\"archived_id\": 97, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 150,
+    "type": "supersession",
+    "data": "{\"archived_id\": 147, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's work with this from here: Arbitration venue must be in 100 jurisdiction.\"}"
+   },
+   {
+    "turn": 152,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Liability cap must not exceed % of contract val should ideally be around 705, though this is jus\", \"reason\": \"The existing constraint specifies that the liability cap must not exceed 107% of the contract value, which is an absolute limit. The new statement suggests that ideally, the liability cap should be around 705 (presumably a percentage), but this value far exceeds the 107% l"
+   },
+   {
+    "turn": 162,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Data retention period is 250 years from collection date.\", \"reason\": \"The existing constraint specifies a data retention period of 279 years, while the new statement proposes a retention period of 250 years. These two periods are different and cannot be simultaneously satisfied without altering one of them.\"}"
+   },
+   {
+    "turn": 172,
+    "type": "supersession",
+    "data": "{\"archived_id\": 129, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 194,
+    "type": "supersession",
+    "data": "{\"archived_id\": 121, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 89.8
+ },
+ {
+  "scenario_id": "hold-out-U004_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.7226,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "468%"
+    ],
+    "old_only_tokens": [
+     "378%"
+    ],
+    "new_tokens_hit": [
+     "468%"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "509"
+    ],
+    "old_only_tokens": [
+     "442"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "442"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum portfolio exposure to single sector is 167%\n[CONSTRAINT] [user] (turn 14): Important requirement: Minimum reserve ratio must be maintained at 438%\n[CONSTRAINT] [user] (turn 28): Important requirement: Transaction approval threshold is 240 USD\n[CONSTRAINT] [user] (turn 42): Important requirement: Credit risk score minimum is 239 points\n[CONSTRAINT] [user] (turn 56): Important requirement: Dividend payout ratio must not exceed 227%\n[CONSTRAINT] [user] (turn 70): Important requirement: Debt-to-equity ratio ceiling is 358\n[CONSTRAINT] [user] (turn 84): Important requirement: Quarterly reporting deadline is 442 business days after quarter end\n[CONSTRAINT] [user] (turn 98): Important requirement: Interest rate cap on variable loans is 418%\n[CONSTRAINT] [user] (turn 112): Important requirement: Minimum collateral coverage ratio is 238x\n[CONSTRAINT] [user] (turn 140): Important requirement: Trading volume daily limit is 266 million USD\n[CONSTRAINT] [user] (turn 148): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 154): Important requirement: Capital adequacy ratio must exceed 289%\n[CONSTRAINT] [user] (turn 156): Foreign exchange exposure limit is 468% of assets going forward.\n[CONSTRAINT] [user] (turn 168): Important requirement: Loan-to-value ratio maximum is 257%\n[EPHEMERAL] [assistant] (turn 199): That's clear. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 198): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 197): Acknowledged. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 196): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 195): That's clear. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 194): Let's continue with the finance specifications.\n[EPHEMERAL] [assistant] (turn 193): Noted. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 192): By the way, I was thinking about weekend plans recently.\n[EPHEMERAL] [assistant] (turn 191): Thank you for specifying. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 190): Speaking of which, have you considered team building activities?\n[EPHEMERAL] [assistant] (turn 189): Got it. I'll keep that in mind. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 188): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 187): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 186): Some people suggest Operational risk capital allocation is % of gross  of 781, but it's not critical.\n[EPHEMERAL] [assistant] (turn 185): Understood, I've noted that. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 184): Let me check the current status of our finance requirements.\n[EPHEMERAL] [assistant] (turn 183): I'll make sure to account for that. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 182): Let's continue with the finance specifications.\n[EPHEMERAL] [assistant] (turn 181): Understood, I've noted that. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 180): Are there any dependencies between the specifications we discussed?",
+  "answer_text": "Here are all the current finance constraints and requirements:\n\n1. Important requirement: Maximum portfolio exposure to single sector is 167%\n2. Important requirement: Minimum reserve ratio must be maintained at 438%\n3. Important requirement: Transaction approval threshold is 240 USD\n4. Important requirement: Credit risk score minimum is 239 points\n5. Important requirement: Dividend payout ratio must not exceed 227%\n6. Important requirement: Debt-to-equity ratio ceiling is 358\n7. Important requirement: Quarterly reporting deadline is 442 business days after quarter end\n8. Important requirement: Interest rate cap on variable loans is 418%\n9. Important requirement: Minimum collateral coverage ratio is 238x\n10. Important requirement: Trading volume daily limit is 266 million USD\n11. Important requirement: Capital adequacy ratio must exceed 289%\n12. Foreign exchange exposure limit is 468% of assets going forward.\n13. Important requirement: Loan-to-value ratio maximum is 257%\n\nAdditionally, there's a non-critical consideration:\n- Operational risk capital allocation is % of gross  of 781 (not critical)",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200,
+   "supersession": 11,
+   "conflict_detected": 1
+  },
+  "supersession_events": [
+   {
+    "turn": 18,
+    "type": "supersession",
+    "data": "{\"archived_id\": 11, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 32,
+    "type": "supersession",
+    "data": "{\"archived_id\": 19, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 34,
+    "type": "supersession",
+    "data": "{\"archived_id\": 33, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 52,
+    "type": "supersession",
+    "data": "{\"archived_id\": 35, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 82,
+    "type": "supersession",
+    "data": "{\"archived_id\": 53, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 96,
+    "type": "supersession",
+    "data": "{\"archived_id\": 83, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 106,
+    "type": "supersession",
+    "data": "{\"archived_id\": 97, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 116,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Quarterly reporting deadline is 509 business days after quarter end going forward.\", \"reason\": \"The existing constraint specifies a quarterly reporting deadline of 442 business days after the quarter end, while the new statement proposes changing this to 509 business days. These two deadlines are different and cannot both be adhered to simultaneously without modification or clarificat"
+   },
+   {
+    "turn": 144,
+    "type": "supersession",
+    "data": "{\"archived_id\": 107, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 148,
+    "type": "supersession",
+    "data": "{\"archived_id\": 144, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 154,
+    "type": "supersession",
+    "data": "{\"archived_id\": 55, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Capital adequacy ratio must exceed 289%\"}"
+   },
+   {
+    "turn": 156,
+    "type": "supersession",
+    "data": "{\"archived_id\": 126, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Foreign exchange exposure limit is 468% of assets going forward.\"}"
+   }
+  ],
+  "replay_s": 89.8
+ },
+ {
+  "scenario_id": "hold-out-U005_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "found": 8,
+  "total_gt": 8,
+  "ccr": 0.9109,
+  "context_ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "143"
+    ],
+    "old_only_tokens": [
+     "172"
+    ],
+    "new_tokens_hit": [
+     "143"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum response time must not exceed 10 seconds\n[CONSTRAINT] [user] (turn 60): Important requirement: Availability SLA target is 334%\n[CONSTRAINT] [user] (turn 180): Important requirement: User session timeout is 500 minutes\n[CONSTRAINT] [user] (turn 240): Important requirement: Maximum concurrent users supported is 63\n[CONSTRAINT] [user] (turn 286): Data backup frequency is every 143 hours.\n[CONSTRAINT] [user] (turn 300): Important requirement: API rate limit is 404 requests per minute\n[CONSTRAINT] [user] (turn 360): Important requirement: Log retention period is 96 days\n[CONSTRAINT] [user] (turn 420): Important requirement: Password minimum length is 69 characters\n[CONSTRAINT] [user] (turn 460): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 499): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 498): Let me check the current status of our general requirements.\n[EPHEMERAL] [assistant] (turn 497): Understood, I've noted that. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 496): What about the next requirement for this general project?\n[EPHEMERAL] [assistant] (turn 495): Noted. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 494): By the way, I was thinking about a documentary about space recently.\n[EPHEMERAL] [assistant] (turn 493): I'll make sure to account for that. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 492): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 491): I'll make sure to account for that.\n[EPHEMERAL] [user] (turn 490): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 489): That's clear. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 488): What about the next requirement for this general project?\n[EPHEMERAL] [assistant] (turn 487): I've recorded that requirement. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 486): Let me check the current status of our general requirements.\n[EPHEMERAL] [assistant] (turn 485): That's clear.\n[EPHEMERAL] [user] (turn 484): Let's continue with the general specifications.\n[EPHEMERAL] [assistant] (turn 483): Understood, I've noted that. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 482): What about the next requirement for this general project?\n[EPHEMERAL] [assistant] (turn 481): Acknowledged. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 480): I have another consideration for this project.",
+  "answer_text": "Here are the current general constraints and requirements:\n\n1. Important requirement: Maximum response time must not exceed 10 seconds\n2. Important requirement: Availability SLA target is 334%\n3. Important requirement: User session timeout is 500 minutes\n4. Important requirement: Maximum concurrent users supported is 63\n5. Data backup frequency is every 143 hours.\n6. Important requirement: API rate limit is 404 requests per minute\n7. Important requirement: Log retention period is 96 days\n8. Important requirement: Password minimum length is 69 characters",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "supersession": 20
+  },
+  "supersession_events": [
+   {
+    "turn": 38,
+    "type": "supersession",
+    "data": "{\"archived_id\": 15, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 100,
+    "type": "supersession",
+    "data": "{\"archived_id\": 39, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 184,
+    "type": "supersession",
+    "data": "{\"archived_id\": 101, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 202,
+    "type": "supersession",
+    "data": "{\"archived_id\": 185, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 228,
+    "type": "supersession",
+    "data": "{\"archived_id\": 203, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 238,
+    "type": "supersession",
+    "data": "{\"archived_id\": 229, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 276,
+    "type": "supersession",
+    "data": "{\"archived_id\": 239, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 278,
+    "type": "supersession",
+    "data": "{\"archived_id\": 277, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 286,
+    "type": "supersession",
+    "data": "{\"archived_id\": 121, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Data backup frequency is every 143 hours.\"}"
+   },
+   {
+    "turn": 334,
+    "type": "supersession",
+    "data": "{\"archived_id\": 279, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 354,
+    "type": "supersession",
+    "data": "{\"archived_id\": 335, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 356,
+    "type": "supersession",
+    "data": "{\"archived_id\": 355, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 358,
+    "type": "supersession",
+    "data": "{\"archived_id\": 357, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 366,
+    "type": "supersession",
+    "data": "{\"archived_id\": 359, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 378,
+    "type": "supersession",
+    "data": "{\"archived_id\": 367, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 408,
+    "type": "supersession",
+    "data": "{\"archived_id\": 379, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 418,
+    "type": "supersession",
+    "data": "{\"archived_id\": 409, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 420,
+    "type": "supersession",
+    "data": "{\"archived_id\": 375, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Password minimum length is 69 characters\"}"
+   },
+   {
+    "turn": 434,
+    "type": "supersession",
+    "data": "{\"archived_id\": 419, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 460,
+    "type": "supersession",
+    "data": "{\"archived_id\": 435, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 196.5
+ },
+ {
+  "scenario_id": "hold-out-U006_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.8587,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "36"
+    ],
+    "old_only_tokens": [
+     "98"
+    ],
+    "new_tokens_hit": [
+     "36"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "404mm"
+    ],
+    "old_only_tokens": [
+     "452mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "452mm"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum operating temperature must not exceed 96°C\n[CONSTRAINT] [user] (turn 16): Historical data shows Corrosion resistance rating must be at lea averaged 931 in past projects.\n[CONSTRAINT] [user] (turn 36): Important requirement: Minimum wall thickness shall be 452mm\n[CONSTRAINT] [user] (turn 64): Historical data shows Noise level must not exceed  dB at 1m distanc averaged 135 in past projects.\n[CONSTRAINT] [user] (turn 74): Important requirement: Tensile strength must be at least 477 MPa\n[CONSTRAINT] [user] (turn 86): Historical data shows Vibration tolerance must be within g RMS averaged 647 in past projects.\n[CONSTRAINT] [user] (turn 110): Important requirement: Operating pressure range is 98 to 272 bar\n[CONSTRAINT] [user] (turn 148): Important requirement: Surface roughness Ra must not exceed 468 μm\n[CONSTRAINT] [user] (turn 174): Let's work with this from here: Operating pressure range is 36 to 272 bar.\n[CONSTRAINT] [user] (turn 184): Important requirement: Vibration tolerance must be within 92g RMS\n[CONSTRAINT] [user] (turn 202): The Component weight must not exceed kg should ideally be around 346, though this is just a preference.\n[CONSTRAINT] [user] (turn 222): Important requirement: Material hardness must be at least 104 HRC\n[CONSTRAINT] [user] (turn 258): Important requirement: Thermal conductivity shall exceed 380 W/mK\n[CONSTRAINT] [user] (turn 296): Important requirement: Fatigue life must exceed 307 cycles\n[CONSTRAINT] [user] (turn 332): Important requirement: Corrosion resistance rating must be at least 21\n[CONSTRAINT] [user] (turn 370): Important requirement: Maximum deflection under load is 137mm\n[CONSTRAINT] [user] (turn 406): Important requirement: Bolt torque specification is 390 Nm\n[CONSTRAINT] [user] (turn 422): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 444): Important requirement: Clearance fit tolerance is H17/g51\n[CONSTRAINT] [user] (turn 450): Historical data shows Weld quality must meet ISO  Class B averaged 567 in past projects.\n[CONSTRAINT] [user] (turn 474): The Material hardness must be at least  HRC should ideally be around 978, though this is just a preference.\n[EPHEMERAL] [assistant] (turn 499): Got it. I'll keep that in mind. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 498): Let's continue with the engineering specifications.\n[EPHEMERAL] [assistant] (turn 497): Thank you for specifying. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 496): On a different note, weekend plans is quite interesting.\n[EPHEMERAL] [assistant] (turn 495): Acknowledged. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 494): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 493): Acknowledged. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 492): On a different note, a documentary about space is quite interesting.\n[EPHEMERAL] [assistant] (turn 491): Thank you for specifying. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 490): This reminds me of something about a new restaurant.\n[EPHEMERAL] [assistant] (turn 489): Got it. I'll keep that in mind. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 488): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 487): Got it. I'll keep that in mind. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 486): How does this compare to industry standards?\n[EPHEMERAL] [assistant] (turn 485): Understood, I've noted that. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 484): What about the next requirement for this engineering project?\n[EPHEMERAL] [assistant] (turn 483): That's clear. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 482): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 481): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 480): On a different note, a recent conference is quite interesting.",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Maximum operating temperature must not exceed 96°C\n2. Corrosion resistance rating must be at least 21\n3. Minimum wall thickness shall be 452mm\n4. Noise level must not exceed  dB at 1m distance averaged 135 in past projects.\n5. Tensile strength must be at least 477 MPa\n6. Vibration tolerance must be within 92g RMS\n7. Operating pressure range is 36 to 272 bar\n8. Surface roughness Ra must not exceed 468 μm\n9. Material hardness must be at least 104 HRC\n10. Thermal conductivity shall exceed 380 W/mK\n11. Fatigue life must exceed 307 cycles\n12. Maximum deflection under load is 137mm\n13. Bolt torque specification is 390 Nm\n14. Clearance fit tolerance is H17/g51\n15. Weld quality must meet ISO  Class B averaged 567 in past projects.\n16. Material hardness must be at least  HRC should ideally be around 978, though this is just a preference.\n\nPlease note that some constraints may have additional details or preferences noted alongside them which are also part of the requirements.",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "supersession": 14,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 50,
+    "type": "supersession",
+    "data": "{\"archived_id\": 39, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 58,
+    "type": "supersession",
+    "data": "{\"archived_id\": 51, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 68,
+    "type": "supersession",
+    "data": "{\"archived_id\": 59, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 114,
+    "type": "supersession",
+    "data": "{\"archived_id\": 69, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 116,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Minimum wall thickness shall be 404mm.\", \"reason\": \"The existing constraint specifies a minimum wall thickness of 452mm, which is stricter than the new statement proposing a minimum wall thickness of 404mm. Since these two requirements cannot both be satisfied simultaneously without violating one or the other, they are in contradiction.\"}"
+   },
+   {
+    "turn": 166,
+    "type": "supersession",
+    "data": "{\"archived_id\": 115, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 176,
+    "type": "supersession",
+    "data": "{\"archived_id\": 166, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 214,
+    "type": "supersession",
+    "data": "{\"archived_id\": 176, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 264,
+    "type": "supersession",
+    "data": "{\"archived_id\": 214, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 270,
+    "type": "supersession",
+    "data": "{\"archived_id\": 264, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 276,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"A rough guideline for Minimum wall thickness shall would be about 235.\", \"reason\": \"The existing constraint specifies a strict minimum wall thickness of 452mm, which is an important requirement. The new statement suggests a much lower guideline value of approximately 235mm, which directly conflicts with the established requirement since it falls significantly below the mandated minimu"
+   },
+   {
+    "turn": 304,
+    "type": "supersession",
+    "data": "{\"archived_id\": 270, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 384,
+    "type": "supersession",
+    "data": "{\"archived_id\": 303, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 408,
+    "type": "supersession",
+    "data": "{\"archived_id\": 383, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 414,
+    "type": "supersession",
+    "data": "{\"archived_id\": 407, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 422,
+    "type": "supersession",
+    "data": "{\"archived_id\": 413, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 217.2
+ },
+ {
+  "scenario_id": "hold-out-U007_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "found": 13,
+  "total_gt": 13,
+  "ccr": 0.8791,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": true,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "173"
+    ],
+    "old_only_tokens": [
+     "160"
+    ],
+    "new_tokens_hit": [
+     "173"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "495"
+    ],
+    "old_only_tokens": [
+     "409"
+    ],
+    "new_tokens_hit": [
+     "495"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "101mL"
+    ],
+    "old_only_tokens": [
+     "53mL"
+    ],
+    "new_tokens_hit": [
+     "101mL"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 197mg per kg body weight\n[CONSTRAINT] [user] (turn 36): Important requirement: Blood pressure target is below 406/426 mmHg\n[CONSTRAINT] [user] (turn 74): Important requirement: Heart rate alert threshold is above 409 bpm\n[CONSTRAINT] [user] (turn 110): Important requirement: Medication interval must be at least 160 hours\n[CONSTRAINT] [user] (turn 148): Important requirement: Patient BMI threshold for procedure is below 219\n[CONSTRAINT] [user] (turn 184): Important requirement: Surgical margin must be at least 253mm\n[CONSTRAINT] [user] (turn 210): Heart rate alert threshold is above 495 bpm going forward.\n[CONSTRAINT] [user] (turn 214): Medication interval must be at least 173 hours going forward.\n[CONSTRAINT] [user] (turn 222): Important requirement: Sterilization temperature must reach 104°C for 216 minutes\n[CONSTRAINT] [user] (turn 240): In informal settings, Dosage must not exceed mg per kg body weigh might be 602.\n[CONSTRAINT] [user] (turn 258): Important requirement: Blood glucose target range is 276 to 546 mg/dL\n[CONSTRAINT] [user] (turn 332): Important requirement: Maximum radiation dose is 297 mSv per session\n[CONSTRAINT] [user] (turn 350): Historical data shows Drug concentration must remain below  ng/mL averaged 945 in past projects.\n[CONSTRAINT] [user] (turn 370): Important requirement: Hemoglobin threshold for transfusion is below 418 g/dL\n[CONSTRAINT] [user] (turn 406): Important requirement: Post-operative monitoring interval is every 56 minutes\n[CONSTRAINT] [user] (turn 444): Important requirement: Drug concentration must remain below 22 ng/mL\n[CONSTRAINT] [user] (turn 456): Ventilator tidal volume is 101mL per kg ideal body weight going forward.\n[CONSTRAINT] [user] (turn 498): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 499): Noted. Should I proceed with the next item?\n[EPHEMERAL] [assistant] (turn 497): That's clear. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 496): Let me check the current status of our medical requirements.\n[EPHEMERAL] [assistant] (turn 495): Acknowledged.\n[EPHEMERAL] [user] (turn 494): Let's continue with the medical specifications.\n[EPHEMERAL] [assistant] (turn 493): Acknowledged. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 492): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 491): Acknowledged. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 490): The original proposal had the specification at 788, which was later revised.\n[EPHEMERAL] [assistant] (turn 489): Noted. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 488): Let's continue with the medical specifications.\n[EPHEMERAL] [assistant] (turn 487): I'll make sure to account for that. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 486): What about the next requirement for this medical project?\n[EPHEMERAL] [assistant] (turn 485): Understood, I've noted that.\n[EPHEMERAL] [user] (turn 484): What about the next requirement for this medical project?\n[EPHEMERAL] [assistant] (turn 483): I've recorded that requirement.\n[EPHEMERAL] [user] (turn 482): Speaking of which, have you considered the weather forecast?\n[EPHEMERAL] [assistant] (turn 481): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 480): By the way, I was thinking about supply chain challenges recently.",
+  "answer_text": "Here are the current medical constraints and requirements:\n\n1. Dosage must not exceed 197mg per kg body weight\n2. Blood pressure target is below 406/426 mmHg\n3. Heart rate alert threshold is above 495 bpm\n4. Medication interval must be at least 173 hours\n5. Patient BMI threshold for procedure is below 219\n6. Surgical margin must be at least 253mm\n7. Blood glucose target range is 276 to 546 mg/dL\n8. Maximum radiation dose is 297 mSv per session\n9. Drug concentration must remain below 22 ng/mL\n10. Hemoglobin threshold for transfusion is below 418 g/dL\n11. Post-operative monitoring interval is every 56 minutes\n12. Ventilator tidal volume is 101mL per kg ideal body weight going forward.\n\nHistorical data shows Drug concentration must remain below ng/mL averaged 945 in past projects, but the current requirement is that it must remain below 22 ng/mL.",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "supersession": 27
+  },
+  "supersession_events": [
+   {
+    "turn": 50,
+    "type": "supersession",
+    "data": "{\"archived_id\": 31, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 52,
+    "type": "supersession",
+    "data": "{\"archived_id\": 51, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 80,
+    "type": "supersession",
+    "data": "{\"archived_id\": 53, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 112,
+    "type": "supersession",
+    "data": "{\"archived_id\": 81, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 138,
+    "type": "supersession",
+    "data": "{\"archived_id\": 113, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 202,
+    "type": "supersession",
+    "data": "{\"archived_id\": 139, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 216,
+    "type": "supersession",
+    "data": "{\"archived_id\": 203, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 264,
+    "type": "supersession",
+    "data": "{\"archived_id\": 217, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 272,
+    "type": "supersession",
+    "data": "{\"archived_id\": 265, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 278,
+    "type": "supersession",
+    "data": "{\"archived_id\": 273, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 298,
+    "type": "supersession",
+    "data": "{\"archived_id\": 279, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 312,
+    "type": "supersession",
+    "data": "{\"archived_id\": 299, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 336,
+    "type": "supersession",
+    "data": "{\"archived_id\": 313, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 340,
+    "type": "supersession",
+    "data": "{\"archived_id\": 337, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 348,
+    "type": "supersession",
+    "data": "{\"archived_id\": 341, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 354,
+    "type": "supersession",
+    "data": "{\"archived_id\": 349, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 360,
+    "type": "supersession",
+    "data": "{\"archived_id\": 355, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 380,
+    "type": "supersession",
+    "data": "{\"archived_id\": 361, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 390,
+    "type": "supersession",
+    "data": "{\"archived_id\": 381, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 392,
+    "type": "supersession",
+    "data": "{\"archived_id\": 391, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 400,
+    "type": "supersession",
+    "data": "{\"archived_id\": 393, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 426,
+    "type": "supersession",
+    "data": "{\"archived_id\": 401, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 438,
+    "type": "supersession",
+    "data": "{\"archived_id\": 427, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 456,
+    "type": "supersession",
+    "data": "{\"archived_id\": 297, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Ventilator tidal volume is 101mL per kg ideal body weight going forward.\"}"
+   },
+   {
+    "turn": 460,
+    "type": "supersession",
+    "data": "{\"archived_id\": 439, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 462,
+    "type": "supersession",
+    "data": "{\"archived_id\": 461, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 498,
+    "type": "supersession",
+    "data": "{\"archived_id\": 463, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 202.3
+ },
+ {
+  "scenario_id": "hold-out-U008_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 1.0,
+  "found": 8,
+  "total_gt": 8,
+  "ccr": 0.8942,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "104"
+    ],
+    "old_only_tokens": [
+     "84"
+    ],
+    "new_tokens_hit": [
+     "104"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "353"
+    ],
+    "old_only_tokens": [
+     "298"
+    ],
+    "new_tokens_hit": [
+     "353"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Contract termination notice period is 392 business days\n[CONSTRAINT] [user] (turn 60): Important requirement: Liability cap must not exceed 87% of contract value\n[CONSTRAINT] [user] (turn 68): A rough guideline for Confidentiality obligation extends  years after te would be about 30.\n[CONSTRAINT] [user] (turn 120): Important requirement: Confidentiality obligation extends 298 years after termination\n[CONSTRAINT] [user] (turn 180): Important requirement: Force majeure notification deadline is 42 hours\n[CONSTRAINT] [user] (turn 240): Important requirement: Arbitration venue must be in 347 jurisdiction\n[CONSTRAINT] [user] (turn 246): Confidentiality obligation extends 353 years after termination.\n[CONSTRAINT] [user] (turn 288): A rough guideline for Arbitration venue must be in  jurisdiction would be about 460.\n[CONSTRAINT] [user] (turn 300): Important requirement: Indemnification limit is 269 times annual fee\n[CONSTRAINT] [user] (turn 306): In informal settings, Arbitration venue must be in  jurisdiction might be 557.\n[CONSTRAINT] [user] (turn 360): Important requirement: Data retention period is 84 years from collection date\n[CONSTRAINT] [user] (turn 420): Important requirement: Response time for legal hold notice is 373 business days\n[CONSTRAINT] [user] (turn 440): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 444): Data retention period is 104 years from collection date.\n[CONSTRAINT] [user] (turn 492): Let's continue with the legal specifications.\n[EPHEMERAL] [assistant] (turn 499): Thank you for specifying. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 498): Speaking of which, have you considered remote work policies?\n[EPHEMERAL] [assistant] (turn 497): Acknowledged. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 496): In informal settings, Escrow release conditions require  approval might be 991.\n[EPHEMERAL] [assistant] (turn 495): That's clear. Should I proceed with the next item?\n[EPHEMERAL] [assistant] (turn 493): Thank you for specifying. Is there anything else to consider?\n[EPHEMERAL] [assistant] (turn 491): That's clear. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 490): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 489): Thank you for specifying. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 488): By the way, I was thinking about a new software tool recently.\n[EPHEMERAL] [assistant] (turn 487): Thank you for specifying. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 486): The old standard required the specification of 252, which has since been updated.\n[EPHEMERAL] [assistant] (turn 485): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 484): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 483): Understood, I've noted that. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 482): By the way, I was thinking about sustainability goals recently.\n[EPHEMERAL] [assistant] (turn 481): Got it. I'll keep that in mind. I'll factor this into the analysis.",
+  "answer_text": "Here are the current legal constraints and requirements as specified:\n\n1. Contract termination notice period is 392 business days\n2. Liability cap must not exceed 87% of contract value\n3. Confidentiality obligation extends 353 years after termination\n4. Force majeure notification deadline is 42 hours\n5. Arbitration venue must be in 460 jurisdiction\n6. Indemnification limit is 269 times annual fee\n7. Data retention period is 104 years from collection date\n8. Response time for legal hold notice is 373 business days",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "supersession": 27,
+   "conflict_detected": 3
+  },
+  "supersession_events": [
+   {
+    "turn": 46,
+    "type": "supersession",
+    "data": "{\"archived_id\": 33, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 60,
+    "type": "supersession",
+    "data": "{\"archived_id\": 21, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Liability cap must not exceed 87% of contract value\"}"
+   },
+   {
+    "turn": 62,
+    "type": "supersession",
+    "data": "{\"archived_id\": 47, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 98,
+    "type": "supersession",
+    "data": "{\"archived_id\": 63, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 122,
+    "type": "supersession",
+    "data": "{\"archived_id\": 99, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 124,
+    "type": "supersession",
+    "data": "{\"archived_id\": 23, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 144,
+    "type": "supersession",
+    "data": "{\"archived_id\": 123, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 190,
+    "type": "supersession",
+    "data": "{\"archived_id\": 125, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 198,
+    "type": "supersession",
+    "data": "{\"archived_id\": 145, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 202,
+    "type": "supersession",
+    "data": "{\"archived_id\": 199, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 204,
+    "type": "supersession",
+    "data": "{\"archived_id\": 203, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 214,
+    "type": "supersession",
+    "data": "{\"archived_id\": 191, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 226,
+    "type": "supersession",
+    "data": "{\"archived_id\": 205, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 234,
+    "type": "supersession",
+    "data": "{\"archived_id\": 215, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 250,
+    "type": "supersession",
+    "data": "{\"archived_id\": 235, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 280,
+    "type": "supersession",
+    "data": "{\"archived_id\": 227, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 310,
+    "type": "supersession",
+    "data": "{\"archived_id\": 251, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 320,
+    "type": "supersession",
+    "data": "{\"archived_id\": 281, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 322,
+    "type": "supersession",
+    "data": "{\"archived_id\": 311, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 374,
+    "type": "supersession",
+    "data": "{\"archived_id\": 323, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 386,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Liability cap must not exceed % of contract val should ideally be around 967, though this is jus\", \"reason\": \"The existing constraint\\u660e\\u786e\\u89c4\\u5b9a\\u8d54\\u507f\\u4e0a\\u9650\\u4e0d\\u5f97\\u8d85\\u8fc7\\u5408\\u540c\\u4ef7\\u503c\\u768487%\\uff0c\\u800c\\u65b0\\u9648\\u8ff0\\u5efa\\u8bae\\u8d54\\u507f\\u4e0a\\u9650\\u5e94\\u7ea6\\u4e3a967\\uff08\\u5047\\u8bbe\\u8fd9\\u91cc\\u7684967\\u662f\\u6307\\u5408\\"
+   },
+   {
+    "turn": 390,
+    "type": "supersession",
+    "data": "{\"archived_id\": 375, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 394,
+    "type": "supersession",
+    "data": "{\"archived_id\": 321, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 408,
+    "type": "supersession",
+    "data": "{\"archived_id\": 390, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 426,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Arbitration venue must be in  jurisdiction should ideally be around 194, though this is just a p\", \"reason\": \"The existing constraint specifies that the arbitration venue must be approximately in a jurisdiction of 460, while the new statement suggests it should ideally be around 194. These two values are significantly different and cannot both be satisfied simultaneously unless fu"
+   },
+   {
+    "turn": 440,
+    "type": "supersession",
+    "data": "{\"archived_id\": 408, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 466,
+    "type": "supersession",
+    "data": "{\"archived_id\": 394, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 480,
+    "type": "supersession",
+    "data": "{\"archived_id\": 465, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 492,
+    "type": "supersession",
+    "data": "{\"archived_id\": 479, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's continue with the legal specifications.\"}"
+   },
+   {
+    "turn": 494,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"In informal settings, Confidentiality obligation extends  years after te might be 179.\", \"reason\": \"The existing constraint suggests a confidentiality period of around 30 years, which is described as a rough guideline. The new statement proposes an extremely long duration of 179 years in informal settings, which significantly deviates from the original guideline and cannot be consider"
+   }
+  ],
+  "replay_s": 227.4
+ },
+ {
+  "scenario_id": "hold-out-U009_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "found": 13,
+  "total_gt": 13,
+  "ccr": 0.9344,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "320%"
+    ],
+    "old_only_tokens": [
+     "289%"
+    ],
+    "new_tokens_hit": [
+     "320%"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum portfolio exposure to single sector is 484%\n[CONSTRAINT] [user] (turn 74): Important requirement: Minimum reserve ratio must be maintained at 334%\n[CONSTRAINT] [user] (turn 150): Important requirement: Transaction approval threshold is 380 USD\n[CONSTRAINT] [user] (turn 178): Historical data shows Liquidity coverage ratio must exceed % averaged 287 in past projects.\n[CONSTRAINT] [user] (turn 226): Important requirement: Credit risk score minimum is 93 points\n[CONSTRAINT] [user] (turn 302): Important requirement: Dividend payout ratio must not exceed 289%\n[CONSTRAINT] [user] (turn 376): Important requirement: Debt-to-equity ratio ceiling is 113\n[CONSTRAINT] [user] (turn 452): Important requirement: Quarterly reporting deadline is 191 business days after quarter end\n[CONSTRAINT] [user] (turn 528): Important requirement: Interest rate cap on variable loans is 189%\n[CONSTRAINT] [user] (turn 554): Historical data shows Capital adequacy ratio must exceed % averaged 422 in past projects.\n[CONSTRAINT] [user] (turn 604): Important requirement: Minimum collateral coverage ratio is 399x\n[CONSTRAINT] [user] (turn 608): Let's work with this from here: Dividend payout ratio must not exceed 320%.\n[CONSTRAINT] [user] (turn 654): Some people suggest Capital adequacy ratio must exceed % of 155, but it's not critical.\n[CONSTRAINT] [user] (turn 678): Important requirement: Foreign exchange exposure limit is 349% of assets\n[CONSTRAINT] [user] (turn 754): Important requirement: Trading volume daily limit is 56 million USD\n[CONSTRAINT] [user] (turn 830): Important requirement: Capital adequacy ratio must exceed 295%\n[CONSTRAINT] [user] (turn 880): Some people suggest Minimum reserve ratio must be maintained at % of 712, but it's not critical.\n[CONSTRAINT] [user] (turn 906): Important requirement: Loan-to-value ratio maximum is 35%\n[CONSTRAINT] [user] (turn 916): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 999): That's clear. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 998): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 997): Got it. I'll keep that in mind. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 996): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 995): Understood, I've noted that. Would you like to discuss related parameters?\n[EPHEMERAL] [user] (turn 994): How does this compare to industry standards?\n[EPHEMERAL] [assistant] (turn 993): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 992): This reminds me of something about sustainability goals.\n[EPHEMERAL] [assistant] (turn 991): Acknowledged. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 990): What about the next requirement for this finance project?\n[EPHEMERAL] [assistant] (turn 989): Got it. I'll keep that in mind. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 988): Let's continue with the finance specifications.\n[EPHEMERAL] [assistant] (turn 987): I've recorded that requirement. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 986): Let's continue with the finance specifications.\n[EPHEMERAL] [assistant] (turn 985): Noted. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 984): The Risk-adjusted return threshold is % should ideally be around 394, though this is just a preference.\n[EPHEMERAL] [assistant] (turn 983): I'll make sure to account for that.\n[EPHEMERAL] [user] (turn 982): Speaking of which, have you considered a documentary about space?\n[EPHEMERAL] [assistant] (turn 981): Got it. I'll keep that in mind. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 980): How does this compare to industry standards?",
+  "answer_text": "Here are the current finance constraints and requirements as listed:\n\n1. Important requirement: Maximum portfolio exposure to single sector is 484%\n2. Important requirement: Minimum reserve ratio must be maintained at 334%\n3. Important requirement: Transaction approval threshold is 380 USD\n4. Historical data shows Liquidity coverage ratio must exceed % averaged 287 in past projects.\n5. Important requirement: Credit risk score minimum is 93 points\n6. Important requirement: Dividend payout ratio must not exceed 320%\n7. Important requirement: Debt-to-equity ratio ceiling is 113\n8. Important requirement: Quarterly reporting deadline is 191 business days after quarter end\n9. Important requirement: Interest rate cap on variable loans is 189%\n10. Historical data shows Capital adequacy ratio must exceed % averaged 422 in past projects.\n11. Important requirement: Minimum collateral coverage ratio is 399x\n12. Important requirement: Foreign exchange exposure limit is 349% of assets\n13. Important requirement: Trading volume daily limit is 56 million USD\n14. Important requirement: Capital adequacy ratio must exceed 295%\n15. Important requirement: Loan-to-value ratio maximum is 35%\n\nNote: Some constraints have alternative suggestions that are not critical, such as the Minimum reserve ratio and Capital adequacy ratio mentioned in turns 880 and 608 respectively.",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "supersession": 43,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 36,
+    "type": "supersession",
+    "data": "{\"archived_id\": 35, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 44,
+    "type": "supersession",
+    "data": "{\"archived_id\": 37, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 52,
+    "type": "supersession",
+    "data": "{\"archived_id\": 45, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 54,
+    "type": "supersession",
+    "data": "{\"archived_id\": 53, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 86,
+    "type": "supersession",
+    "data": "{\"archived_id\": 55, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 104,
+    "type": "supersession",
+    "data": "{\"archived_id\": 87, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 106,
+    "type": "supersession",
+    "data": "{\"archived_id\": 105, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 144,
+    "type": "supersession",
+    "data": "{\"archived_id\": 107, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 148,
+    "type": "supersession",
+    "data": "{\"archived_id\": 145, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 156,
+    "type": "supersession",
+    "data": "{\"archived_id\": 149, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 158,
+    "type": "supersession",
+    "data": "{\"archived_id\": 157, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 176,
+    "type": "supersession",
+    "data": "{\"archived_id\": 159, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 184,
+    "type": "supersession",
+    "data": "{\"archived_id\": 177, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 230,
+    "type": "supersession",
+    "data": "{\"archived_id\": 185, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 242,
+    "type": "supersession",
+    "data": "{\"archived_id\": 231, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 274,
+    "type": "supersession",
+    "data": "{\"archived_id\": 243, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 282,
+    "type": "supersession",
+    "data": "{\"archived_id\": 275, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 294,
+    "type": "supersession",
+    "data": "{\"archived_id\": 283, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 312,
+    "type": "supersession",
+    "data": "{\"archived_id\": 295, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 330,
+    "type": "supersession",
+    "data": "{\"archived_id\": 313, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 336,
+    "type": "supersession",
+    "data": "{\"archived_id\": 331, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 410,
+    "type": "supersession",
+    "data": "{\"archived_id\": 337, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 450,
+    "type": "supersession",
+    "data": "{\"archived_id\": 411, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 500,
+    "type": "supersession",
+    "data": "{\"archived_id\": 451, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 502,
+    "type": "supersession",
+    "data": "{\"archived_id\": 501, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 516,
+    "type": "supersession",
+    "data": "{\"archived_id\": 503, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 522,
+    "type": "supersession",
+    "data": "{\"archived_id\": 517, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 532,
+    "type": "supersession",
+    "data": "{\"archived_id\": 523, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 546,
+    "type": "supersession",
+    "data": "{\"archived_id\": 533, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 564,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Historical data shows Minimum reserve ratio must be maintained at % averaged 226 in past projects.\", \"reason\": \"The existing constraint specifies a minimum reserve ratio of 334%, which is a fixed requirement. The new statement suggests an average historical reserve ratio of 226% from past projects, which is significantly lower than the specified minimum. Maintaining a reserve ratio at"
+   },
+   {
+    "turn": 568,
+    "type": "supersession",
+    "data": "{\"archived_id\": 547, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 572,
+    "type": "supersession",
+    "data": "{\"archived_id\": 568, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 610,
+    "type": "supersession",
+    "data": "{\"archived_id\": 572, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 614,
+    "type": "supersession",
+    "data": "{\"archived_id\": 610, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 626,
+    "type": "supersession",
+    "data": "{\"archived_id\": 614, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 636,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"In informal settings, Minimum reserve ratio must be maintained at % might be 704.\", \"reason\": \"The existing constraint specifies a strict minimum reserve ratio of 334%, which is an important requirement. The new statement suggests that in informal settings, this ratio could be as high as 704%. This implies a significant and arbitrary increase in the reserve ratio without justification"
+   },
+   {
+    "turn": 778,
+    "type": "supersession",
+    "data": "{\"archived_id\": 626, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 822,
+    "type": "supersession",
+    "data": "{\"archived_id\": 777, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 830,
+    "type": "supersession",
+    "data": "{\"archived_id\": 335, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Capital adequacy ratio must exceed 295%\"}"
+   },
+   {
+    "turn": 858,
+    "type": "supersession",
+    "data": "{\"archived_id\": 821, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 864,
+    "type": "supersession",
+    "data": "{\"archived_id\": 857, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 880,
+    "type": "supersession",
+    "data": "{\"archived_id\": 93, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Some people suggest Minimum reserve ratio must be maintained at % of 712, but it's not critical.\"}"
+   },
+   {
+    "turn": 882,
+    "type": "supersession",
+    "data": "{\"archived_id\": 863, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 914,
+    "type": "supersession",
+    "data": "{\"archived_id\": 881, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 916,
+    "type": "supersession",
+    "data": "{\"archived_id\": 913, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 420.4
+ },
+ {
+  "scenario_id": "hold-out-U010_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "found": 13,
+  "total_gt": 13,
+  "ccr": 0.9459,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "236"
+    ],
+    "old_only_tokens": [
+     "199"
+    ],
+    "new_tokens_hit": [
+     "236"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "170"
+    ],
+    "old_only_tokens": [
+     "148"
+    ],
+    "new_tokens_hit": [
+     "170"
+    ],
+    "old_tokens_hit": [
+     "148"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum response time must not exceed 395 seconds\n[CONSTRAINT] [user] (turn 74): Important requirement: Availability SLA target is 454%\n[CONSTRAINT] [user] (turn 150): Important requirement: Data backup frequency is every 349 hours\n[CONSTRAINT] [user] (turn 226): Important requirement: User session timeout is 144 minutes\n[CONSTRAINT] [user] (turn 302): Important requirement: Maximum concurrent users supported is 148\n[CONSTRAINT] [user] (turn 452): Important requirement: Log retention period is 287 days\n[CONSTRAINT] [user] (turn 468): API rate limit is 236 requests per minute going forward.\n[CONSTRAINT] [user] (turn 516): Maximum concurrent users supported is 170 going forward.\n[CONSTRAINT] [user] (turn 528): Important requirement: Password minimum length is 155 characters\n[CONSTRAINT] [user] (turn 604): Important requirement: System restart window is between 240:00 and 418:00 UTC\n[CONSTRAINT] [user] (turn 678): Important requirement: Cache invalidation interval is 297 seconds\n[CONSTRAINT] [user] (turn 754): Important requirement: Maximum file upload size is 375MB\n[CONSTRAINT] [user] (turn 830): Important requirement: Notification delivery timeout is 322 seconds\n[CONSTRAINT] [user] (turn 906): Important requirement: Database connection pool size is 193 connections\n[CONSTRAINT] [user] (turn 982): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 999): Noted. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 998): Historical data shows Maximum concurrent users supported averaged 213 in past projects.\n[EPHEMERAL] [assistant] (turn 997): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 996): The original proposal had the specification at 27, which was later revised.\n[EPHEMERAL] [assistant] (turn 995): Noted. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 994): Let me check the current status of our general requirements.\n[EPHEMERAL] [assistant] (turn 993): Thank you for specifying.\n[EPHEMERAL] [user] (turn 992): How does this compare to industry standards?\n[EPHEMERAL] [assistant] (turn 991): That's clear. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 990): On a different note, supply chain challenges is quite interesting.\n[EPHEMERAL] [assistant] (turn 989): Acknowledged. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 988): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 987): Thank you for specifying.\n[EPHEMERAL] [user] (turn 986): I read an article about weekend plans yesterday.\n[EPHEMERAL] [assistant] (turn 985): Got it. I'll keep that in mind. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 984): Are there any dependencies between the specifications we discussed?\n[EPHEMERAL] [assistant] (turn 983): Acknowledged. Let me know if there are other specifications.\n[EPHEMERAL] [assistant] (turn 981): Got it. I'll keep that in mind. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 980): Previously we discussed setting the specification to 428, but that was for the old project.",
+  "answer_text": "Here are the current general constraints and requirements as listed:\n\n1. Maximum response time must not exceed 395 seconds\n2. Availability SLA target is 454%\n3. Data backup frequency is every 349 hours\n4. User session timeout is 144 minutes\n5. Maximum concurrent users supported is 170 (previously was 148)\n6. Log retention period is 287 days\n7. API rate limit is 236 requests per minute\n8. Password minimum length is 155 characters\n9. System restart window is between 240:00 and 418:00 UTC\n10. Cache invalidation interval is 297 seconds\n11. Maximum file upload size is 375MB\n12. Notification delivery timeout is 322 seconds\n13. Database connection pool size is 193 connections",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "supersession": 53,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 14,
+    "type": "supersession",
+    "data": "{\"archived_id\": 7, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 44,
+    "type": "supersession",
+    "data": "{\"archived_id\": 15, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 54,
+    "type": "supersession",
+    "data": "{\"archived_id\": 45, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 64,
+    "type": "supersession",
+    "data": "{\"archived_id\": 55, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 70,
+    "type": "supersession",
+    "data": "{\"archived_id\": 65, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 82,
+    "type": "supersession",
+    "data": "{\"archived_id\": 71, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 98,
+    "type": "supersession",
+    "data": "{\"archived_id\": 83, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 104,
+    "type": "supersession",
+    "data": "{\"archived_id\": 99, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 116,
+    "type": "supersession",
+    "data": "{\"archived_id\": 105, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 152,
+    "type": "supersession",
+    "data": "{\"archived_id\": 117, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 172,
+    "type": "supersession",
+    "data": "{\"archived_id\": 153, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 178,
+    "type": "supersession",
+    "data": "{\"archived_id\": 173, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 182,
+    "type": "supersession",
+    "data": "{\"archived_id\": 179, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 236,
+    "type": "supersession",
+    "data": "{\"archived_id\": 183, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 244,
+    "type": "supersession",
+    "data": "{\"archived_id\": 237, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 262,
+    "type": "supersession",
+    "data": "{\"archived_id\": 245, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 268,
+    "type": "supersession",
+    "data": "{\"archived_id\": 263, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 272,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Maximum response time must not exceed  second should ideally be around 764, though this is just \", \"reason\": \"The existing constraint specifies that the maximum response time must not exceed 395 seconds. The new statement suggests an ideal maximum response time of approximately 764 seconds, which contradicts the existing requirement since 764 seconds is greater than 395 seconds.\"}"
+   },
+   {
+    "turn": 288,
+    "type": "supersession",
+    "data": "{\"archived_id\": 269, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 324,
+    "type": "supersession",
+    "data": "{\"archived_id\": 288, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 336,
+    "type": "supersession",
+    "data": "{\"archived_id\": 324, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 348,
+    "type": "supersession",
+    "data": "{\"archived_id\": 336, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 354,
+    "type": "supersession",
+    "data": "{\"archived_id\": 348, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 460,
+    "type": "supersession",
+    "data": "{\"archived_id\": 354, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 468,
+    "type": "supersession",
+    "data": "{\"archived_id\": 376, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"API rate limit is 236 requests per minute going forward.\"}"
+   },
+   {
+    "turn": 472,
+    "type": "supersession",
+    "data": "{\"archived_id\": 460, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 500,
+    "type": "supersession",
+    "data": "{\"archived_id\": 472, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 508,
+    "type": "supersession",
+    "data": "{\"archived_id\": 500, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 520,
+    "type": "supersession",
+    "data": "{\"archived_id\": 508, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 562,
+    "type": "supersession",
+    "data": "{\"archived_id\": 520, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 582,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Maximum response time must not exceed  second should ideally be around 875, though this is just \", \"reason\": \"The existing constraint specifies that the maximum response time must not exceed 395 seconds. The new statement suggests an ideal maximum response time of approximately 875 seconds, which contradicts the existing requirement since 875 seconds is greater than 395 seconds.\"}"
+   },
+   {
+    "turn": 614,
+    "type": "supersession",
+    "data": "{\"archived_id\": 562, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 632,
+    "type": "supersession",
+    "data": "{\"archived_id\": 613, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 642,
+    "type": "supersession",
+    "data": "{\"archived_id\": 631, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 650,
+    "type": "supersession",
+    "data": "{\"archived_id\": 641, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 652,
+    "type": "supersession",
+    "data": "{\"archived_id\": 649, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 690,
+    "type": "supersession",
+    "data": "{\"archived_id\": 651, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 704,
+    "type": "supersession",
+    "data": "{\"archived_id\": 689, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 718,
+    "type": "supersession",
+    "data": "{\"archived_id\": 703, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 766,
+    "type": "supersession",
+    "data": "{\"archived_id\": 717, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 806,
+    "type": "supersession",
+    "data": "{\"archived_id\": 765, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 824,
+    "type": "supersession",
+    "data": "{\"archived_id\": 805, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 828,
+    "type": "supersession",
+    "data": "{\"archived_id\": 823, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 836,
+    "type": "supersession",
+    "data": "{\"archived_id\": 827, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 864,
+    "type": "supersession",
+    "data": "{\"archived_id\": 835, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 886,
+    "type": "supersession",
+    "data": "{\"archived_id\": 863, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 916,
+    "type": "supersession",
+    "data": "{\"archived_id\": 885, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 928,
+    "type": "supersession",
+    "data": "{\"archived_id\": 915, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 946,
+    "type": "supersession",
+    "data": "{\"archived_id\": 927, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 950,
+    "type": "supersession",
+    "data": "{\"archived_id\": 945, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 956,
+    "type": "supersession",
+    "data": "{\"archived_id\": 949, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 962,
+    "type": "supersession",
+    "data": "{\"archived_id\": 955, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 964,
+    "type": "supersession",
+    "data": "{\"archived_id\": 961, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 968,
+    "type": "supersession",
+    "data": "{\"archived_id\": 963, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 982,
+    "type": "supersession",
+    "data": "{\"archived_id\": 967, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 405.7
+ },
+ {
+  "scenario_id": "hold-out-U011_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.9298,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "267"
+    ],
+    "old_only_tokens": [
+     "365"
+    ],
+    "new_tokens_hit": [
+     "267"
+    ],
+    "old_tokens_hit": [
+     "365"
+    ]
+   },
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "445"
+    ],
+    "old_only_tokens": [
+     "387"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "387"
+    ]
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "283"
+    ],
+    "old_only_tokens": [
+     "328"
+    ],
+    "new_tokens_hit": [
+     "283"
+    ],
+    "old_tokens_hit": [
+     "328"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum operating temperature must not exceed 287°C\n[CONSTRAINT] [user] (turn 36): Historical data shows Maximum operating temperature must not exceed °C averaged 393 in past projects.\n[CONSTRAINT] [user] (turn 74): Important requirement: Minimum wall thickness shall be 31mm\n[CONSTRAINT] [user] (turn 140): The Component weight must not exceed kg should ideally be around 732, though this is just a preference.\n[CONSTRAINT] [user] (turn 150): Important requirement: Tensile strength must be at least 434 MPa\n[CONSTRAINT] [user] (turn 226): Important requirement: Operating pressure range is 169 to 655 bar\n[CONSTRAINT] [user] (turn 302): Important requirement: Surface roughness Ra must not exceed 328 μm\n[CONSTRAINT] [user] (turn 376): Important requirement: Vibration tolerance must be within 484g RMS\n[CONSTRAINT] [user] (turn 452): Important requirement: Material hardness must be at least 365 HRC\n[CONSTRAINT] [user] (turn 516): Surface roughness Ra must not exceed 283 μm.\n[CONSTRAINT] [user] (turn 528): Important requirement: Thermal conductivity shall exceed 251 W/mK\n[CONSTRAINT] [user] (turn 576): Historical data shows Vibration tolerance must be within g RMS averaged 547 in past projects.\n[CONSTRAINT] [user] (turn 604): Important requirement: Fatigue life must exceed 123 cycles\n[CONSTRAINT] [user] (turn 620): The Surface roughness Ra must not exceed  μ should ideally be around 148, though this is just a preference.\n[CONSTRAINT] [user] (turn 678): Important requirement: Corrosion resistance rating must be at least 245\n[CONSTRAINT] [user] (turn 712): Material hardness must be at least 267 HRC.\n[CONSTRAINT] [user] (turn 754): Important requirement: Maximum deflection under load is 413mm\n[CONSTRAINT] [user] (turn 756): Historical data shows Coolant flow rate must be at least  L/min averaged 740 in past projects.\n[CONSTRAINT] [user] (turn 774): Historical data shows Component weight must not exceed kg averaged 793 in past projects.\n[CONSTRAINT] [user] (turn 830): Important requirement: Bolt torque specification is 387 Nm\n[CONSTRAINT] [user] (turn 838): Historical data shows Noise level must not exceed  dB at 1m distanc averaged 737 in past projects.\n[CONSTRAINT] [user] (turn 906): Important requirement: Clearance fit tolerance is H170/g242\n[CONSTRAINT] [user] (turn 990): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 999): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 998): Can you summarize what we've covered so far?\n[EPHEMERAL] [assistant] (turn 997): Got it. I'll keep that in mind. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 996): By the way, I was thinking about a recent conference recently.\n[EPHEMERAL] [assistant] (turn 995): That's clear.\n[EPHEMERAL] [user] (turn 994): In version 1, the specification was 112, but we changed it.\n[EPHEMERAL] [assistant] (turn 993): Noted.\n[EPHEMERAL] [user] (turn 992): In version 1, the specification was 902, but we changed it.\n[EPHEMERAL] [assistant] (turn 991): Understood, I've noted that. Would you like to discuss related parameters?\n[EPHEMERAL] [assistant] (turn 989): Thank you for specifying. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 988): On a different note, recent news in technology is quite interesting.\n[EPHEMERAL] [assistant] (turn 987): Thank you for specifying. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 986): How does this compare to industry standards?\n[EPHEMERAL] [assistant] (turn 985): That's clear. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 984): Let's continue with the engineering specifications.\n[EPHEMERAL] [assistant] (turn 983): Thank you for specifying. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 982): What about the next requirement for this engineering project?\n[EPHEMERAL] [assistant] (turn 981): That's clear. Let me know if there are other specifications.\n[EPHEMERAL] [user] (turn 980): Before the revision, the specification was 795.",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Maximum operating temperature must not exceed 287°C\n2. Minimum wall thickness shall be 31mm\n3. Component weight must not exceed kg should ideally be around 732, though this is just a preference.\n4. Tensile strength must be at least 434 MPa\n5. Operating pressure range is 169 to 655 bar\n6. Surface roughness Ra must not exceed 328 μm\n7. Vibration tolerance must be within 484g RMS\n8. Material hardness must be at least 365 HRC\n9. Surface roughness Ra must not exceed 283 μm.\n10. Thermal conductivity shall exceed 251 W/mK\n11. Fatigue life must exceed 123 cycles\n12. Corrosion resistance rating must be at least 245\n13. Material hardness must be at least 267 HRC.\n14. Maximum deflection under load is 413mm\n15. Coolant flow rate must be at least L/min averaged 740 in past projects.\n16. Component weight must not exceed kg averaged 793 in past projects.\n17. Bolt torque specification is 387 Nm\n18. Noise level must not exceed dB at 1m distance averaged 737 in past projects.\n19. Clearance fit tolerance is H170/g242",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "supersession": 42,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 158,
+    "type": "supersession",
+    "data": "{\"archived_id\": 107, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 176,
+    "type": "supersession",
+    "data": "{\"archived_id\": 159, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 180,
+    "type": "supersession",
+    "data": "{\"archived_id\": 177, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 182,
+    "type": "supersession",
+    "data": "{\"archived_id\": 181, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 208,
+    "type": "supersession",
+    "data": "{\"archived_id\": 183, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 252,
+    "type": "supersession",
+    "data": "{\"archived_id\": 209, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 272,
+    "type": "supersession",
+    "data": "{\"archived_id\": 253, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 306,
+    "type": "supersession",
+    "data": "{\"archived_id\": 273, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 372,
+    "type": "supersession",
+    "data": "{\"archived_id\": 307, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 376,
+    "type": "supersession",
+    "data": "{\"archived_id\": 113, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Important requirement: Vibration tolerance must be within 484g RMS\"}"
+   },
+   {
+    "turn": 378,
+    "type": "supersession",
+    "data": "{\"archived_id\": 373, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 390,
+    "type": "supersession",
+    "data": "{\"archived_id\": 379, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 394,
+    "type": "supersession",
+    "data": "{\"archived_id\": 391, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 400,
+    "type": "supersession",
+    "data": "{\"archived_id\": 395, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 412,
+    "type": "supersession",
+    "data": "{\"archived_id\": 401, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 466,
+    "type": "supersession",
+    "data": "{\"archived_id\": 413, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 480,
+    "type": "supersession",
+    "data": "{\"archived_id\": 467, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 502,
+    "type": "supersession",
+    "data": "{\"archived_id\": 481, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 544,
+    "type": "supersession",
+    "data": "{\"archived_id\": 503, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 596,
+    "type": "supersession",
+    "data": "{\"archived_id\": 545, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 610,
+    "type": "supersession",
+    "data": "{\"archived_id\": 597, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 628,
+    "type": "supersession",
+    "data": "{\"archived_id\": 611, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 644,
+    "type": "supersession",
+    "data": "{\"archived_id\": 629, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 648,
+    "type": "supersession",
+    "data": "{\"archived_id\": 645, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 686,
+    "type": "supersession",
+    "data": "{\"archived_id\": 649, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 692,
+    "type": "supersession",
+    "data": "{\"archived_id\": 687, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 694,
+    "type": "supersession",
+    "data": "{\"archived_id\": 693, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 710,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Component weight must not exceed kg should ideally be around 690, though this is just a preferen\", \"reason\": \"The existing constraint suggests that the component weight should ideally be around 732 kg, while the new statement proposes an ideal weight of around 690 kg. Although both are stated as preferences and not strict limits, they still set different target values for the idea"
+   },
+   {
+    "turn": 728,
+    "type": "supersession",
+    "data": "{\"archived_id\": 695, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 758,
+    "type": "supersession",
+    "data": "{\"archived_id\": 728, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 772,
+    "type": "supersession",
+    "data": "{\"archived_id\": 758, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 800,
+    "type": "supersession",
+    "data": "{\"archived_id\": 772, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 804,
+    "type": "supersession",
+    "data": "{\"archived_id\": 800, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 806,
+    "type": "supersession",
+    "data": "{\"archived_id\": 804, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 838,
+    "type": "supersession",
+    "data": "{\"archived_id\": 361, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Historical data shows Noise level must not exceed  dB at 1m distanc averaged 737 in past projects.\"}"
+   },
+   {
+    "turn": 842,
+    "type": "supersession",
+    "data": "{\"archived_id\": 806, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 850,
+    "type": "supersession",
+    "data": "{\"archived_id\": 842, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 866,
+    "type": "supersession",
+    "data": "{\"archived_id\": 850, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 886,
+    "type": "supersession",
+    "data": "{\"archived_id\": 866, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 908,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Bolt torque specification is 445 Nm.\", \"reason\": \"The existing constraint specifies a bolt torque of 387 Nm, which directly conflicts with the new statement that sets the bolt torque to 445 Nm. These two values cannot both be correct simultaneously under the same engineering context.\"}"
+   },
+   {
+    "turn": 930,
+    "type": "supersession",
+    "data": "{\"archived_id\": 886, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 950,
+    "type": "supersession",
+    "data": "{\"archived_id\": 929, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 964,
+    "type": "supersession",
+    "data": "{\"archived_id\": 949, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 990,
+    "type": "supersession",
+    "data": "{\"archived_id\": 963, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 418.7
+ },
+ {
+  "scenario_id": "hold-out-U012_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.875,
+  "found": 7,
+  "total_gt": 8,
+  "ccr": 0.9397,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "158"
+    ],
+    "old_only_tokens": [
+     "225"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "225"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "205°C"
+    ],
+    "old_only_tokens": [
+     "232°C"
+    ],
+    "new_tokens_hit": [
+     "205°C"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "110"
+    ],
+    "old_only_tokens": [
+     "50"
+    ],
+    "new_tokens_hit": [
+     "110"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 335mg per kg body weight\n[CONSTRAINT] [user] (turn 20): Historical data shows Antibiotic prophylaxis must begin  minutes before  averaged 289 in past projects.\n[CONSTRAINT] [user] (turn 122): Important requirement: Blood pressure target is below 423/538 mmHg\n[CONSTRAINT] [user] (turn 188): A rough guideline for Sterilization temperature must reach °C for  min would be about 880.\n[CONSTRAINT] [user] (turn 242): Historical data shows Sterilization temperature must reach °C for  min averaged 484 in past projects.\n[CONSTRAINT] [user] (turn 244): Important requirement: Heart rate alert threshold is above 82 bpm\n[CONSTRAINT] [user] (turn 368): Important requirement: Medication interval must be at least 225 hours\n[CONSTRAINT] [user] (turn 490): Important requirement: Patient BMI threshold for procedure is below 161\n[CONSTRAINT] [user] (turn 552): A rough guideline for Wound closure tension must not exceed  N/c would be about 289.\n[CONSTRAINT] [user] (turn 612): Important requirement: Surgical margin must be at least 214mm\n[CONSTRAINT] [user] (turn 638): Historical data shows Dosage must not exceed mg per kg body weigh averaged 878 in past projects.\n[CONSTRAINT] [user] (turn 684): Historical data shows Medication interval must be at least  hour averaged 824 in past projects.\n[CONSTRAINT] [user] (turn 798): The Surgical margin must be at lea should ideally be around 630, though this is just a preference.\n[CONSTRAINT] [user] (turn 956): The Drug concentration must remain below  ng/mL should ideally be around 564, though this is just a preference.\n[CONSTRAINT] [user] (turn 974): Let's work with this from here: Blood glucose target range is 110 to 545 mg/dL.\n[CONSTRAINT] [user] (turn 976): Let's work with this from here: Sterilization temperature must reach 205°C for 393 minutes.\n[CONSTRAINT] [user] (turn 998): Let's review the constraints we've established.\n[EPHEMERAL] [assistant] (turn 999): Acknowledged. Would you like to discuss related parameters?\n[EPHEMERAL] [assistant] (turn 997): I've recorded that requirement. Should I proceed with the next item?\n[EPHEMERAL] [user] (turn 996): On a different note, training opportunities is quite interesting.\n[EPHEMERAL] [assistant] (turn 995): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 994): Speaking of which, have you considered a new software tool?\n[EPHEMERAL] [assistant] (turn 993): Thank you for specifying. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 992): I read an article about weekend plans yesterday.\n[EPHEMERAL] [assistant] (turn 991): Got it. I'll keep that in mind. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 990): I have another consideration for this project.\n[EPHEMERAL] [assistant] (turn 989): I've recorded that requirement. Is there anything else to consider?\n[EPHEMERAL] [user] (turn 988): A rough guideline for Post-operative monitoring interval is every  min would be about 348.\n[EPHEMERAL] [assistant] (turn 987): Got it. I'll keep that in mind.\n[EPHEMERAL] [user] (turn 986): Let's continue with the medical specifications.\n[EPHEMERAL] [assistant] (turn 985): Acknowledged. I'll update the documentation accordingly.\n[EPHEMERAL] [user] (turn 984): Let's continue with the medical specifications.\n[EPHEMERAL] [assistant] (turn 983): Understood, I've noted that. Would you like to discuss related parameters?\n[EPHEMERAL] [assistant] (turn 981): I've recorded that requirement. I'll factor this into the analysis.\n[EPHEMERAL] [user] (turn 980): How does this compare to industry standards?",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Dosage must not exceed 335mg per kg body weight\n2. Antibiotic prophylaxis must begin minutes before averaged 289 in past projects\n3. Blood pressure target is below 423/538 mmHg\n4. Sterilization temperature must reach °C for min would be about 880.\n5. Sterilization temperature must reach °C for min averaged 484 in past projects\n6. Heart rate alert threshold is above 82 bpm\n7. Medication interval must be at least 225 hours\n8. Patient BMI threshold for procedure is below 161\n9. Wound closure tension must not exceed N/c would be about 289.\n10. Surgical margin must be at least 214mm\n11. Dosage must not exceed mg per kg body weigh averaged 878 in past projects\n12. Medication interval must be at least hour averaged 824 in past projects\n13. The Surgical margin must be at lea should ideally be around 630, though this is just a preference.\n14. Drug concentration must remain below ng/mL should ideally be around 564, though this is just a preference.\n15. Blood glucose target range is 110 to 545 mg/dL\n16. Sterilization temperature must reach 205°C for 393 minutes\n17. Post-operative monitoring interval is every min would be about 348.\n\nPlease note that some constraints are listed in a slightly inconsistent format, as they were provided that way during the conversation.",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "supersession": 39,
+   "conflict_detected": 4
+  },
+  "supersession_events": [
+   {
+    "turn": 30,
+    "type": "supersession",
+    "data": "{\"archived_id\": 5, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 52,
+    "type": "supersession",
+    "data": "{\"archived_id\": 31, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 64,
+    "type": "supersession",
+    "data": "{\"archived_id\": 53, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 114,
+    "type": "supersession",
+    "data": "{\"archived_id\": 65, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 132,
+    "type": "supersession",
+    "data": "{\"archived_id\": 115, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 136,
+    "type": "supersession",
+    "data": "{\"archived_id\": 133, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 188,
+    "type": "supersession",
+    "data": "{\"archived_id\": 39, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"A rough guideline for Sterilization temperature must reach \\u00b0C for  min would be about 880.\"}"
+   },
+   {
+    "turn": 238,
+    "type": "supersession",
+    "data": "{\"archived_id\": 137, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 250,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Antibiotic prophylaxis must begin  minutes before  should ideally be around 853, though this is \", \"reason\": \"The existing constraint specifies that antibiotic prophylaxis must start 289 minutes before a certain event based on historical data from past projects. The new statement suggests an ideal time of 853 minutes, which is significantly different and cannot be considered merel"
+   },
+   {
+    "turn": 314,
+    "type": "supersession",
+    "data": "{\"archived_id\": 239, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 334,
+    "type": "supersession",
+    "data": "{\"archived_id\": 314, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 338,
+    "type": "supersession",
+    "data": "{\"archived_id\": 334, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 364,
+    "type": "supersession",
+    "data": "{\"archived_id\": 338, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 372,
+    "type": "supersession",
+    "data": "{\"archived_id\": 364, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 386,
+    "type": "supersession",
+    "data": "{\"archived_id\": 372, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 390,
+    "type": "supersession",
+    "data": "{\"archived_id\": 386, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 396,
+    "type": "supersession",
+    "data": "{\"archived_id\": 390, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 456,
+    "type": "supersession",
+    "data": "{\"archived_id\": 396, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 500,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Antibiotic prophylaxis must begin  minutes before  should ideally be around 111, though this is \", \"reason\": \"The existing constraint specifies a precise requirement based on historical data (289 minutes), while the new statement suggests an ideal time of 111 minutes which significantly deviates from the established norm. This discrepancy implies that adhering to one would necessa"
+   },
+   {
+    "turn": 532,
+    "type": "supersession",
+    "data": "{\"archived_id\": 456, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 594,
+    "type": "supersession",
+    "data": "{\"archived_id\": 531, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 602,
+    "type": "supersession",
+    "data": "{\"archived_id\": 593, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 630,
+    "type": "supersession",
+    "data": "{\"archived_id\": 601, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 664,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Medication interval must be at least 158 hours.\", \"reason\": \"The existing constraint specifies that the medication interval must be at least 225 hours, whereas the new statement proposes a shorter minimum interval of 158 hours. These two constraints are in direct opposition because one requires a longer interval than the other.\"}"
+   },
+   {
+    "turn": 666,
+    "type": "supersession",
+    "data": "{\"archived_id\": 629, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 704,
+    "type": "supersession",
+    "data": "{\"archived_id\": 664, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 706,
+    "type": "supersession",
+    "data": "{\"archived_id\": 702, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 730,
+    "type": "supersession",
+    "data": "{\"archived_id\": 704, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 742,
+    "type": "supersession",
+    "data": "{\"archived_id\": 728, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 764,
+    "type": "supersession",
+    "data": "{\"archived_id\": 740, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 772,
+    "type": "supersession",
+    "data": "{\"archived_id\": 762, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 776,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"A rough guideline for Antibiotic prophylaxis must begin  minutes before  would be about 15.\", \"reason\": \"The existing constraint specifies a precise historical average of 289 minutes, while the new statement suggests a rough guideline of approximately 15 minutes. These two values are significantly different and cannot both be accurate for the same context.\"}"
+   },
+   {
+    "turn": 798,
+    "type": "supersession",
+    "data": "{\"archived_id\": 47, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"The Surgical margin must be at lea should ideally be around 630, though this is just a preference.\"}"
+   },
+   {
+    "turn": 802,
+    "type": "supersession",
+    "data": "{\"archived_id\": 770, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 850,
+    "type": "supersession",
+    "data": "{\"archived_id\": 799, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 856,
+    "type": "supersession",
+    "data": "{\"archived_id\": 847, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 882,
+    "type": "supersession",
+    "data": "{\"archived_id\": 853, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 884,
+    "type": "supersession",
+    "data": "{\"archived_id\": 879, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 906,
+    "type": "supersession",
+    "data": "{\"archived_id\": 881, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 974,
+    "type": "supersession",
+    "data": "{\"archived_id\": 855, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's work with this from here: Blood glucose target range is 110 to 545 mg/dL.\"}"
+   },
+   {
+    "turn": 976,
+    "type": "supersession",
+    "data": "{\"archived_id\": 734, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's work with this from here: Sterilization temperature must reach 205\\u00b0C for 393 minutes.\"}"
+   },
+   {
+    "turn": 982,
+    "type": "supersession",
+    "data": "{\"archived_id\": 903, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   },
+   {
+    "turn": 998,
+    "type": "supersession",
+    "data": "{\"archived_id\": 979, \"reason\": \"lww_auto_overwrite\", \"new_content\": \"Let's review the constraints we've established.\"}"
+   }
+  ],
+  "replay_s": 415.2
+ }
+]

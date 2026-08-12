@@ -1,0 +1,6 @@
+model,correct,stale_retained,stale_only,lost
+Naive,6,18,0,21
+RAG,0,0,0,45
+EpSem,0,30,9,6
+EpSem-F,0,30,9,6
+EpSem-SS,14,26,5,0

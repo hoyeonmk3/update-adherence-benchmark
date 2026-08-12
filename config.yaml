@@ -1,0 +1,15 @@
+# Benchmark Configuration
+# Keys read by the engines. Runner output paths are repository-relative and
+# hard-coded in the runner scripts.
+
+# RAG / EP-SEM parameters
+rag_top_k: 5
+compaction_interval: 10
+
+# Ollama
+ollama_endpoint: "http://localhost:11434"
+ollama_model: "qwen2.5:14b-instruct-q4_K_M"
+embed_model: "nomic-embed-text"
+
+# Summary threshold
+summary_token_threshold: 4096

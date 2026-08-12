@@ -1,0 +1,167 @@
+[
+ {
+  "scenario_id": "hold-out-U007",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9438,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "173"
+    ],
+    "old_only_tokens": [
+     "160"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "495"
+    ],
+    "old_only_tokens": [
+     "409"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "101mL"
+    ],
+    "old_only_tokens": [
+     "53mL"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User asked for a summary of the current status of their medical requirements\n- User requested a review of established constraints for the medical project\n- User asked for an update on the current status of their medical requirements\n- User asked for a summary of the medical project requirements covered so far\n- User requested a review of established constraints for their medical project\n- User asked to review established constraints for the medical project\n- User requested a review of the constraints established for their medical project\n- User inquired about the next requirement for their medical project\n- User asked how the medical project requirements compare to industry standards\n- User mentioned a new requirement for the medical project regarding patient BMI threshold below 219\n- User asked about the next requirement for their medical project\n- User inquired about how their medical project requirements compare to industry standards\n- User asked how their medical project requirements compare to industry standards\n- User requested to continue with medical specifications discussion\n- User asked if there are any dependencies between the specifications discussed for their medical project\n- User requested a review of established constraints and specifications\n- User inquired about dependencies between the specifications discussed for their medical project\n- User asked to review established constraints and specifications\n- User requested a summary of what has been covered so far in the medical project\n- User mentioned a new requirement for the medical project regarding surgical margins",
+  "answer_text": "Based on the memory provided, here are the established constraints and requirements for the medical project:\n\n1. Patient BMI threshold below 219\n2. Surgical margins\n\nThese are the specific constraints mentioned directly by you during our conversation. If there were any other implicit or explicit constraints that I might have inferred from your previous statements but weren't explicitly stated, please clarify so I can provide a more accurate summary.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1464.6,
+  "patched": true
+ },
+ {
+  "scenario_id": "hold-out-U008",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9441,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "104"
+    ],
+    "old_only_tokens": [
+     "84"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "353"
+    ],
+    "old_only_tokens": [
+     "298"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User mentioned checking the current status of legal requirements\n- User asked about the current status of legal requirements and plans to check it\n- User requested to review established constraints for the legal project\n- User reviewed established constraints for the legal project\n- User asked about comparing current legal requirements to industry standards\n- The specification for the current legal project was previously set to 736 but has been updated\n- User checked the current status of legal requirements and assistant acknowledged\n- User mentioned reviewing established constraints for the legal project\n- User asked about comparing current requirements to industry standards for legal specifications\n- User requested a summary of the covered requirements for the legal project\n- User inquired about the next requirement for the legal project\n- User requested a summary of the next requirement for the legal project\n- User asked about comparison to industry standards regarding legal requirements\n- User asked about the next requirement for the legal project\n- The old standard required the specification of 138, which has since been updated for the current legal project\n- User mentioned reviewing established constraints for the legal project during conversation\n- User mentioned the old standard required specification of 252, which has since been updated for the legal project\n- User mentioned that the old standard required a specification of 603 for the legal project, which has since been updated\n- User asked how the current requirements compare to industry standards\n- The old standard required the specification of 554, which has since been updated for the legal project",
+  "answer_text": "- User mentioned reviewing established constraints for the legal project during conversation\n- The specification for the current legal project was previously set to 736 but has been updated\n- The old standard required the specification of 138, which has since been updated for the legal project\n- User mentioned that the old standard required a specification of 252, which has since been updated for the legal project\n- User mentioned that the old standard required a specification of 603 for the legal project, which has since been updated\n- The old standard required the specification of 554, which has since been updated for the legal project",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1514.4,
+  "patched": true
+ },
+ {
+  "scenario_id": "hold-out-U022",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9706,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "186"
+    ],
+    "old_only_tokens": [
+     "218"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "- User requested to check the current status of general requirements\n- User is checking the current status of general requirements\n- User mentioned checking the status of general requirements\n- User requested to check the current status of general requirements and mentioned a previous specification of 243 before revision\n- User requested to check the current status of general requirements and assistant noted it as a requirement\n- User requested a review of established constraints\n- User requested to continue with the general specifications\n- User requested to review established constraints\n- User checked the current status of general requirements, indicating ongoing project management\n- User requested a summary of what has been covered so far in the discussion about general specifications\n- User inquired about the next requirement for the general project\n- User requested to review the constraints they've established\n- User continued with the general specifications\n- User requested to continue with the general specifications and asked about the next requirement for the project\n- User asked about the next requirement for the general project\n- Assistant acknowledged the user's request to continue with the general specifications and noted the next requirement\n- User requested to review general specifications\n- User mentioned that the previous specification of 518 was for an old project and asked about the next requirement for the current general project\n- User requested a summary of what has been covered so far and asked about the next requirement for the general project\n- User specified that the previous specification of 736 was for an old project and asked about the next requirement for the current general project",
+  "answer_text": "Based on the provided memory, there is no explicit list of current general constraints or requirements given. The conversation indicates a process of checking statuses and discussing specifications but does not provide specific details about the constraints or requirements themselves.\n\nIf you have any specific points from previous discussions that should be included here, please let me know so I can assist further.",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3097.1,
+  "patched": true
+ }
+]

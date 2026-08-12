@@ -1,0 +1,419 @@
+[
+ {
+  "scenario_id": "hold-out-U001",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7563,
+  "ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U002",
+  "total_turns": 200,
+  "recall": 0.875,
+  "ccr": 0.7566,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U003",
+  "total_turns": 200,
+  "recall": 0.75,
+  "ccr": 0.7212,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U004",
+  "total_turns": 200,
+  "recall": 0.9230769230769231,
+  "ccr": 0.7117,
+  "ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U005",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.9055,
+  "ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U006",
+  "total_turns": 500,
+  "recall": 0.9230769230769231,
+  "ccr": 0.8579,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U007",
+  "total_turns": 500,
+  "recall": 0.9230769230769231,
+  "ccr": 0.8758,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U008",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8902,
+  "ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U009",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9338,
+  "ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U010",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9425,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U011",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9254,
+  "ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U012",
+  "total_turns": 1000,
+  "recall": 0.625,
+  "ccr": 0.9402,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U013",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7614,
+  "ua": [
+   {
+    "gt_id": "gt_002",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U014",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7051,
+  "ua": [
+   {
+    "gt_id": "gt_011",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U015",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7675,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U016",
+  "total_turns": 200,
+  "recall": 1.0,
+  "ccr": 0.7122,
+  "ua": [
+   {
+    "gt_id": "gt_012",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U017",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.9095,
+  "ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U018",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.8816,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U019",
+  "total_turns": 500,
+  "recall": 1.0,
+  "ccr": 0.864,
+  "ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U020",
+  "total_turns": 500,
+  "recall": 0.6,
+  "ccr": 0.8997,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U021",
+  "total_turns": 1000,
+  "recall": 0.875,
+  "ccr": 0.9337,
+  "ua": [
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U022",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9561,
+  "ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U023",
+  "total_turns": 1000,
+  "recall": 1.0,
+  "ccr": 0.9188,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ]
+ },
+ {
+  "scenario_id": "hold-out-U024",
+  "total_turns": 1000,
+  "recall": 0.875,
+  "ccr": 0.9432,
+  "ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": true
+   }
+  ]
+ }
+]

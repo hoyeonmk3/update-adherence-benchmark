@@ -1,0 +1,949 @@
+[
+ {
+  "scenario_id": "hold-out-U001_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 1.0,
+  "found": 8,
+  "total_gt": 8,
+  "ccr": 0.8727,
+  "context_ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "329°C"
+    ],
+    "old_only_tokens": [
+     "341°C"
+    ],
+    "new_tokens_hit": [
+     "329°C"
+    ],
+    "old_tokens_hit": [
+     "341°C"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum operating temperature must not exceed 341°C\n[CONSTRAINT] [user] (turn 8): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 10): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 22): Important requirement: Minimum wall thickness shall be 328mm\n[CONSTRAINT] [user] (turn 24): Maximum operating temperature must not exceed 329°C going forward.\n[CONSTRAINT] [user] (turn 44): Important requirement: Tensile strength must be at least 447 MPa\n[CONSTRAINT] [user] (turn 46): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 50): Before the revision, the specification was 196.\n[CONSTRAINT] [user] (turn 68): Important requirement: Operating pressure range is 81 to 372 bar\n[CONSTRAINT] [user] (turn 80): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 90): Important requirement: Surface roughness Ra must not exceed 195 μm\n[CONSTRAINT] [user] (turn 102): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 112): Important requirement: Vibration tolerance must be within 497g RMS\n[CONSTRAINT] [user] (turn 136): Important requirement: Material hardness must be at least 156 HRC\n[CONSTRAINT] [user] (turn 148): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 158): Important requirement: Thermal conductivity shall exceed 21 W/mK\n[CONSTRAINT] [user] (turn 180): Let's review the constraints we've established.",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Maximum operating temperature must not exceed 329°C (revised from 341°C).\n2. Minimum wall thickness shall be 328mm.\n3. Tensile strength must be at least 447 MPa.\n4. Operating pressure range is 81 to 372 bar.\n5. Surface roughness Ra must not exceed 195 μm.\n6. Vibration tolerance must be within 497g RMS.\n7. Material hardness must be at least 156 HRC.\n8. Thermal conductivity shall exceed 21 W/mK.",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200
+  },
+  "supersession_events": [],
+  "replay_s": 121.4
+ },
+ {
+  "scenario_id": "hold-out-U002_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.875,
+  "found": 7,
+  "total_gt": 8,
+  "ccr": 0.8971,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "412mm"
+    ],
+    "old_only_tokens": [
+     "320mm"
+    ],
+    "new_tokens_hit": [
+     "412mm"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "61"
+    ],
+    "old_only_tokens": [
+     "9"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "9"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 426mg per kg body weight\n[CONSTRAINT] [user] (turn 18): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 22): Important requirement: Blood pressure target is below 158/239 mmHg\n[CONSTRAINT] [user] (turn 26): Before the revision, the specification was 508.\n[CONSTRAINT] [user] (turn 44): Important requirement: Heart rate alert threshold is above 467 bpm\n[CONSTRAINT] [user] (turn 54): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 68): Important requirement: Medication interval must be at least 97 hours\n[CONSTRAINT] [user] (turn 90): Important requirement: Patient BMI threshold for procedure is below 476\n[CONSTRAINT] [user] (turn 100): Before the revision, the specification was 770.\n[CONSTRAINT] [user] (turn 112): Important requirement: Surgical margin must be at least 320mm\n[CONSTRAINT] [user] (turn 136): Important requirement: Sterilization temperature must reach 228°C for 297 minutes\n[CONSTRAINT] [user] (turn 150): Surgical margin must be at least 412mm.\n[CONSTRAINT] [user] (turn 158): Important requirement: Blood glucose target range is 9 to 28 mg/dL",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Important requirement: Dosage must not exceed 426mg per kg body weight\n2. Important requirement: Blood pressure target is below 158/239 mmHg\n3. Important requirement: Heart rate alert threshold is above 467 bpm\n4. Important requirement: Medication interval must be at least 97 hours\n5. Important requirement: Patient BMI threshold for procedure is below 476\n6. Important requirement: Surgical margin must be at least 412mm.\n7. Important requirement: Sterilization temperature must reach 228°C for 297 minutes\n8. Important requirement: Blood glucose target range is 9 to 28 mg/dL",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200
+  },
+  "supersession_events": [],
+  "replay_s": 79.5
+ },
+ {
+  "scenario_id": "hold-out-U003_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.625,
+  "found": 5,
+  "total_gt": 8,
+  "ccr": 0.8956,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "312"
+    ],
+    "old_only_tokens": [
+     "406"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "100"
+    ],
+    "old_only_tokens": [
+     "167"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "167"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "250"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "279"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Contract termination notice period is 256 business days\n[CONSTRAINT] [user] (turn 22): Important requirement: Liability cap must not exceed 107% of contract value\n[CONSTRAINT] [user] (turn 24): Before the revision, the specification was 185.\n[CONSTRAINT] [user] (turn 36): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 44): Important requirement: Confidentiality obligation extends 343 years after termination\n[CONSTRAINT] [user] (turn 90): Important requirement: Arbitration venue must be in 167 jurisdiction\n[CONSTRAINT] [user] (turn 104): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 112): Important requirement: Indemnification limit is 446 times annual fee\n[CONSTRAINT] [user] (turn 114): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 120): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 136): Important requirement: Data retention period is 279 years from collection date\n[CONSTRAINT] [user] (turn 158): Important requirement: Response time for legal hold notice is 149 business days\n[CONSTRAINT] [user] (turn 194): Let's review the constraints we've established.",
+  "answer_text": "Here are the current legal constraints and requirements:\n\n1. Contract termination notice period is 256 business days\n2. Liability cap must not exceed 107% of contract value\n3. Confidentiality obligation extends 343 years after termination\n4. Arbitration venue must be in 167 jurisdiction\n5. Indemnification limit is 446 times annual fee\n6. Data retention period is 279 years from collection date\n7. Response time for legal hold notice is 149 business days",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200,
+   "conflict_detected": 3
+  },
+  "supersession_events": [
+   {
+    "turn": 52,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 354.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 185. The new statement claims that before the revision, the specification was 354. These two values are different and cannot both be correct at the same time under the given context.\"}"
+   },
+   {
+    "turn": 152,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Liability cap must not exceed % of contract val should ideally be around 705, though this is jus\", \"reason\": \"The existing constraint specifies that the liability cap must not exceed 107% of the contract value, which is an absolute limit. The new statement suggests that ideally, the liability cap should be around 705 (presumably a percentage), but this value far exceeds the 107% l"
+   },
+   {
+    "turn": 162,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Data retention period is 250 years from collection date.\", \"reason\": \"The existing constraint specifies a data retention period of 279 years, while the new statement proposes a retention period of 250 years. These two periods are different and cannot be simultaneously satisfied without altering one of them.\"}"
+   }
+  ],
+  "replay_s": 107.6
+ },
+ {
+  "scenario_id": "hold-out-U004_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.6153846153846154,
+  "found": 8,
+  "total_gt": 13,
+  "ccr": 0.8474,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "468%"
+    ],
+    "old_only_tokens": [
+     "378%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "509"
+    ],
+    "old_only_tokens": [
+     "442"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 10): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 14): Important requirement: Minimum reserve ratio must be maintained at 438%\n[CONSTRAINT] [user] (turn 18): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 28): Important requirement: Transaction approval threshold is 240 USD\n[CONSTRAINT] [user] (turn 32): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 34): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 42): Important requirement: Credit risk score minimum is 239 points\n[CONSTRAINT] [user] (turn 52): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 56): Important requirement: Dividend payout ratio must not exceed 227%\n[CONSTRAINT] [user] (turn 70): Important requirement: Debt-to-equity ratio ceiling is 358\n[CONSTRAINT] [user] (turn 82): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 96): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 100): The old standard required the specification of 566, which has since been updated.\n[CONSTRAINT] [user] (turn 102): The old standard required the specification of 268, which has since been updated.\n[CONSTRAINT] [user] (turn 106): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 112): Important requirement: Minimum collateral coverage ratio is 238x\n[CONSTRAINT] [user] (turn 144): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 148): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 154): Important requirement: Capital adequacy ratio must exceed 289%\n[CONSTRAINT] [user] (turn 168): Important requirement: Loan-to-value ratio maximum is 257%",
+  "answer_text": "Here are the current finance constraints and requirements:\n\n1. Minimum reserve ratio must be maintained at 438%\n2. Transaction approval threshold is 240 USD\n3. Credit risk score minimum is 239 points\n4. Dividend payout ratio must not exceed 227%\n5. Debt-to-equity ratio ceiling is 358\n6. Minimum collateral coverage ratio is 238x\n7. Capital adequacy ratio must exceed 289%\n8. Loan-to-value ratio maximum is 257%",
+  "event_counts": {
+   "compression": 20,
+   "classification": 200
+  },
+  "supersession_events": [],
+  "replay_s": 170.0
+ },
+ {
+  "scenario_id": "hold-out-U005_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.75,
+  "found": 6,
+  "total_gt": 8,
+  "ccr": 0.9175,
+  "context_ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "143"
+    ],
+    "old_only_tokens": [
+     "172"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "172"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum response time must not exceed 10 seconds\n[CONSTRAINT] [user] (turn 14): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 38): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 100): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 102): The old standard required the specification of 382, which has since been updated.\n[CONSTRAINT] [user] (turn 120): Important requirement: Data backup frequency is every 172 hours\n[CONSTRAINT] [user] (turn 180): Important requirement: User session timeout is 500 minutes\n[CONSTRAINT] [user] (turn 184): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 202): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 228): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 238): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 240): Important requirement: Maximum concurrent users supported is 63\n[CONSTRAINT] [user] (turn 276): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 278): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 300): Important requirement: API rate limit is 404 requests per minute\n[CONSTRAINT] [user] (turn 334): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 354): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 356): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 358): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 360): Important requirement: Log retention period is 96 days\n[CONSTRAINT] [user] (turn 366): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 378): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 408): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 418): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 420): Important requirement: Password minimum length is 69 characters\n[CONSTRAINT] [user] (turn 434): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 458): Before the revision, the specification was 177.\n[CONSTRAINT] [user] (turn 460): Let's review the constraints we've established.",
+  "answer_text": "Here are the current general constraints and requirements as listed:\n\n1. Important requirement: Maximum response time must not exceed 10 seconds\n2. The old standard required the specification of 382, which has since been updated.\n3. Important requirement: Data backup frequency is every 172 hours\n4. Important requirement: User session timeout is 500 minutes\n5. Important requirement: Maximum concurrent users supported is 63\n6. Important requirement: API rate limit is 404 requests per minute\n7. Important requirement: Log retention period is 96 days\n8. Important requirement: Password minimum length is 69 characters\n\nBefore the revision, the specification was 177.",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "conflict_detected": 1
+  },
+  "supersession_events": [
+   {
+    "turn": 286,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Data backup frequency is every 143 hours.\", \"reason\": \"The existing constraint specifies a data backup frequency of every 172 hours, which directly conflicts with the new statement proposing a backup frequency of every 143 hours. Both cannot be simultaneously satisfied as they specify different intervals for performing backups.\"}"
+   }
+  ],
+  "replay_s": 526.0
+ },
+ {
+  "scenario_id": "hold-out-U006_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.8896,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "36"
+    ],
+    "old_only_tokens": [
+     "98"
+    ],
+    "new_tokens_hit": [
+     "36"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "404mm"
+    ],
+    "old_only_tokens": [
+     "452mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "452mm"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum operating temperature must not exceed 96°C\n[CONSTRAINT] [user] (turn 36): Important requirement: Minimum wall thickness shall be 452mm\n[CONSTRAINT] [user] (turn 38): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 50): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 58): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 68): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 74): Important requirement: Tensile strength must be at least 477 MPa\n[CONSTRAINT] [user] (turn 86): Historical data shows Vibration tolerance must be within g RMS averaged 647 in past projects.\n[CONSTRAINT] [user] (turn 110): Important requirement: Operating pressure range is 98 to 272 bar\n[CONSTRAINT] [user] (turn 114): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 148): Important requirement: Surface roughness Ra must not exceed 468 μm\n[CONSTRAINT] [user] (turn 166): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 174): Let's work with this from here: Operating pressure range is 36 to 272 bar.\n[CONSTRAINT] [user] (turn 176): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 184): Important requirement: Vibration tolerance must be within 92g RMS\n[CONSTRAINT] [user] (turn 202): The Component weight must not exceed kg should ideally be around 346, though this is just a preference.\n[CONSTRAINT] [user] (turn 214): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 222): Important requirement: Material hardness must be at least 104 HRC\n[CONSTRAINT] [user] (turn 258): Important requirement: Thermal conductivity shall exceed 380 W/mK\n[CONSTRAINT] [user] (turn 264): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 270): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 296): Important requirement: Fatigue life must exceed 307 cycles\n[CONSTRAINT] [user] (turn 304): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 332): Important requirement: Corrosion resistance rating must be at least 21\n[CONSTRAINT] [user] (turn 370): Important requirement: Maximum deflection under load is 137mm\n[CONSTRAINT] [user] (turn 384): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 392): Before the revision, the specification was 321.\n[CONSTRAINT] [user] (turn 400): The old standard required the specification of 572, which has since been updated.\n[CONSTRAINT] [user] (turn 406): Important requirement: Bolt torque specification is 390 Nm\n[CONSTRAINT] [user] (turn 408): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 414): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 422): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 444): Important requirement: Clearance fit tolerance is H17/g51\n[CONSTRAINT] [user] (turn 460): Before the revision, the specification was 737.\n[CONSTRAINT] [user] (turn 474): The Material hardness must be at least  HRC should ideally be around 978, though this is just a preference.",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Maximum operating temperature must not exceed 96°C\n2. Minimum wall thickness shall be 452mm\n3. Tensile strength must be at least 477 MPa\n4. Vibration tolerance must be within 92g RMS\n5. Operating pressure range is 36 to 272 bar\n6. Surface roughness Ra must not exceed 468 μm\n7. Material hardness must be at least 104 HRC\n8. Thermal conductivity shall exceed 380 W/mK\n9. Fatigue life must exceed 307 cycles\n10. Corrosion resistance rating must be at least 21\n11. Maximum deflection under load is 137mm\n12. Bolt torque specification is 390 Nm\n13. Clearance fit tolerance is H17/g51",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "conflict_detected": 2
+  },
+  "supersession_events": [
+   {
+    "turn": 116,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Minimum wall thickness shall be 404mm.\", \"reason\": \"The existing constraint specifies a minimum wall thickness of 452mm, which is stricter than the new statement proposing a minimum wall thickness of 404mm. Since these two requirements cannot both be satisfied simultaneously without violating one or the other, they are in contradiction.\"}"
+   },
+   {
+    "turn": 398,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 869.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 321. The new statement claims that before the revision, the specification was 869. These two statements cannot both be true simultaneously as they provide conflicting values for the same condition (before the revision).\"}"
+   }
+  ],
+  "replay_s": 409.7
+ },
+ {
+  "scenario_id": "hold-out-U007_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.8461538461538461,
+  "found": 11,
+  "total_gt": 13,
+  "ccr": 0.8713,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "173"
+    ],
+    "old_only_tokens": [
+     "160"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "160"
+    ]
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "495"
+    ],
+    "old_only_tokens": [
+     "409"
+    ],
+    "new_tokens_hit": [
+     "495"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "101mL"
+    ],
+    "old_only_tokens": [
+     "53mL"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "53mL"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 197mg per kg body weight\n[CONSTRAINT] [user] (turn 30): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 36): Important requirement: Blood pressure target is below 406/426 mmHg\n[CONSTRAINT] [user] (turn 50): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 52): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 74): Important requirement: Heart rate alert threshold is above 409 bpm\n[CONSTRAINT] [user] (turn 76): Before the revision, the specification was 948.\n[CONSTRAINT] [user] (turn 80): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 110): Important requirement: Medication interval must be at least 160 hours\n[CONSTRAINT] [user] (turn 112): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 138): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 148): Important requirement: Patient BMI threshold for procedure is below 219\n[CONSTRAINT] [user] (turn 184): Important requirement: Surgical margin must be at least 253mm\n[CONSTRAINT] [user] (turn 202): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 210): Heart rate alert threshold is above 495 bpm going forward.\n[CONSTRAINT] [user] (turn 216): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 222): Important requirement: Sterilization temperature must reach 104°C for 216 minutes\n[CONSTRAINT] [user] (turn 258): Important requirement: Blood glucose target range is 276 to 546 mg/dL\n[CONSTRAINT] [user] (turn 264): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 272): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 278): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 296): Important requirement: Ventilator tidal volume is 53mL per kg ideal body weight\n[CONSTRAINT] [user] (turn 298): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 312): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 332): Important requirement: Maximum radiation dose is 297 mSv per session\n[CONSTRAINT] [user] (turn 336): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 340): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 348): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 354): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 360): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 370): Important requirement: Hemoglobin threshold for transfusion is below 418 g/dL\n[CONSTRAINT] [user] (turn 380): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 390): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 392): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 400): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 406): Important requirement: Post-operative monitoring interval is every 56 minutes\n[CONSTRAINT] [user] (turn 426): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 438): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 444): Important requirement: Drug concentration must remain below 22 ng/mL\n[CONSTRAINT] [user] (turn 460): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 462): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 498): Let's review the constraints we've established.",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Dosage must not exceed 197mg per kg body weight\n2. Blood pressure target is below 406/426 mmHg\n3. Heart rate alert threshold is above 495 bpm\n4. Medication interval must be at least 160 hours\n5. Patient BMI threshold for procedure is below 219\n6. Surgical margin must be at least 253mm\n7. Sterilization temperature must reach 104°C for 216 minutes\n8. Blood glucose target range is 276 to 546 mg/dL\n9. Ventilator tidal volume is 53mL per kg ideal body weight\n10. Maximum radiation dose is 297 mSv per session\n11. Hemoglobin threshold for transfusion is below 418 g/dL\n12. Post-operative monitoring interval is every 56 minutes\n13. Drug concentration must remain below 22 ng/mL",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "conflict_detected": 5
+  },
+  "supersession_events": [
+   {
+    "turn": 136,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 936.\", \"reason\": \"The two statements provide different values for the specification before the revision (948 vs. 936), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 200,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 174.\", \"reason\": \"The two statements provide different values for the specification before the revision (948 vs. 174), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 268,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 573.\", \"reason\": \"The two statements provide different values for the specification before the revision (948 vs. 573), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 318,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 125.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 948. The new statement claims it was 125. These two values are different and cannot both be correct at the same time under the given context.\"}"
+   },
+   {
+    "turn": 456,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Ventilator tidal volume is 101mL per kg ideal body weight going forward.\", \"reason\": \"The existing constraint specifies a ventilator tidal volume of 53 mL/kg, while the new statement proposes a different value of 101 mL/kg. These two values are not compatible and cannot both be true simultaneously for the same system without modification or exception.\"}"
+   }
+  ],
+  "replay_s": 891.8
+ },
+ {
+  "scenario_id": "hold-out-U008_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.75,
+  "found": 6,
+  "total_gt": 8,
+  "ccr": 0.9268,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "104"
+    ],
+    "old_only_tokens": [
+     "84"
+    ],
+    "new_tokens_hit": [
+     "104"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "353"
+    ],
+    "old_only_tokens": [
+     "298"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "298"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Contract termination notice period is 392 business days\n[CONSTRAINT] [user] (turn 22): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 60): Important requirement: Liability cap must not exceed 87% of contract value\n[CONSTRAINT] [user] (turn 104): Before the revision, the specification was 694.\n[CONSTRAINT] [user] (turn 120): Important requirement: Confidentiality obligation extends 298 years after termination\n[CONSTRAINT] [user] (turn 124): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 150): The old standard required the specification of 554, which has since been updated.\n[CONSTRAINT] [user] (turn 190): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 214): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 234): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 240): Important requirement: Arbitration venue must be in 347 jurisdiction\n[CONSTRAINT] [user] (turn 250): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 300): Important requirement: Indemnification limit is 269 times annual fee\n[CONSTRAINT] [user] (turn 310): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 316): The old standard required the specification of 589, which has since been updated.\n[CONSTRAINT] [user] (turn 322): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 348): In version 1, the specification was 746, but we changed it.\n[CONSTRAINT] [user] (turn 360): Important requirement: Data retention period is 84 years from collection date\n[CONSTRAINT] [user] (turn 374): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 390): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 408): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 420): Important requirement: Response time for legal hold notice is 373 business days\n[CONSTRAINT] [user] (turn 440): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 444): Data retention period is 104 years from collection date.",
+  "answer_text": "Here are the current legal constraints and requirements:\n\n1. Contract termination notice period is 392 business days\n2. Liability cap must not exceed 87% of contract value\n3. Confidentiality obligation extends 298 years after termination\n4. Arbitration venue must be in 347 jurisdiction\n5. Indemnification limit is 269 times annual fee\n6. Data retention period is 104 years from collection date\n7. Response time for legal hold notice is 373 business days",
+  "event_counts": {
+   "compression": 50,
+   "classification": 500,
+   "conflict_detected": 3
+  },
+  "supersession_events": [
+   {
+    "turn": 108,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 491.\", \"reason\": \"The two statements provide different values for the specification before the revision (694 vs. 491), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 224,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 945.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 694. The new statement claims it was 945. These two values are different and cannot both be correct at the same time under the given context.\"}"
+   },
+   {
+    "turn": 386,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Liability cap must not exceed % of contract val should ideally be around 967, though this is jus\", \"reason\": \"The existing constraint\\u660e\\u786e\\u89c4\\u5b9a\\u8d54\\u507f\\u4e0a\\u9650\\u4e0d\\u5f97\\u8d85\\u8fc7\\u5408\\u540c\\u4ef7\\u503c\\u768487%\\uff0c\\u800c\\u65b0\\u9648\\u8ff0\\u5efa\\u8bae\\u8d54\\u507f\\u4e0a\\u9650\\u5e94\\u7ea6\\u4e3a967\\uff08\\u5047\\u8bbe\\u8fd9\\u91cc\\u7684967\\u662f\\u6307\\u5408\\"
+   }
+  ],
+  "replay_s": 332.3
+ },
+ {
+  "scenario_id": "hold-out-U009_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.6153846153846154,
+  "found": 8,
+  "total_gt": 13,
+  "ccr": 0.9172,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "320%"
+    ],
+    "old_only_tokens": [
+     "289%"
+    ],
+    "new_tokens_hit": [
+     "320%"
+    ],
+    "old_tokens_hit": [
+     "289%"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 34): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 36): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 44): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 52): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 54): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 62): Before the revision, the specification was 306.\n[CONSTRAINT] [user] (turn 74): Important requirement: Minimum reserve ratio must be maintained at 334%\n[CONSTRAINT] [user] (turn 86): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 104): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 106): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 144): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 148): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 150): Important requirement: Transaction approval threshold is 380 USD\n[CONSTRAINT] [user] (turn 156): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 158): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 166): The old standard required the specification of 676, which has since been updated.\n[CONSTRAINT] [user] (turn 176): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 184): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 226): Important requirement: Credit risk score minimum is 93 points\n[CONSTRAINT] [user] (turn 230): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 242): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 274): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 282): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 294): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 302): Important requirement: Dividend payout ratio must not exceed 289%\n[CONSTRAINT] [user] (turn 310): The old standard required the specification of 650, which has since been updated.\n[CONSTRAINT] [user] (turn 312): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 330): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 336): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 376): Important requirement: Debt-to-equity ratio ceiling is 113\n[CONSTRAINT] [user] (turn 390): Before the revision, the specification was 745.\n[CONSTRAINT] [user] (turn 410): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 450): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 500): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 502): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 516): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 522): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 532): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 536): The old standard required the specification of 840, which has since been updated.\n[CONSTRAINT] [user] (turn 546): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 568): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 572): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 604): Important requirement: Minimum collateral coverage ratio is 399x\n[CONSTRAINT] [user] (turn 608): Let's work with this from here: Dividend payout ratio must not exceed 320%.\n[CONSTRAINT] [user] (turn 610): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 614): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 626): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 752): The old standard required the specification of 614, which has since been updated.\n[CONSTRAINT] [user] (turn 778): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 822): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 830): Important requirement: Capital adequacy ratio must exceed 295%\n[CONSTRAINT] [user] (turn 858): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 864): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 882): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 906): Important requirement: Loan-to-value ratio maximum is 35%\n[CONSTRAINT] [user] (turn 914): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 916): Let's review the constraints we've established.",
+  "answer_text": "Here are the current finance constraints and requirements as listed:\n\n1. Minimum reserve ratio must be maintained at 334%\n2. Transaction approval threshold is 380 USD\n3. Credit risk score minimum is 93 points\n4. Dividend payout ratio must not exceed 289% (Note: There's a later update stating it should not exceed 320%.)\n5. Debt-to-equity ratio ceiling is 113\n6. Minimum collateral coverage ratio is 399x\n7. Capital adequacy ratio must exceed 295%\n8. Loan-to-value ratio maximum is 35%",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "conflict_detected": 7
+  },
+  "supersession_events": [
+   {
+    "turn": 142,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 224.\", \"reason\": \"The existing constraint states that before the revision, the specification was 306, while the new statement claims it was 224. These two values cannot both be correct at the same time under the given context.\"}"
+   },
+   {
+    "turn": 160,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 366.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 306. The new statement claims it was 366, which directly contradicts the original value.\"}"
+   },
+   {
+    "turn": 238,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The old standard required the specification of 715, which has since been updated.\", \"reason\": \"The existing constraint specifies that the old standard required the specification of 676, while the new statement claims it was 715. These two numbers are different and cannot both be correct according to the context provided.\"}"
+   },
+   {
+    "turn": 564,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Historical data shows Minimum reserve ratio must be maintained at % averaged 226 in past projects.\", \"reason\": \"The existing constraint specifies a minimum reserve ratio of 334%, which is a fixed requirement. The new statement suggests an average historical reserve ratio of 226% from past projects, which is significantly lower than the specified minimum. Maintaining a reserve ratio at"
+   },
+   {
+    "turn": 652,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 561.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 306. The new statement claims that before the revision, the specification was 561. These two statements cannot both be true simultaneously as they provide conflicting values for the same condition (before the revision).\"}"
+   },
+   {
+    "turn": 692,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 275.\", \"reason\": \"The existing constraint states that before the revision, the specification was 306, while the new statement claims it was 275. These two values are different and cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 730,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 525.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 306. The new statement claims that before the revision, the specification was 525. These two statements cannot both be true simultaneously as they provide conflicting values for the same condition (before the revision).\"}"
+   }
+  ],
+  "replay_s": 2065.6
+ },
+ {
+  "scenario_id": "hold-out-U010_impT1",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.8903,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "236"
+    ],
+    "old_only_tokens": [
+     "199"
+    ],
+    "new_tokens_hit": [
+     "236"
+    ],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "170"
+    ],
+    "old_only_tokens": [
+     "148"
+    ],
+    "new_tokens_hit": [
+     "170"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum response time must not exceed 395 seconds\n[CONSTRAINT] [user] (turn 6): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 14): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 18): The old standard required the specification of 927, which has since been updated.\n[CONSTRAINT] [user] (turn 26): Before the revision, the specification was 379.\n[CONSTRAINT] [user] (turn 44): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 54): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 64): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 70): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 74): Important requirement: Availability SLA target is 454%\n[CONSTRAINT] [user] (turn 82): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 98): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 104): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 116): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 150): Important requirement: Data backup frequency is every 349 hours\n[CONSTRAINT] [user] (turn 152): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 162): The old standard required the specification of 950, which has since been updated.\n[CONSTRAINT] [user] (turn 172): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 178): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 182): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 226): Important requirement: User session timeout is 144 minutes\n[CONSTRAINT] [user] (turn 236): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 244): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 262): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 268): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 288): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 302): Important requirement: Maximum concurrent users supported is 148\n[CONSTRAINT] [user] (turn 324): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 336): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 348): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 354): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 360): The Maximum file upload size is MB should ideally be around 916, though this is just a preference.\n[CONSTRAINT] [user] (turn 376): Important requirement: API rate limit is 199 requests per minute\n[CONSTRAINT] [user] (turn 452): Important requirement: Log retention period is 287 days\n[CONSTRAINT] [user] (turn 460): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 468): API rate limit is 236 requests per minute going forward.\n[CONSTRAINT] [user] (turn 472): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 500): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 508): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 516): Maximum concurrent users supported is 170 going forward.\n[CONSTRAINT] [user] (turn 520): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 528): Important requirement: Password minimum length is 155 characters\n[CONSTRAINT] [user] (turn 562): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 604): Important requirement: System restart window is between 240:00 and 418:00 UTC\n[CONSTRAINT] [user] (turn 614): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 632): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 642): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 650): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 652): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 678): Important requirement: Cache invalidation interval is 297 seconds\n[CONSTRAINT] [user] (turn 690): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 704): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 718): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 766): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 790): The old standard required the specification of 240, which has since been updated.\n[CONSTRAINT] [user] (turn 806): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 808): The old standard required the specification of 763, which has since been updated.\n[CONSTRAINT] [user] (turn 824): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 828): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 830): Important requirement: Notification delivery timeout is 322 seconds\n[CONSTRAINT] [user] (turn 836): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 864): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 886): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 890): Before the revision, the specification was 760.\n[CONSTRAINT] [user] (turn 906): Important requirement: Database connection pool size is 193 connections\n[CONSTRAINT] [user] (turn 916): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 928): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 946): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 950): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 956): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 962): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 964): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 968): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 982): Let's review the constraints we've established.",
+  "answer_text": "Here are the current general constraints and requirements as listed:\n\n1. Important requirement: Maximum response time must not exceed 395 seconds\n2. Availability SLA target is 454%\n3. Data backup frequency is every 349 hours\n4. User session timeout is 144 minutes\n5. Maximum concurrent users supported is 170 going forward.\n6. API rate limit is 236 requests per minute going forward.\n7. Log retention period is 287 days\n8. Password minimum length is 155 characters\n9. System restart window is between 240:00 and 418:00 UTC\n10. Cache invalidation interval is 297 seconds\n11. Notification delivery timeout is 322 seconds\n12. Database connection pool size is 193 connections",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "conflict_detected": 3
+  },
+  "supersession_events": [
+   {
+    "turn": 272,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Maximum response time must not exceed  second should ideally be around 764, though this is just \", \"reason\": \"The existing constraint specifies that the maximum response time must not exceed 395 seconds. The new statement suggests an ideal maximum response time of approximately 764 seconds, which contradicts the existing requirement since 764 seconds is greater than 395 seconds.\"}"
+   },
+   {
+    "turn": 582,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Maximum response time must not exceed  second should ideally be around 875, though this is just \", \"reason\": \"The existing constraint specifies that the maximum response time must not exceed 395 seconds. The new statement suggests an ideal maximum response time of approximately 875 seconds, which contradicts the existing requirement since 875 seconds is greater than 395 seconds.\"}"
+   },
+   {
+    "turn": 754,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Important requirement: Maximum file upload size is 375MB\", \"reason\": \"The existing constraint suggests an ideal maximum file upload size of approximately 916 MB, whereas the new statement imposes a strict requirement of 375 MB. These two constraints are in direct opposition as one sets a higher limit than the other.\"}"
+   }
+  ],
+  "replay_s": 3046.9
+ },
+ {
+  "scenario_id": "hold-out-U011_impT2",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.9230769230769231,
+  "found": 12,
+  "total_gt": 13,
+  "ccr": 0.9078,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": true,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": true,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "267"
+    ],
+    "old_only_tokens": [
+     "365"
+    ],
+    "new_tokens_hit": [
+     "267"
+    ],
+    "old_tokens_hit": [
+     "365"
+    ]
+   },
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "445"
+    ],
+    "old_only_tokens": [
+     "387"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "387"
+    ]
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": true,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "283"
+    ],
+    "old_only_tokens": [
+     "328"
+    ],
+    "new_tokens_hit": [
+     "283"
+    ],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Maximum operating temperature must not exceed 287°C\n[CONSTRAINT] [user] (turn 74): Important requirement: Minimum wall thickness shall be 31mm\n[CONSTRAINT] [user] (turn 106): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 140): The Component weight must not exceed kg should ideally be around 732, though this is just a preference.\n[CONSTRAINT] [user] (turn 150): Important requirement: Tensile strength must be at least 434 MPa\n[CONSTRAINT] [user] (turn 158): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 176): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 180): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 182): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 208): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 226): Important requirement: Operating pressure range is 169 to 655 bar\n[CONSTRAINT] [user] (turn 252): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 272): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 302): Important requirement: Surface roughness Ra must not exceed 328 μm\n[CONSTRAINT] [user] (turn 306): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 372): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 376): Important requirement: Vibration tolerance must be within 484g RMS\n[CONSTRAINT] [user] (turn 378): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 390): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 394): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 400): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 412): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 452): Important requirement: Material hardness must be at least 365 HRC\n[CONSTRAINT] [user] (turn 466): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 480): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 494): Before the revision, the specification was 390.\n[CONSTRAINT] [user] (turn 502): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 516): Surface roughness Ra must not exceed 283 μm.\n[CONSTRAINT] [user] (turn 528): Important requirement: Thermal conductivity shall exceed 251 W/mK\n[CONSTRAINT] [user] (turn 544): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 576): Historical data shows Vibration tolerance must be within g RMS averaged 547 in past projects.\n[CONSTRAINT] [user] (turn 596): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 604): Important requirement: Fatigue life must exceed 123 cycles\n[CONSTRAINT] [user] (turn 610): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 620): The Surface roughness Ra must not exceed  μ should ideally be around 148, though this is just a preference.\n[CONSTRAINT] [user] (turn 628): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 644): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 648): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 678): Important requirement: Corrosion resistance rating must be at least 245\n[CONSTRAINT] [user] (turn 686): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 692): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 694): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 706): The old standard required the specification of 557, which has since been updated.\n[CONSTRAINT] [user] (turn 712): Material hardness must be at least 267 HRC.\n[CONSTRAINT] [user] (turn 728): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 754): Important requirement: Maximum deflection under load is 413mm\n[CONSTRAINT] [user] (turn 758): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 772): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 800): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 804): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 806): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 830): Important requirement: Bolt torque specification is 387 Nm\n[CONSTRAINT] [user] (turn 842): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 850): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 866): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 886): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 906): Important requirement: Clearance fit tolerance is H170/g242\n[CONSTRAINT] [user] (turn 930): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 950): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 964): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 980): Before the revision, the specification was 795.\n[CONSTRAINT] [user] (turn 990): Let's review the constraints we've established.",
+  "answer_text": "Here are the current engineering constraints and requirements:\n\n1. Maximum operating temperature must not exceed 287°C\n2. Minimum wall thickness shall be 31mm\n3. Component weight must ideally be around 732 kg (though this is just a preference)\n4. Tensile strength must be at least 434 MPa\n5. Operating pressure range is 169 to 655 bar\n6. Surface roughness Ra must not exceed 283 μm\n7. Material hardness must be at least 267 HRC\n8. Thermal conductivity shall exceed 251 W/mK\n9. Fatigue life must exceed 123 cycles\n10. Corrosion resistance rating must be at least 245\n11. Maximum deflection under load is 413mm\n12. Bolt torque specification is 387 Nm\n13. Clearance fit tolerance is H170/g242\n14. Vibration tolerance must be within 484g RMS\n15. Material hardness must be at least 365 HRC (revised requirement)\n16. Surface roughness Ra must ideally be around 148 μm (though this is just a preference)",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "conflict_detected": 4
+  },
+  "supersession_events": [
+   {
+    "turn": 100,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Maximum operating temperature must not exceed \\u00b0C should ideally be around 990, though this is ju\", \"reason\": \"The existing constraint specifies that the maximum operating temperature must not exceed 287\\u00b0C. The new statement suggests an ideal maximum operating temperature of approximately 990\\u00b0C, which directly conflicts with the established limit.\"}"
+   },
+   {
+    "turn": 606,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 321.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 390. The new statement claims it was 321. These two values are different and cannot both be correct at the same time under the same context.\"}"
+   },
+   {
+    "turn": 710,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The Component weight must not exceed kg should ideally be around 690, though this is just a preferen\", \"reason\": \"The existing constraint suggests that the component weight should ideally be around 732 kg, while the new statement proposes an ideal weight of around 690 kg. Although both are stated as preferences and not strict limits, they still set different target values for the idea"
+   },
+   {
+    "turn": 908,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Bolt torque specification is 445 Nm.\", \"reason\": \"The existing constraint specifies a bolt torque of 387 Nm, which directly conflicts with the new statement that sets the bolt torque to 445 Nm. These two values cannot both be correct simultaneously under the same engineering context.\"}"
+   }
+  ],
+  "replay_s": 1985.6
+ },
+ {
+  "scenario_id": "hold-out-U012_impT3",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.625,
+  "found": 5,
+  "total_gt": 8,
+  "ccr": 0.9306,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": true
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": true
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "158"
+    ],
+    "old_only_tokens": [
+     "225"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "225"
+    ]
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "205°C"
+    ],
+    "old_only_tokens": [
+     "232°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "232°C"
+    ]
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": true,
+    "new_only_tokens": [
+     "110"
+    ],
+    "old_only_tokens": [
+     "50"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": [
+     "50"
+    ]
+   }
+  ],
+  "context_text": "[CONSTRAINT] [user] (turn 0): Important requirement: Dosage must not exceed 335mg per kg body weight\n[CONSTRAINT] [user] (turn 4): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 16): Before the revision, the specification was 903.\n[CONSTRAINT] [user] (turn 30): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 52): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 64): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 114): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 122): Important requirement: Blood pressure target is below 423/538 mmHg\n[CONSTRAINT] [user] (turn 132): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 136): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 238): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 244): Important requirement: Heart rate alert threshold is above 82 bpm\n[CONSTRAINT] [user] (turn 266): The old standard required the specification of 50, which has since been updated.\n[CONSTRAINT] [user] (turn 314): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 324): Before the revision, the specification was 1.\n[CONSTRAINT] [user] (turn 334): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 338): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 364): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 368): Important requirement: Medication interval must be at least 225 hours\n[CONSTRAINT] [user] (turn 372): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 386): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 390): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 396): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 456): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 490): Important requirement: Patient BMI threshold for procedure is below 161\n[CONSTRAINT] [user] (turn 532): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 594): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 602): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 612): Important requirement: Surgical margin must be at least 214mm\n[CONSTRAINT] [user] (turn 630): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 666): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 704): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 706): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 730): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 736): Important requirement: Sterilization temperature must reach 232°C for 393 minutes\n[CONSTRAINT] [user] (turn 742): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 764): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 772): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 802): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 850): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 856): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 858): Important requirement: Blood glucose target range is 50 to 545 mg/dL\n[CONSTRAINT] [user] (turn 860): Before the revision, the specification was 339.\n[CONSTRAINT] [user] (turn 878): The old standard required the specification of 200, which has since been updated.\n[CONSTRAINT] [user] (turn 882): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 884): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 906): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 982): Let's review the constraints we've established.\n[CONSTRAINT] [user] (turn 998): Let's review the constraints we've established.",
+  "answer_text": "Here are the current medical constraints and requirements as listed:\n\n1. Dosage must not exceed 335mg per kg body weight\n2. Blood pressure target is below 423/538 mmHg\n3. Heart rate alert threshold is above 82 bpm\n4. Medication interval must be at least 225 hours\n5. Patient BMI threshold for procedure is below 161\n6. Surgical margin must be at least 214mm\n7. Sterilization temperature must reach 232°C for 393 minutes\n8. Blood glucose target range is 50 to 545 mg/dL",
+  "event_counts": {
+   "compression": 100,
+   "classification": 1000,
+   "conflict_detected": 5
+  },
+  "supersession_events": [
+   {
+    "turn": 150,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 949.\", \"reason\": \"The existing constraint specifies that before the revision, the specification was 903. The new statement claims it was 949, which directly contradicts the original value.\"}"
+   },
+   {
+    "turn": 488,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 817.\", \"reason\": \"The two statements provide different values for the specification before the revision (903 vs. 817), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 554,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"The old standard required the specification of 590, which has since been updated.\", \"reason\": \"The existing constraint specifies that the old standard required the specification of 50, while the new statement claims it was 590. These two values are different and cannot both be correct according to the context provided.\"}"
+   },
+   {
+    "turn": 758,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Before the revision, the specification was 476.\", \"reason\": \"The two statements provide different values for the specification before the revision (903 vs. 476), which cannot both be true simultaneously.\"}"
+   },
+   {
+    "turn": 976,
+    "type": "conflict_detected",
+    "data": "{\"content\": \"Let's work with this from here: Sterilization temperature must reach 205\\u00b0C for 393 minutes.\", \"reason\": \"The existing constraint specifies that the sterilization temperature must be 232\\u00b0C, whereas the new statement proposes a lower temperature of 205\\u00b0C. These two temperatures are different and cannot both be satisfied simultaneously.\"}"
+   }
+  ],
+  "replay_s": 1610.3
+ }
+]
