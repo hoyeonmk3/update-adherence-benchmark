@@ -1,16 +1,18 @@
-"""Unified behavior-layer runner v2 — covers every configuration: the 6-arm full run,
-the repeat run, the phi3 backbone, the implicit variants, and the RAG variants.
+"""Behavior-level UA runner (all configurations, one replay per arm).
 
-v2 changes: ollama 0.24.0 version guard (abort immediately on mismatch), argparse
-(--models/--suffix/--llm/--scenario-dir/--rag-topk/--query-reform/--all-types),
-SS-first arm order.
-Protocol: identical to run_holdout_v4.py (including mid-run reads at measurement_turns).
+Adds to the canonical protocol of run_holdout_v4.py (measurement_turns mid-run reads included):
+- Ollama version guard (aborts on a stack mismatch).
+- argparse: --models/--suffix/--llm/--scenario-dir/--rag-topk/--query-reform/--all-types/--no-answers.
+- --answer-prompts p0,p1,p2: score several answer prompts from a single replay. answer_text/behavior hold the
+  first style (p0 = the prompt of Fig. 3(c), byte-identical to the reported runs, schema-compatible with earlier
+  outputs); answers_by_prompt/behavior_by_prompt hold every style. Replay and scoring logic are unchanged.
+- Each record carries runner_sha256 and answer_prompts.
 """
-import json, time, gc, sys, re, traceback, argparse
+import json, time, gc, sys, re, traceback, argparse, hashlib
 from pathlib import Path
 from datetime import datetime
 
-sys.path.insert(0, ".")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.stdout.reconfigure(line_buffering=True)
 
 import requests
@@ -32,7 +34,23 @@ MODELS = [
     ("EpSemFiltered", EpSemFiltered),
 ]
 
-OUT_DIR = Path("results")
+OUT_DIR = Path(__file__).resolve().parent / "results"
+
+RUNNER_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+
+# answer-prompt styles for the prompt ablation. p0 == the Fig. 3(c) prompt, byte-identical to the reported runs.
+PROMPTS = {
+    "p0": ("Using ONLY the memory above, answer the user's question.\n"
+           "Question: {q}\n"
+           "List each applicable constraint verbatim, exactly as it appears in the memory.\n"
+           "Answer:"),
+    "p1": ("Using ONLY the memory above, answer the user's question in your own words.\n"
+           "Question: {q}\n"
+           "Answer:"),
+    "p2": ("Using ONLY the memory above, answer the user's question.\n"
+           "Question: {q}\n"
+           "Answer:"),
+}
 OLLAMA = "http://localhost:11434"
 PINNED_VERSION = "0.24.0"
 
@@ -40,19 +58,16 @@ def version_guard():
     try:
         v = requests.get(f"{OLLAMA}/api/version", timeout=10).json().get("version", "?")
     except Exception as e:
-        print(f"FATAL: ollama server unreachable ({e}) — aborting"); sys.exit(2)
+        print(f"FATAL: cannot reach the ollama server ({e})"); sys.exit(2)
     if v != PINNED_VERSION:
-        print(f"FATAL: ollama version {v} != {PINNED_VERSION} (pin violation) — aborting"); sys.exit(2)
+        print(f"FATAL: ollama version {v} != pinned {PINNED_VERSION}"); sys.exit(2)
     print(f"[guard] ollama {v} OK")
 
-def gen_answer(context, query, gen_model):
+def gen_answer(context, query, gen_model, style="p0"):
     prompt = (
         "You are an assistant helping a user. Below is your memory from a long conversation with the user.\n"
         "=== MEMORY ===\n" + context + "\n=== END MEMORY ===\n\n"
-        "Using ONLY the memory above, answer the user's question.\n"
-        "Question: " + query + "\n"
-        "List each applicable constraint verbatim, exactly as it appears in the memory.\n"
-        "Answer:"
+        + PROMPTS[style].format(q=query)
     )
     r = requests.post(f"{OLLAMA}/api/generate",
                       json={"model": gen_model, "prompt": prompt, "stream": False,
@@ -120,7 +135,12 @@ def run_one(model_name, ModelClass, sc, args):
     replay_s = time.perf_counter() - t0
 
     gen_model = args.llm or "qwen2.5:14b-instruct-q4_K_M"
-    answer = gen_answer(context, query, gen_model) if not args.no_answers else ""
+    styles = [s.strip() for s in args.answer_prompts.split(",") if s.strip()]
+    answers = {}
+    if not args.no_answers:
+        for st in styles:
+            answers[st] = gen_answer(context, query, gen_model, st)
+    answer = answers.get(styles[0], "") if answers else ""
     found = [g for g in gt if g in context]
 
     ev_counts, ev_super = {}, []
@@ -145,6 +165,10 @@ def run_one(model_name, ModelClass, sc, args):
         "behavior": [behavior_score(answer, t) for t in ua_targets] if answer else [],
         "context_text": context,
         "answer_text": answer,
+        "answer_prompts": styles,
+        "answers_by_prompt": answers,
+        "behavior_by_prompt": {st: [behavior_score(a, t) for t in ua_targets] for st, a in answers.items()},
+        "runner_sha256": RUNNER_SHA256,
         "event_counts": ev_counts,
         "supersession_events": ev_super,
         "replay_s": round(replay_s, 1),
@@ -155,23 +179,28 @@ def run_one(model_name, ModelClass, sc, args):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--models", type=str, default=None, help="comma-separated model-name filter")
+    ap.add_argument("--models", type=str, default=None, help="comma-separated configuration filter")
     ap.add_argument("--suffix", type=str, default="", help="output file suffix (e.g. rerun, phi3, imp)")
     ap.add_argument("--llm", type=str, default=None, help="LLM override (e.g. phi3:medium)")
     ap.add_argument("--scenario-dir", type=str, default=None, help="scenario directory override")
     ap.add_argument("--rag-topk", type=int, default=None)
     ap.add_argument("--query-reform", action="store_true")
-    ap.add_argument("--all-types", action="store_true", help="all scenarios, not only U0*")
-    ap.add_argument("--no-answers", action="store_true", help="skip answer generation (store metrics only)")
+    ap.add_argument("--all-types", action="store_true", help="all scenario types, not only U0*")
+    ap.add_argument("--no-answers", action="store_true", help="skip answer generation (store-level metrics only)")
+    ap.add_argument("--answer-prompts", type=str, default="p0",
+                    help="comma-separated answer-prompt styles (p0=reported, p1=own-words, p2=neutral)")
     args = ap.parse_args()
+    for st in args.answer_prompts.split(","):
+        assert st.strip() in PROMPTS, f"unknown prompt style {st}"
+    print(f"[runner] sha256={RUNNER_SHA256[:16]} answer_prompts={args.answer_prompts}")
 
     version_guard()
 
     if args.scenario_dir:
         dirs = [Path(args.scenario_dir)]
     else:
-        dirs = [Path("scenarios/holdout_v4"),
-                Path("scenarios/holdout_v5")]
+        dirs = [Path(__file__).resolve().parent / "scenarios" / "holdout_v4",
+                Path(__file__).resolve().parent / "scenarios" / "holdout_v5"]
     pattern = "*.json" if args.all_types else "U0*.json"
     scenarios = []
     for d in dirs:

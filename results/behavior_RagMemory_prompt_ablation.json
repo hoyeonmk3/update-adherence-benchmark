@@ -1,0 +1,3479 @@
+[
+ {
+  "scenario_id": "hold-out-U001",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9651,
+  "context_ua": [
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "329°C"
+    ],
+    "old_only_tokens": [
+     "341°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "329°C"
+     ],
+     "old_only_tokens": [
+      "341°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "329°C"
+     ],
+     "old_only_tokens": [
+      "341°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "329°C"
+     ],
+     "old_only_tokens": [
+      "341°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3.4
+ },
+ {
+  "scenario_id": "hold-out-U002",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9665,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "412mm"
+    ],
+    "old_only_tokens": [
+     "320mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "61"
+    ],
+    "old_only_tokens": [
+     "9"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "412mm"
+     ],
+     "old_only_tokens": [
+      "320mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "61"
+     ],
+     "old_only_tokens": [
+      "9"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "412mm"
+     ],
+     "old_only_tokens": [
+      "320mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "61"
+     ],
+     "old_only_tokens": [
+      "9"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "412mm"
+     ],
+     "old_only_tokens": [
+      "320mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "61"
+     ],
+     "old_only_tokens": [
+      "9"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.5
+ },
+ {
+  "scenario_id": "hold-out-U003",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.968,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "312"
+    ],
+    "old_only_tokens": [
+     "406"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "100"
+    ],
+    "old_only_tokens": [
+     "167"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "250"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): What about the next requirement for this legal project?\n[user] (turn 34): Let me check the current status of our legal requirements.\n[user] (turn 38): Let me check the current status of our legal requirements.\n[user] (turn 58): Let me check the current status of our legal requirements.\n[user] (turn 178): Let me check the current status of our legal requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our legal requirements\" is repeated by the user. There are no specific legal constraints or requirements listed verbatim within the provided memory context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our legal requirements\" is repeated by the user. There are no specific legal constraints or requirements listed verbatim within the provided memory context.",
+   "p1": "It seems you've been checking the status of your legal requirements multiple times. To provide a detailed response, could you please specify which particular project or context these legal constraints and requirements pertain to? This will help me give you accurate information regarding the specific legal aspects you're concerned about.",
+   "p2": "Based on your previous messages, it seems you have been referring to checking the \"current status of our legal requirements\" without specifying what those requirements or constraints are. To provide a detailed response about the current legal constraints and requirements for your project, I would need more specific information regarding the nature of the project, its location (jurisdiction), industry, and any other relevant details that could affect the legal landscape you're operating within.\n\nIf you can provide more context or specifics about what exactly needs to be checked in terms of legal requirements, I'd be happy to assist further."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "312"
+     ],
+     "old_only_tokens": [
+      "406"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "100"
+     ],
+     "old_only_tokens": [
+      "167"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "250"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "312"
+     ],
+     "old_only_tokens": [
+      "406"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "100"
+     ],
+     "old_only_tokens": [
+      "167"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "250"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "312"
+     ],
+     "old_only_tokens": [
+      "406"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "100"
+     ],
+     "old_only_tokens": [
+      "167"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "250"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.2
+ },
+ {
+  "scenario_id": "hold-out-U004",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9666,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "468%"
+    ],
+    "old_only_tokens": [
+     "378%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "509"
+    ],
+    "old_only_tokens": [
+     "442"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 12): Let me check the current status of our finance requirements.\n[user] (turn 22): Let me check the current status of our finance requirements.\n[user] (turn 44): Let me check the current status of our finance requirements.\n[user] (turn 80): Let me check the current status of our finance requirements.\n[user] (turn 94): Let me check the current status of our finance requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+   "p1": "It seems like you've been asking to review or check the current status of your finance requirements multiple times. To provide a detailed response, could you please specify what exactly you need to know about your financial constraints and requirements? Are you looking for budget limits, spending rules, available funds, or something else specific?",
+   "p2": "Based on your previous messages, it seems you've been referring to checking the \"current status of our finance requirements\" without providing specific details about what those requirements or constraints entail. To accurately address your query regarding the current finance constraints and requirements, I would need more information such as:\n\n- The nature of the financial activities or projects involved.\n- Any recent changes in budget allocations or funding sources.\n- Specific goals or objectives related to these finances.\n\nIf you could provide more context or details about what exactly you're looking into, I'd be happy to assist further."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "468%"
+     ],
+     "old_only_tokens": [
+      "378%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "509"
+     ],
+     "old_only_tokens": [
+      "442"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "468%"
+     ],
+     "old_only_tokens": [
+      "378%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "509"
+     ],
+     "old_only_tokens": [
+      "442"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "468%"
+     ],
+     "old_only_tokens": [
+      "378%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "509"
+     ],
+     "old_only_tokens": [
+      "442"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.1
+ },
+ {
+  "scenario_id": "hold-out-U005",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9864,
+  "context_ua": [
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "143"
+    ],
+    "old_only_tokens": [
+     "172"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our general requirements.\n[user] (turn 22): Let me check the current status of our general requirements.\n[user] (turn 28): Let me check the current status of our general requirements.\n[user] (turn 58): Let me check the current status of our general requirements.\n[user] (turn 66): Let me check the current status of our general requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+   "p1": "Based on the previous exchanges, it seems you've been referring to checking the \"current status of our general requirements\" multiple times. However, from the provided memory alone, I don't have specific details about what those requirements or constraints entail. Could you please provide more context or specify which project or area these requirements pertain to so that I can assist you better?",
+   "p2": "Based on the memory provided, it seems you have been referring to checking the \"current status of our general requirements\" multiple times but haven't specified what those requirements or constraints entail. To accurately provide the details of your current general constraints and requirements, I would need more specific information from previous discussions or documents we've referenced. Could you please clarify or provide more context about these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "143"
+     ],
+     "old_only_tokens": [
+      "172"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "143"
+     ],
+     "old_only_tokens": [
+      "172"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "143"
+     ],
+     "old_only_tokens": [
+      "172"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.2
+ },
+ {
+  "scenario_id": "hold-out-U006",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9858,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "36"
+    ],
+    "old_only_tokens": [
+     "98"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "404mm"
+    ],
+    "old_only_tokens": [
+     "452mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "36"
+     ],
+     "old_only_tokens": [
+      "98"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "404mm"
+     ],
+     "old_only_tokens": [
+      "452mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "36"
+     ],
+     "old_only_tokens": [
+      "98"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "404mm"
+     ],
+     "old_only_tokens": [
+      "452mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "36"
+     ],
+     "old_only_tokens": [
+      "98"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "404mm"
+     ],
+     "old_only_tokens": [
+      "452mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.1
+ },
+ {
+  "scenario_id": "hold-out-U007",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9863,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "173"
+    ],
+    "old_only_tokens": [
+     "160"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "495"
+    ],
+    "old_only_tokens": [
+     "409"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "101mL"
+    ],
+    "old_only_tokens": [
+     "53mL"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "173"
+     ],
+     "old_only_tokens": [
+      "160"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "495"
+     ],
+     "old_only_tokens": [
+      "409"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "101mL"
+     ],
+     "old_only_tokens": [
+      "53mL"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "173"
+     ],
+     "old_only_tokens": [
+      "160"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "495"
+     ],
+     "old_only_tokens": [
+      "409"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "101mL"
+     ],
+     "old_only_tokens": [
+      "53mL"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "173"
+     ],
+     "old_only_tokens": [
+      "160"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "495"
+     ],
+     "old_only_tokens": [
+      "409"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "101mL"
+     ],
+     "old_only_tokens": [
+      "53mL"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.3
+ },
+ {
+  "scenario_id": "hold-out-U008",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9873,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_003",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "104"
+    ],
+    "old_only_tokens": [
+     "84"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_003",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "353"
+    ],
+    "old_only_tokens": [
+     "298"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 34): Let me check the current status of our legal requirements.\n[user] (turn 38): Let me check the current status of our legal requirements.\n[user] (turn 58): Let me check the current status of our legal requirements.\n[user] (turn 96): Let me check the current status of our legal requirements.\n[user] (turn 178): Let me check the current status of our legal requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+   "p1": "It seems you've been asking to review or check the current legal constraints and requirements multiple times. To provide a detailed response, I would need more specific information about the context—such as the industry, location, and nature of your project or business. Could you please specify which area or aspect you're interested in?",
+   "p2": "Based on your previous messages, it seems you're interested in checking the current legal constraints and requirements but haven't provided specific details about which area or context these requirements pertain to. Could you please specify if we're talking about a particular industry (e.g., technology, healthcare), jurisdiction (country or state), or any other relevant context? This will help me provide more accurate information regarding your legal constraints and requirements."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "104"
+     ],
+     "old_only_tokens": [
+      "84"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "353"
+     ],
+     "old_only_tokens": [
+      "298"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "104"
+     ],
+     "old_only_tokens": [
+      "84"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "353"
+     ],
+     "old_only_tokens": [
+      "298"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "104"
+     ],
+     "old_only_tokens": [
+      "84"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_003",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "353"
+     ],
+     "old_only_tokens": [
+      "298"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.9
+ },
+ {
+  "scenario_id": "hold-out-U009",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9933,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "320%"
+    ],
+    "old_only_tokens": [
+     "289%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 12): Let me check the current status of our finance requirements.\n[user] (turn 22): Let me check the current status of our finance requirements.\n[user] (turn 44): Let me check the current status of our finance requirements.\n[user] (turn 80): Let me check the current status of our finance requirements.\n[user] (turn 94): Let me check the current status of our finance requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+   "p1": "It seems like you've been asking to review or check the current status of your finance requirements multiple times. To provide a detailed response, could you please specify what exactly you need to know about your financial constraints and requirements? Are you looking for budget limits, spending rules, available funds, or something else specific?",
+   "p2": "Based on your previous messages, it seems you've been referring to checking the \"current status of our finance requirements\" without providing specific details about what those requirements or constraints entail. To accurately address your query regarding the current finance constraints and requirements, I would need more information such as:\n\n- The nature of the financial activities or projects involved.\n- Any recent changes in budget allocations or funding sources.\n- Specific goals or objectives related to these finances.\n\nIf you could provide more context or details about what exactly you're looking into, I'd be happy to assist further."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "320%"
+     ],
+     "old_only_tokens": [
+      "289%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "320%"
+     ],
+     "old_only_tokens": [
+      "289%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "320%"
+     ],
+     "old_only_tokens": [
+      "289%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3.5
+ },
+ {
+  "scenario_id": "hold-out-U010",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9932,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "236"
+    ],
+    "old_only_tokens": [
+     "199"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "170"
+    ],
+    "old_only_tokens": [
+     "148"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our general requirements.\n[user] (turn 22): Let me check the current status of our general requirements.\n[user] (turn 28): Let me check the current status of our general requirements.\n[user] (turn 58): Let me check the current status of our general requirements.\n[user] (turn 66): Let me check the current status of our general requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+   "p1": "Based on the previous exchanges, it seems you've been referring to checking the \"current status of our general requirements\" multiple times. However, from the provided memory alone, I don't have specific details about what those requirements or constraints entail. Could you please provide more context or specify which project or area these requirements pertain to so that I can assist you better?",
+   "p2": "Based on the memory provided, it seems you have been referring to checking the \"current status of our general requirements\" multiple times but haven't specified what those requirements or constraints entail. To accurately provide the details of your current general constraints and requirements, I would need more specific information from previous discussions or documents we've referenced. Could you please clarify or provide more context about these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "236"
+     ],
+     "old_only_tokens": [
+      "199"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "170"
+     ],
+     "old_only_tokens": [
+      "148"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "236"
+     ],
+     "old_only_tokens": [
+      "199"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "170"
+     ],
+     "old_only_tokens": [
+      "148"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "236"
+     ],
+     "old_only_tokens": [
+      "199"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "170"
+     ],
+     "old_only_tokens": [
+      "148"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3.4
+ },
+ {
+  "scenario_id": "hold-out-U011",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9929,
+  "context_ua": [
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "267"
+    ],
+    "old_only_tokens": [
+     "365"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "445"
+    ],
+    "old_only_tokens": [
+     "387"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "283"
+    ],
+    "old_only_tokens": [
+     "328"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "267"
+     ],
+     "old_only_tokens": [
+      "365"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "445"
+     ],
+     "old_only_tokens": [
+      "387"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "283"
+     ],
+     "old_only_tokens": [
+      "328"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "267"
+     ],
+     "old_only_tokens": [
+      "365"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "445"
+     ],
+     "old_only_tokens": [
+      "387"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "283"
+     ],
+     "old_only_tokens": [
+      "328"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "267"
+     ],
+     "old_only_tokens": [
+      "365"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "445"
+     ],
+     "old_only_tokens": [
+      "387"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "283"
+     ],
+     "old_only_tokens": [
+      "328"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3.5
+ },
+ {
+  "scenario_id": "hold-out-U012",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9934,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "158"
+    ],
+    "old_only_tokens": [
+     "225"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "205°C"
+    ],
+    "old_only_tokens": [
+     "232°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "110"
+    ],
+    "old_only_tokens": [
+     "50"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "158"
+     ],
+     "old_only_tokens": [
+      "225"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205°C"
+     ],
+     "old_only_tokens": [
+      "232°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "110"
+     ],
+     "old_only_tokens": [
+      "50"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "158"
+     ],
+     "old_only_tokens": [
+      "225"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205°C"
+     ],
+     "old_only_tokens": [
+      "232°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "110"
+     ],
+     "old_only_tokens": [
+      "50"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "158"
+     ],
+     "old_only_tokens": [
+      "225"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205°C"
+     ],
+     "old_only_tokens": [
+      "232°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "110"
+     ],
+     "old_only_tokens": [
+      "50"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 4.4
+ },
+ {
+  "scenario_id": "hold-out-U013",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9656,
+  "context_ua": [
+   {
+    "gt_id": "gt_002",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_002",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "550mm"
+    ],
+    "old_only_tokens": [
+     "495mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "550mm"
+     ],
+     "old_only_tokens": [
+      "495mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "550mm"
+     ],
+     "old_only_tokens": [
+      "495mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_002",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "550mm"
+     ],
+     "old_only_tokens": [
+      "495mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.3
+ },
+ {
+  "scenario_id": "hold-out-U014",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9678,
+  "context_ua": [
+   {
+    "gt_id": "gt_011",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_011",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "483"
+    ],
+    "old_only_tokens": [
+     "385"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_011",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "483"
+     ],
+     "old_only_tokens": [
+      "385"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_011",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "483"
+     ],
+     "old_only_tokens": [
+      "385"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_011",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "483"
+     ],
+     "old_only_tokens": [
+      "385"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.1
+ },
+ {
+  "scenario_id": "hold-out-U015",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.968,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "67"
+    ],
+    "old_only_tokens": [
+     "22"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "420"
+    ],
+    "old_only_tokens": [
+     "342"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 34): Let me check the current status of our legal requirements.\n[user] (turn 38): Let me check the current status of our legal requirements.\n[user] (turn 58): Let me check the current status of our legal requirements.\n[user] (turn 96): Let me check the current status of our legal requirements.\n[user] (turn 178): Let me check the current status of our legal requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+   "p1": "It seems you've been asking to review or check the current legal constraints and requirements multiple times. To provide a detailed response, I would need more specific information about the context—such as the industry, location, and nature of your project or business. Could you please specify which area or aspect you're interested in?",
+   "p2": "Based on your previous messages, it seems you're interested in checking the current legal constraints and requirements but haven't provided specific details about which area or context these requirements pertain to. Could you please specify if we're talking about a particular industry (e.g., technology, healthcare), jurisdiction (country or state), or any other relevant context? This will help me provide more accurate information regarding your legal constraints and requirements."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "67"
+     ],
+     "old_only_tokens": [
+      "22"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "420"
+     ],
+     "old_only_tokens": [
+      "342"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "67"
+     ],
+     "old_only_tokens": [
+      "22"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "420"
+     ],
+     "old_only_tokens": [
+      "342"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "67"
+     ],
+     "old_only_tokens": [
+      "22"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "420"
+     ],
+     "old_only_tokens": [
+      "342"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.2
+ },
+ {
+  "scenario_id": "hold-out-U016",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.9684,
+  "context_ua": [
+   {
+    "gt_id": "gt_012",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_009",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_012",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "77%"
+    ],
+    "old_only_tokens": [
+     "11%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_009",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "274x"
+    ],
+    "old_only_tokens": [
+     "239x"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "292"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 12): Let me check the current status of our finance requirements.\n[user] (turn 22): Let me check the current status of our finance requirements.\n[user] (turn 44): Let me check the current status of our finance requirements.\n[user] (turn 80): Let me check the current status of our finance requirements.\n[user] (turn 94): Let me check the current status of our finance requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+   "p1": "It seems like you've been asking to review or check the current status of your finance requirements multiple times. To provide a detailed response, could you please specify what exactly you need to know about your financial constraints and requirements? Are you looking for budget limits, spending rules, available funds, or something else specific?",
+   "p2": "Based on your previous messages, it seems you've been referring to checking the \"current status of our finance requirements\" without providing specific details about what those requirements or constraints entail. To accurately address your query regarding the current finance constraints and requirements, I would need more information such as:\n\n- The nature of the financial activities or projects involved.\n- Any recent changes in budget allocations or funding sources.\n- Specific goals or objectives related to these finances.\n\nIf you could provide more context or details about what exactly you're looking into, I'd be happy to assist further."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "77%"
+     ],
+     "old_only_tokens": [
+      "11%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "274x"
+     ],
+     "old_only_tokens": [
+      "239x"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "292"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "77%"
+     ],
+     "old_only_tokens": [
+      "11%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "274x"
+     ],
+     "old_only_tokens": [
+      "239x"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "292"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_012",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "77%"
+     ],
+     "old_only_tokens": [
+      "11%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_009",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "274x"
+     ],
+     "old_only_tokens": [
+      "239x"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "292"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.7
+ },
+ {
+  "scenario_id": "hold-out-U017",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9868,
+  "context_ua": [
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "64"
+    ],
+    "old_only_tokens": [
+     "45"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our general requirements.\n[user] (turn 22): Let me check the current status of our general requirements.\n[user] (turn 28): Let me check the current status of our general requirements.\n[user] (turn 58): Let me check the current status of our general requirements.\n[user] (turn 66): Let me check the current status of our general requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+   "p1": "Based on the previous exchanges, it seems you've been referring to checking the \"current status of our general requirements\" multiple times. However, from the provided memory alone, I don't have specific details about what those requirements or constraints entail. Could you please provide more context or specify which project or area these requirements pertain to so that I can assist you better?",
+   "p2": "Based on the memory provided, it seems you have been referring to checking the \"current status of our general requirements\" multiple times but haven't specified what those requirements or constraints entail. To accurately provide the details of your current general constraints and requirements, I would need more specific information from previous discussions or documents we've referenced. Could you please clarify or provide more context about these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "64"
+     ],
+     "old_only_tokens": [
+      "45"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "64"
+     ],
+     "old_only_tokens": [
+      "45"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "64"
+     ],
+     "old_only_tokens": [
+      "45"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.9
+ },
+ {
+  "scenario_id": "hold-out-U018",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9857,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "184"
+    ],
+    "old_only_tokens": [
+     "159"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "390"
+    ],
+    "old_only_tokens": [
+     "351"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "74"
+    ],
+    "old_only_tokens": [
+     "14"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "184"
+     ],
+     "old_only_tokens": [
+      "159"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "390"
+     ],
+     "old_only_tokens": [
+      "351"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "74"
+     ],
+     "old_only_tokens": [
+      "14"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "184"
+     ],
+     "old_only_tokens": [
+      "159"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "390"
+     ],
+     "old_only_tokens": [
+      "351"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "74"
+     ],
+     "old_only_tokens": [
+      "14"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "184"
+     ],
+     "old_only_tokens": [
+      "159"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "390"
+     ],
+     "old_only_tokens": [
+      "351"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "74"
+     ],
+     "old_only_tokens": [
+      "14"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 1.9
+ },
+ {
+  "scenario_id": "hold-out-U019",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.987,
+  "context_ua": [
+   {
+    "gt_id": "gt_010",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_010",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "125"
+    ],
+    "old_only_tokens": [
+     "222"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "125"
+     ],
+     "old_only_tokens": [
+      "222"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "125"
+     ],
+     "old_only_tokens": [
+      "222"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_010",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "125"
+     ],
+     "old_only_tokens": [
+      "222"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.9
+ },
+ {
+  "scenario_id": "hold-out-U020",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 500,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9871,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "303"
+    ],
+    "old_only_tokens": [
+     "398"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "252"
+    ],
+    "old_only_tokens": [
+     "240"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 34): Let me check the current status of our legal requirements.\n[user] (turn 38): Let me check the current status of our legal requirements.\n[user] (turn 58): Let me check the current status of our legal requirements.\n[user] (turn 96): Let me check the current status of our legal requirements.\n[user] (turn 178): Let me check the current status of our legal requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+   "p1": "It seems you've been asking to review or check the current legal constraints and requirements multiple times. To provide a detailed response, I would need more specific information about the context—such as the industry, location, and nature of your project or business. Could you please specify which area or aspect you're interested in?",
+   "p2": "Based on your previous messages, it seems you're interested in checking the current legal constraints and requirements but haven't provided specific details about which area or context these requirements pertain to. Could you please specify if we're talking about a particular industry (e.g., technology, healthcare), jurisdiction (country or state), or any other relevant context? This will help me provide more accurate information regarding your legal constraints and requirements."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "303"
+     ],
+     "old_only_tokens": [
+      "398"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "252"
+     ],
+     "old_only_tokens": [
+      "240"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "303"
+     ],
+     "old_only_tokens": [
+      "398"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "252"
+     ],
+     "old_only_tokens": [
+      "240"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "303"
+     ],
+     "old_only_tokens": [
+      "398"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "252"
+     ],
+     "old_only_tokens": [
+      "240"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.9
+ },
+ {
+  "scenario_id": "hold-out-U021",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.993,
+  "context_ua": [
+   {
+    "gt_id": "gt_008",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_008",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "515%"
+    ],
+    "old_only_tokens": [
+     "436%"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "205"
+    ],
+    "old_only_tokens": [
+     "125"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 12): Let me check the current status of our finance requirements.\n[user] (turn 22): Let me check the current status of our finance requirements.\n[user] (turn 44): Let me check the current status of our finance requirements.\n[user] (turn 80): Let me check the current status of our finance requirements.\n[user] (turn 94): Let me check the current status of our finance requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our finance requirements\" is the only statement provided in the memory. There are no listed specific finance constraints or requirements detailed within the given memory context.",
+   "p1": "It seems like you've been asking to review or check the current status of your finance requirements multiple times. To provide a detailed response, could you please specify what exactly you need to know about your financial constraints and requirements? Are you looking for budget limits, spending rules, available funds, or something else specific?",
+   "p2": "Based on your previous messages, it seems you've been referring to checking the \"current status of our finance requirements\" without providing specific details about what those requirements or constraints entail. To accurately address your query regarding the current finance constraints and requirements, I would need more information such as:\n\n- The nature of the financial activities or projects involved.\n- Any recent changes in budget allocations or funding sources.\n- Specific goals or objectives related to these finances.\n\nIf you could provide more context or details about what exactly you're looking into, I'd be happy to assist further."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "515%"
+     ],
+     "old_only_tokens": [
+      "436%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205"
+     ],
+     "old_only_tokens": [
+      "125"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "515%"
+     ],
+     "old_only_tokens": [
+      "436%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205"
+     ],
+     "old_only_tokens": [
+      "125"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_008",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "515%"
+     ],
+     "old_only_tokens": [
+      "436%"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "205"
+     ],
+     "old_only_tokens": [
+      "125"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 2.9
+ },
+ {
+  "scenario_id": "hold-out-U022",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 5,
+  "ccr": 0.9934,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "186"
+    ],
+    "old_only_tokens": [
+     "218"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our general requirements.\n[user] (turn 22): Let me check the current status of our general requirements.\n[user] (turn 28): Let me check the current status of our general requirements.\n[user] (turn 58): Let me check the current status of our general requirements.\n[user] (turn 66): Let me check the current status of our general requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our general requirements\" does not provide specific details about the actual constraints or requirements. There are no listed constraints or requirements provided within the given memory for me to quote verbatim. If you have more detailed information or a list of constraints and requirements, please share them so I can assist further.",
+   "p1": "Based on the previous exchanges, it seems you've been referring to checking the \"current status of our general requirements\" multiple times. However, from the provided memory alone, I don't have specific details about what those requirements or constraints entail. Could you please provide more context or specify which project or area these requirements pertain to so that I can assist you better?",
+   "p2": "Based on the memory provided, it seems you have been referring to checking the \"current status of our general requirements\" multiple times but haven't specified what those requirements or constraints entail. To accurately provide the details of your current general constraints and requirements, I would need more specific information from previous discussions or documents we've referenced. Could you please clarify or provide more context about these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "186"
+     ],
+     "old_only_tokens": [
+      "218"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "186"
+     ],
+     "old_only_tokens": [
+      "218"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "186"
+     ],
+     "old_only_tokens": [
+      "218"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 4.8
+ },
+ {
+  "scenario_id": "hold-out-U023",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 13,
+  "ccr": 0.993,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_001",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "32g"
+    ],
+    "old_only_tokens": [
+     "87g"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_001",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "284°C"
+    ],
+    "old_only_tokens": [
+     "260°C"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 14): Let me check the current status of our engineering requirements.\n[user] (turn 34): Let me check the current status of our engineering requirements.\n[user] (turn 38): Let me check the current status of our engineering requirements.\n[user] (turn 104): Let me check the current status of our engineering requirements.\n[user] (turn 142): Let me check the current status of our engineering requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our engineering requirements\" is repeated by the user but does not provide specific details about the current engineering constraints or requirements. There are no listed constraints or requirements provided within the given memory context for me to list verbatim.",
+   "p1": "It seems you've been asking to review the current status of the engineering requirements multiple times. To provide a comprehensive response, I would need more specific details about the project or context you're referring to. Could you please clarify which project's engineering constraints and requirements you'd like to know about?",
+   "p2": "Based on your previous messages, you've mentioned checking the \"current status of our engineering requirements\" multiple times but haven't provided specific details about them. To accurately address your query regarding the current engineering constraints and requirements, I would need more information or context from you. Could you please share the specifics or provide any documents related to these requirements?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "32g"
+     ],
+     "old_only_tokens": [
+      "87g"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "284°C"
+     ],
+     "old_only_tokens": [
+      "260°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "32g"
+     ],
+     "old_only_tokens": [
+      "87g"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "284°C"
+     ],
+     "old_only_tokens": [
+      "260°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "32g"
+     ],
+     "old_only_tokens": [
+      "87g"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_001",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "284°C"
+     ],
+     "old_only_tokens": [
+      "260°C"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 5.0
+ },
+ {
+  "scenario_id": "hold-out-U024",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 1000,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9931,
+  "context_ua": [
+   {
+    "gt_id": "gt_006",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_006",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "152mm"
+    ],
+    "old_only_tokens": [
+     "171mm"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 10): Let me check the current status of our medical requirements.\n[user] (turn 28): Let me check the current status of our medical requirements.\n[user] (turn 30): Let me check the current status of our medical requirements.\n[user] (turn 46): Let me check the current status of our medical requirements.\n[user] (turn 76): Let me check the current status of our medical requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+  "answer_prompts": [
+   "p0",
+   "p1",
+   "p2"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our medical requirements\" is repeated by the user without specifying any particular medical constraints or requirements. Therefore, based on the provided memory, there are no specific medical constraints or requirements listed for me to verbatim repeat. The user has only expressed an intention to check these statuses multiple times but hasn't detailed them in this context.",
+   "p1": "Based on the repeated requests you've made to check the status of your medical requirements, it seems like there might be ongoing considerations or updates related to your medical needs. However, from my memory, I don't have specific details about what those exact requirements are. Could you please specify which aspects of your medical constraints and requirements you're interested in knowing more about? This could include things like medication schedules, dietary restrictions, upcoming appointments, or any other relevant health considerations.",
+   "p2": "Based on the memory provided, it seems you have been repeatedly checking the \"current status of our medical requirements\" without specifying what exactly those requirements or constraints are. To provide a detailed response, I would need more information about the specific context or details related to these medical requirements and constraints. Could you please clarify or provide more details regarding what you're looking for?"
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "152mm"
+     ],
+     "old_only_tokens": [
+      "171mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p1": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "152mm"
+     ],
+     "old_only_tokens": [
+      "171mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ],
+   "p2": [
+    {
+     "gt_id": "gt_006",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "152mm"
+     ],
+     "old_only_tokens": [
+      "171mm"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 3.0
+ }
+]

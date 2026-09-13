@@ -1,0 +1,125 @@
+[
+ {
+  "scenario_id": "hold-out-U003",
+  "version": "v4",
+  "scenario_type": "UPDATE_CONFLICT",
+  "total_turns": 200,
+  "recall": 0.0,
+  "found": 0,
+  "total_gt": 8,
+  "ccr": 0.9677,
+  "context_ua": [
+   {
+    "gt_id": "gt_004",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_005",
+    "has_new": false,
+    "has_old": false
+   },
+   {
+    "gt_id": "gt_007",
+    "has_new": false,
+    "has_old": false
+   }
+  ],
+  "behavior": [
+   {
+    "gt_id": "gt_004",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "312"
+    ],
+    "old_only_tokens": [
+     "406"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_005",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "100"
+    ],
+    "old_only_tokens": [
+     "167"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   },
+   {
+    "gt_id": "gt_007",
+    "ans_new_verbatim": false,
+    "ans_old_verbatim": false,
+    "new_only_tokens": [
+     "250"
+    ],
+    "old_only_tokens": [
+     "279"
+    ],
+    "new_tokens_hit": [],
+    "old_tokens_hit": []
+   }
+  ],
+  "context_text": "[user] (turn 34): Let me check the current status of our legal requirements.\n[user] (turn 38): Let me check the current status of our legal requirements.\n[user] (turn 58): Let me check the current status of our legal requirements.\n[user] (turn 96): Let me check the current status of our legal requirements.\n[user] (turn 178): Let me check the current status of our legal requirements.",
+  "answer_text": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents.",
+  "answer_prompts": [
+   "p0"
+  ],
+  "answers_by_prompt": {
+   "p0": "The phrase \"Let me check the current status of our legal requirements\" is the only statement provided in the memory. There are no listed specific legal constraints or requirements mentioned directly within the given memory context. If you need details on the actual legal constraints and requirements, we would need more information from previous discussions or documents."
+  },
+  "behavior_by_prompt": {
+   "p0": [
+    {
+     "gt_id": "gt_004",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "312"
+     ],
+     "old_only_tokens": [
+      "406"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_005",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "100"
+     ],
+     "old_only_tokens": [
+      "167"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    },
+    {
+     "gt_id": "gt_007",
+     "ans_new_verbatim": false,
+     "ans_old_verbatim": false,
+     "new_only_tokens": [
+      "250"
+     ],
+     "old_only_tokens": [
+      "279"
+     ],
+     "new_tokens_hit": [],
+     "old_tokens_hit": []
+    }
+   ]
+  },
+  "runner_sha256": "32632f35865be83f23f421ba5b434cdc07301b7b03ffda377c87bd0a8ebfb49b",
+  "event_counts": {},
+  "supersession_events": [],
+  "replay_s": 0.8
+ }
+]

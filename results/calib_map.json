@@ -1,0 +1,125 @@
+{
+ "corpus": {
+  "scenarios": 48,
+  "texts": 1847,
+  "pairs": 49144
+ },
+ "thresholds_nomic": {
+  "supersession": 0.92,
+  "explicit": 0.7,
+  "soft": 0.8,
+  "conflict": 0.85,
+  "dup": 0.97,
+  "reins": 0.95
+ },
+ "map": {
+  "bge": {
+   "supersession": 0.8741,
+   "explicit": 0.6772,
+   "soft": 0.7567,
+   "conflict": 0.7847,
+   "dup": 0.9163,
+   "reins": 0.8993
+  },
+  "gte": {
+   "supersession": 0.9726,
+   "explicit": 0.8581,
+   "soft": 0.9037,
+   "conflict": 0.9408,
+   "dup": 0.989,
+   "reins": 0.9831
+  }
+ },
+ "frac_above": {
+  "bge": {
+   "supersession": {
+    "nomic": 0.01294,
+    "alt_at_mapped": 0.01294,
+    "alt_at_fixed": 0.00519
+   },
+   "explicit": {
+    "nomic": 0.17886,
+    "alt_at_mapped": 0.17886,
+    "alt_at_fixed": 0.12514
+   },
+   "soft": {
+    "nomic": 0.05459,
+    "alt_at_mapped": 0.05459,
+    "alt_at_fixed": 0.03398
+   },
+   "conflict": {
+    "nomic": 0.03915,
+    "alt_at_mapped": 0.03915,
+    "alt_at_fixed": 0.01915
+   },
+   "dup": {
+    "nomic": 0.00578,
+    "alt_at_mapped": 0.00578,
+    "alt_at_fixed": 0.00035
+   },
+   "reins": {
+    "nomic": 0.00816,
+    "alt_at_mapped": 0.00816,
+    "alt_at_fixed": 0.00171
+   },
+   "spearman_vs_nomic": 0.6543
+  },
+  "gte": {
+   "supersession": {
+    "nomic": 0.01294,
+    "alt_at_mapped": 0.01294,
+    "alt_at_fixed": 0.04977
+   },
+   "explicit": {
+    "nomic": 0.17886,
+    "alt_at_mapped": 0.17886,
+    "alt_at_fixed": 1.0
+   },
+   "soft": {
+    "nomic": 0.05459,
+    "alt_at_mapped": 0.05459,
+    "alt_at_fixed": 0.86871
+   },
+   "conflict": {
+    "nomic": 0.03915,
+    "alt_at_mapped": 0.03915,
+    "alt_at_fixed": 0.2443
+   },
+   "dup": {
+    "nomic": 0.00578,
+    "alt_at_mapped": 0.00578,
+    "alt_at_fixed": 0.01465
+   },
+   "reins": {
+    "nomic": 0.00816,
+    "alt_at_mapped": 0.00816,
+    "alt_at_fixed": 0.03077
+   },
+   "spearman_vs_nomic": 0.6918
+  }
+ },
+ "percentiles": {
+  "nomic": {
+   "50": 0.627,
+   "90": 0.7391,
+   "95": 0.8128,
+   "99": 0.9358,
+   "99.9": 0.9909
+  },
+  "bge": {
+   "50": 0.5987,
+   "90": 0.715,
+   "95": 0.7639,
+   "99": 0.8884,
+   "99.9": 0.9586
+  },
+  "gte": {
+   "50": 0.8287,
+   "90": 0.8732,
+   "95": 0.9188,
+   "99": 0.9781,
+   "99.9": 0.9961
+  }
+ },
+ "script_sha256": "bdf0ec99267f427f22dd97f5e9b2ce8e4d0e87f0a6ea0a29dd660734baecf02a"
+}
